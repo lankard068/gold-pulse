@@ -78,7 +78,7 @@ document.querySelectorAll(".filter-tab").forEach((tab) => tab.addEventListener("
 
 function showToast(message) { const toast = $("#toast"); toast.textContent = message; toast.classList.add("show"); window.clearTimeout(showToast.timer); showToast.timer = window.setTimeout(() => toast.classList.remove("show"), 2600); }
 
-$("#refreshButton").addEventListener("click", () => { $("#refreshButton").animate([{ transform: "rotate(0)" }, { transform: "rotate(360deg)" }], { duration: 500 }); showToast("โหลดข้อมูลตัวอย่างใหม่แล้ว"); loadData(); });
+$("#refreshButton").addEventListener("click", () => { $("#refreshButton").animate([{ transform: "rotate(0)" }, { transform: "rotate(360deg)" }], { duration: 500 }); showToast("โหลดข้อมูลอ้างอิงใหม่แล้ว"); loadData(); });
 $("#alertButton").addEventListener("click", (event) => { event.currentTarget.classList.toggle("active"); event.currentTarget.textContent = event.currentTarget.classList.contains("active") ? "เปิดแล้ว ✓" : "เปิดแจ้งเตือน"; showToast(event.currentTarget.classList.contains("active") ? "เปิดการแจ้งเตือนบนอุปกรณ์นี้แล้ว" : "ปิดการแจ้งเตือนแล้ว"); });
 $("#shareButton").addEventListener("click", async () => { const summary = `Gold Pulse — ${formatToday()}\nภาพรวม: ผันผวนสูง / เอนเอียงบวกเล็กน้อย\nเช็กข่าวสำคัญก่อนดูกราฟ XAUUSD`; try { await navigator.clipboard.writeText(summary); showToast("คัดลอกสรุปวันนี้แล้ว"); } catch (error) { showToast("เบราว์เซอร์นี้ไม่อนุญาตให้คัดลอกอัตโนมัติ"); } });
 
