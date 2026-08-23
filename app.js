@@ -131,6 +131,7 @@ function renderPulse(data) {
   $("#pulseMeterWrap").setAttribute("aria-label", `คะแนนแรงส่งทอง ${Number.isFinite(score) ? score : "ยังไม่มี"} จาก 100`);
   $("#pulseRisk").textContent = analyst?.direction === "volatile" ? "ผันผวนสูง" : analyst?.direction === "bullish" ? "เอนเอียงบวก" : "เอนเอียงลบ";
   $("#pulseNotice").textContent = data?.news?.length ? `มีข่าวจริง ${data.news.length} รายการ · อ่านต้นฉบับก่อนตัดสินใจ` : "ยังไม่มีข่าวจริงจากฟีดที่ตอบกลับ";
+  updateTrend(data);
 }
 
 function renderAnalyst(data) {
@@ -164,6 +165,32 @@ function updateMarketStatus() {
   status.className = `market-status ${state}`;
   status.innerHTML = `<span class="market-status-dot"></span> ${state === "open" ? "ตลาดเปิด" : "ตลาดปิด"}`;
   status.title = "อิงเวลาซื้อขาย XAU/USD ของ OANDA; เวลาโบรกเกอร์อาจแตกต่างกันเล็กน้อย";
+  const heroIcon = $("#marketStateIcon");
+  const heroLabel = $("#marketStateLabel");
+  const heroDetail = $("#marketStateDetail");
+  if (heroIcon && heroLabel && heroDetail) {
+    heroIcon.className = `market-status-icon ${state}`;
+    heroIcon.textContent = state === "open" ? "◉" : "×";
+    heroLabel.textContent = state === "open" ? "ตลาดเปิด" : "ตลาดปิด";
+    heroDetail.textContent = state === "open" ? "XAU/USD กำลังอยู่ในช่วงซื้อขาย" : "ตลาดพักช่วงสุดสัปดาห์หรืออยู่นอกเวลาซื้อขาย";
+  }
+}
+
+function updateTrend(data) {
+  const direction = data?.analyst?.direction || "volatile";
+  const trend = direction === "bullish"
+    ? { key: "up", icon: "↗", label: "UP TREND", detail: "แนวโน้มขึ้น · แรงหนุนมากกว่าแรงกดดัน" }
+    : direction === "bearish"
+      ? { key: "down", icon: "↘", label: "DOWN TREND", detail: "แนวโน้มลง · แรงกดดันมากกว่าแรงหนุน" }
+      : { key: "sideway", icon: "↔", label: "SIDEWAY", detail: "แกว่งออกข้าง · ตลาดยังรอปัจจัยยืนยัน" };
+  const icon = $("#todayTrendIcon");
+  const label = $("#todayTrendLabel");
+  const detail = $("#todayTrendDetail");
+  if (!icon || !label || !detail) return;
+  icon.className = `trend-icon ${trend.key}`;
+  icon.textContent = trend.icon;
+  label.textContent = trend.label;
+  detail.textContent = Number.isFinite(Number(data?.analyst?.score)) ? `${trend.detail} · คะแนน ${data.analyst.score}/100` : trend.detail;
 }
 
 async function loadData(showMessage = false) {
