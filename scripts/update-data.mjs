@@ -158,6 +158,40 @@ function truncate(value, length = 180) {
   return text.length > length ? `${text.slice(0, length - 1).trim()}…` : text;
 }
 
+function translateTitle(title = "") {
+  const patterns = [
+    [/Treasury.*bond-market intervention.*working/i, "มาตรการแทรกแซงตลาดพันธบัตรของสหรัฐฯ ยังไม่ช่วยคลายแรงกดดัน แล้วต่อไปจะเกิดอะไรขึ้น?"],
+    [/retaliatory tariffs.*U\.S\. goods.*trade talks break down/i, "แคนาดาประกาศตอบโต้ด้วยภาษีสินค้านำเข้าจากสหรัฐฯ หลังการเจรจาการค้าล้มเหลว"],
+    [/vows.*dollar for dollar.*50% tariffs/i, "แคนาดาประกาศตอบโต้แบบดอลลาร์ต่อดอลลาร์ หลังสหรัฐฯ เก็บภาษีสินค้าบางรายการ 50%"],
+    [/AUD\/USD Price Forecast.*YTD high.*breakout/i, "คาดการณ์ AUD/USD: ฝั่งซื้อเล็งจุดสูงสุดของปี หลังราคาทะลุแนวต้าน"],
+    [/USD\/CHF Price Forecast.*reclaim.*recovery stalls/i, "คาดการณ์ USD/CHF: ฝั่งซื้อกลับมายืนเหนือ 0.8000 แต่การฟื้นตัวยังชะลอ"],
+    [/US Treasury yields.*Services PMI beats estimates/i, "ยีลด์พันธบัตรสหรัฐฯ ฟื้นต่อ หลังดัชนี PMI ภาคบริการออกมาดีกว่าคาด"],
+    [/Forecasting the upcoming week.*inflation test a soft US Dollar/i, "มองสัปดาห์หน้า: Jackson Hole และเงินเฟ้อสหรัฐฯ จะทดสอบดอลลาร์ที่อ่อนลง"],
+    [/Malaysian Ringgit.*US Dollar/i, "ริงกิตมาเลเซียยังได้แรงหนุนจากดอลลาร์สหรัฐฯ ที่อ่อนลงและพื้นฐานเศรษฐกิจแข็งแรง"],
+    [/Trump.*trade war/i, "ทรัมป์ตอบโต้หลังการเจรจาสหรัฐฯ–แคนาดากลายเป็นสงครามการค้า"],
+    [/Jumpy bond markets.*debt crisis/i, "ตลาดพันธบัตรผันผวน สะท้อนความเสี่ยงที่สหรัฐฯ อาจเผชิญวิกฤตหนี้"]
+  ];
+  const match = patterns.find(([pattern]) => pattern.test(title));
+  if (match) return match[1];
+  if (/gold|xau|bullion|precious metal/i.test(title)) return "ข่าวทองคำและปัจจัยที่อาจทำให้ XAUUSD เคลื่อนไหว";
+  if (/yield|treasury|dollar|usd|inflation|cpi|fed|interest rate/i.test(title)) return "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง";
+  return "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง";
+}
+
+function translateSummary(article, classification) {
+  const text = `${article.title} ${article.description}`;
+  if (/tariff|trade war|geopolit|conflict|war/i.test(text)) return "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย";
+  if (/bond|treasury|yield|debt crisis/i.test(text)) return "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD";
+  if (/inflation|cpi|fed|interest rate|pmi|payroll|unemployment/i.test(text)) return "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง";
+  if (/dollar|usd|aud\/usd|usd\/chf/i.test(text)) return "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง";
+  return classification.direction === "bullish" ? "ข่าวนี้มีปัจจัยที่อาจช่วยหนุนทอง ควรเปิดอ่านต้นฉบับและดูปฏิกิริยาของราคาเพิ่มเติม" : "ข่าวนี้อาจทำให้ตลาดผันผวน ควรอ่านต้นฉบับและเทียบกับข้อมูลตลาดก่อนสรุปทิศทาง";
+}
+
+function localizeArticle(article) {
+  const classification = classify(article);
+  return { ...article, titleTh: translateTitle(article.title), descriptionTh: translateSummary(article, classification) };
+}
+
 function makeWhy(article, classification) {
   if (classification.direction === "bullish") return "เนื้อหานี้มีปัจจัยที่มักช่วยหนุนทอง เช่น ความเสี่ยง ดอลลาร์อ่อน หรือยีลด์ลดลง ควรดูการยืนยันจากราคาและข้อมูลต้นทางประกอบ";
   if (classification.direction === "bearish") return "เนื้อหานี้มีปัจจัยที่มักกดดันทอง เช่น ดอลลาร์แข็ง ยีลด์สูง หรือท่าทีเข้มงวด ควรเทียบกับตัวเลขจริงก่อนสรุปทิศทาง";
@@ -171,7 +205,9 @@ function buildNews(articles) {
       icon: ["↗", "◌", "◍", "≋"][index % 4],
       label: `${article.source}${article.official ? " · ทางการ" : ""}`,
       title: article.title,
-      body: truncate(article.description || "เปิดอ่านต้นฉบับเพื่อดูรายละเอียดและตัวเลขเต็ม"),
+      titleTh: article.titleTh,
+      body: truncate(article.descriptionTh || "เปิดอ่านต้นฉบับเพื่อดูรายละเอียดและตัวเลขเต็ม"),
+      bodyTh: truncate(article.descriptionTh || "เปิดอ่านต้นฉบับเพื่อดูรายละเอียดและตัวเลขเต็ม"),
       tone: classification.directionLabel,
       time: relativeTime(article.publishedAt),
       image: article.image || "",
@@ -191,7 +227,9 @@ function buildEvents(articles) {
       time: thaiTime(article.publishedAt),
       date: `${article.source} · ${relativeTime(article.publishedAt)}`,
       title: article.title,
+      titleTh: article.titleTh,
       short: truncate(article.description || "เปิดต้นฉบับเพื่อดูรายละเอียดข่าว", 150),
+      shortTh: truncate(article.descriptionTh || "เปิดต้นฉบับเพื่อดูรายละเอียดข่าว", 150),
       why: makeWhy(article, classification),
       expected: "ข่าวจริง · ไม่มี Forecast",
       impact: classification.impact,
@@ -221,7 +259,7 @@ function buildAnalyst(dollar, yield10y, articles) {
   if (dollar) reasons.push({ mark: dollar.change <= 0 ? "+" : "−", tone: dollar.change <= 0 ? "positive" : "negative", title: dollar.change <= 0 ? "ดอลลาร์อ่อนลง" : "ดอลลาร์แข็งขึ้น", source: "FRED", note: `${dollar.value.toFixed(2)} · เปลี่ยนแปลง ${dollar.change >= 0 ? "+" : ""}${dollar.change.toFixed(2)}` });
   if (yield10y) reasons.push({ mark: yield10y.change <= 0 ? "+" : "−", tone: yield10y.change <= 0 ? "positive" : "negative", title: yield10y.change <= 0 ? "ยีลด์ 10Y ลดลง" : "ยีลด์ 10Y สูงขึ้น", source: "FRED", note: `${yield10y.value.toFixed(2)}% · เปลี่ยนแปลง ${yield10y.change >= 0 ? "+" : ""}${yield10y.change.toFixed(2)}` });
   const topArticle = articles[0];
-  if (topArticle) reasons.push({ mark: "!", tone: "mixed", title: "ข่าวล่าสุดยังต้องยืนยันด้วยราคา", source: topArticle.source, note: truncate(topArticle.title, 90) });
+  if (topArticle) reasons.push({ mark: "!", tone: "mixed", title: "ข่าวล่าสุดยังต้องยืนยันด้วยราคา", source: topArticle.source, note: truncate(topArticle.titleTh || translateTitle(topArticle.title), 90) });
   return {
     score,
     direction,
@@ -261,7 +299,7 @@ const quote = await safe("XAU spot", async () => {
 
 const dollar = await safe("FRED dollar", () => fetchCsvLatest("DTWEXBGS"));
 const yield10y = await safe("FRED 10Y yield", () => fetchCsvLatest("DGS10"));
-const selectedArticles = uniqueArticles.slice(0, 12);
+const selectedArticles = uniqueArticles.slice(0, 12).map(localizeArticle);
 const analyst = buildAnalyst(dollar, yield10y, selectedArticles);
 const data = {
   version: 2,
