@@ -1,26 +1,33 @@
 const fallbackEvents = [
-  { time: "19:30", date: "วันนี้", title: "เงินเฟ้อสหรัฐฯ (CPI)", short: "ตัวเลขที่ตลาดใช้ดูทิศทางดอกเบี้ย Fed", why: "ถ้าออกมาสูงกว่าคาด ตลาดอาจมองว่าดอกเบี้ยจะสูงนานขึ้น ซึ่งมักกดดันทอง แต่ถ้าต่ำกว่าคาด ทองอาจได้แรงหนุน", expected: "คาดการณ์ 3.1%", impact: "high", direction: "volatile", directionLabel: "เหวี่ยงแรง", sourceLabel: "BLS", sourceUrl: "https://www.bls.gov/schedule/news_release/cpi.htm" },
-  { time: "21:00", date: "วันนี้", title: "ถ้อยแถลงเจ้าหน้าที่ Fed", short: "ตลาดจับคำว่าเข้มงวดหรือผ่อนคลาย", why: "คำพูดที่ชี้ว่าจะลดดอกเบี้ยเร็วขึ้นมักเป็นบวกต่อทอง ส่วนคำพูดที่เน้นสู้เงินเฟ้อนาน ๆ มักกดดันทอง", expected: "รอติดตามน้ำเสียง", impact: "high", direction: "volatile", directionLabel: "ผันผวน", sourceLabel: "Federal Reserve", sourceUrl: "https://www.federalreserve.gov/newsevents/calendar.htm" },
-  { time: "ตลอดวัน", date: "ติดตามต่อเนื่อง", title: "ดอลลาร์และบอนด์ยีลด์", short: "สองตัวแปรที่ทองมักแพ้ทาง", why: "ดอลลาร์อ่อนหรือยีลด์ลดลงมักช่วยให้ทองดูน่าสนใจขึ้น แต่ถ้าทั้งคู่ดีดแรง ทองอาจถูกกดดัน", expected: "ดูทิศทางระหว่างวัน", impact: "medium", direction: "bullish", directionLabel: "หนุนทอง", sourceLabel: "FRED", sourceUrl: "https://fred.stlouisfed.org/" },
-  { time: "ตามข่าว", date: "ติดตามต่อเนื่อง", title: "ความเสี่ยงภูมิรัฐศาสตร์", short: "แรงซื้อสินทรัพย์ปลอดภัยอาจกลับมา", why: "เมื่อความไม่แน่นอนเพิ่ม นักลงทุนบางส่วนอาจหันมาถือทอง แต่ถ้าดอลลาร์แข็งพร้อมกัน ผลกระทบอาจหักล้างกันได้", expected: "ไม่มีตัวเลขคาดการณ์", impact: "medium", direction: "bullish", directionLabel: "มีแรงหนุน", sourceLabel: "ติดตามข่าวต้นทาง", sourceUrl: "https://www.reuters.com/markets/commodities/" }
+  { time: "—", date: "รอข้อมูลสด", title: "ยังโหลดข่าวจริงไม่สำเร็จ", short: "ลองกดรีเฟรชเพื่อโหลดข้อมูลจากแหล่งอ้างอิงอีกครั้ง", why: "ระบบจะไม่แต่งตัวเลขขึ้นเอง หากแหล่งข้อมูลภายนอกตอบกลับช้า", expected: "—", impact: "medium", direction: "volatile", directionLabel: "รอตรวจสอบ", sourceLabel: "Gold Pulse", sourceUrl: "https://lankard068.github.io/gold-pulse/" }
 ];
 
 const fallbackNews = [
-  { icon: "◌", label: "SCENARIO", title: "ถ้า CPI สูงกว่าคาด ทองจะเจออะไร?", body: "ตลาดอาจเลื่อนความหวังเรื่องลดดอกเบี้ยออกไป ทำให้ดอลลาร์และยีลด์มีโอกาสเด้งขึ้น ทองจึงอาจย่อตัวในช่วงแรก", tone: "กดดันทอง", time: "อ่าน 1 นาที" },
-  { icon: "↗", label: "SAFE HAVEN", title: "ทำไมข่าวเสี่ยงโลกถึงดันทอง?", body: "ทองไม่มีดอกเบี้ย แต่คนมักใช้เป็นสินทรัพย์พักเงินเวลาความไม่แน่นอนเพิ่มขึ้น จึงมีแรงซื้อป้องกันความเสี่ยงเข้ามา", tone: "หนุนทอง", time: "อ่าน 1 นาที" },
-  { icon: "◍", label: "BOND YIELD", title: "ยีลด์ลง ทองได้ประโยชน์อย่างไร?", body: "เมื่อผลตอบแทนพันธบัตรลดลง ต้นทุนค่าเสียโอกาสของการถือทองก็ลดลง ทองจึงดูน่าสนใจขึ้นเมื่อเทียบกัน", tone: "หนุนทอง", time: "อ่าน 1 นาที" },
-  { icon: "≋", label: "REMINDER", title: "ข่าวเดียวไม่ได้บอกทิศทางทั้งหมด", body: "ให้ดู Actual เทียบ Forecast และดูปฏิกิริยาของดอลลาร์กับยีลด์ประกอบ อย่าตัดสินจากพาดหัวเพียงอย่างเดียว", tone: "เช็กให้ครบ", time: "อ่าน 1 นาที" }
+  { icon: "◌", label: "SYSTEM", title: "กำลังรอข้อมูลข่าวจริง", body: "ระบบจะดึงข่าวจากฟีดที่มีต้นทางและแสดงลิงก์ต้นฉบับทุกครั้ง", tone: "รอตรวจสอบ", time: "—", sourceUrl: "https://lankard068.github.io/gold-pulse/" }
 ];
 
+let liveData = null;
 let events = fallbackEvents;
 let activeFilter = "all";
 
 const $ = (selector) => document.querySelector(selector);
-const escapeHtml = (value) => String(value).replace(/[&<>'"]/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;" }[char]));
+const escapeHtml = (value) => String(value ?? "").replace(/[&<>'"]/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;" }[char]));
 
 function formatToday() {
-  const now = new Date();
-  return new Intl.DateTimeFormat("th-TH", { day: "numeric", month: "long", year: "numeric" }).format(now);
+  return new Intl.DateTimeFormat("th-TH", { day: "numeric", month: "long", year: "numeric", timeZone: "Asia/Bangkok" }).format(new Date());
+}
+
+function formatNumber(value, digits = 2) {
+  return Number.isFinite(Number(value)) ? Number(value).toLocaleString("en-US", { minimumFractionDigits: digits, maximumFractionDigits: digits }) : "—";
+}
+
+function signed(value, digits = 2) {
+  if (!Number.isFinite(Number(value))) return "—";
+  return `${Number(value) >= 0 ? "+" : "−"}${Math.abs(Number(value)).toFixed(digits)}`;
+}
+
+function toneClass(value) {
+  return Number(value) < 0 ? "positive" : Number(value) > 0 ? "negative" : "muted-label";
 }
 
 function renderEvents() {
@@ -32,10 +39,10 @@ function renderEvents() {
       <div class="event-main">
         <strong>${escapeHtml(event.title)}</strong>
         <p>${escapeHtml(event.short)}</p>
-        <div class="event-meta"><span class="event-tag">คาดการณ์: ${escapeHtml(event.expected)}</span><span class="impact-tag ${escapeHtml(event.impact)}">${event.impact === "high" ? "สำคัญมาก" : "สำคัญ"}</span></div>
+        <div class="event-meta"><span class="event-tag">${escapeHtml(event.expected || "ข่าวจริง")}</span><span class="impact-tag ${escapeHtml(event.impact)}">${event.impact === "high" ? "สำคัญมาก" : "สำคัญ"}</span></div>
       </div>
       <div class="event-direction"><strong>${escapeHtml(event.directionLabel)}</strong><small>กดดูเหตุผล ↘</small></div>
-      <div class="event-detail"><b>ทำไมต้องดู:</b> ${escapeHtml(event.why)} <a class="event-source" href="${escapeHtml(event.sourceUrl)}" target="_blank" rel="noreferrer">แหล่งข้อมูล ↗</a></div>
+      <div class="event-detail"><b>ทำไมต้องดู:</b> ${escapeHtml(event.why)} <a class="event-source" href="${escapeHtml(event.sourceUrl)}" target="_blank" rel="noreferrer">${escapeHtml(event.sourceLabel || "แหล่งข้อมูล")} ↗</a></div>
     </article>
   `).join("");
 
@@ -50,29 +57,91 @@ function renderNews(news) {
   $("#newsGrid").innerHTML = news.map((item, index) => {
     const visualClass = `news-art-${index % 4}`;
     const visual = item.image
-      ? `<img src="${escapeHtml(item.image)}" alt="ภาพประกอบข่าว: ${escapeHtml(item.title)}" loading="lazy" />`
-      : `<span class="thumb-symbol">${escapeHtml(item.icon)}</span><span class="thumb-label">ภาพประกอบ</span>`;
+      ? `<img src="${escapeHtml(item.image)}" alt="ภาพประกอบข่าว: ${escapeHtml(item.title)}" loading="lazy" referrerpolicy="no-referrer" />`
+      : `<span class="thumb-symbol">${escapeHtml(item.icon || "◌")}</span><span class="thumb-label">ภาพประกอบ</span>`;
+    const sourceLink = item.sourceUrl ? `<a class="news-source-link" href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noreferrer">ต้นฉบับ ↗</a>` : "";
     return `
       <article class="news-card">
         <div class="news-thumb ${visualClass}">${visual}</div>
         <div class="news-card-body">
-          <p class="section-kicker">${escapeHtml(item.label)}</p>
+          <p class="section-kicker">${escapeHtml(item.label || item.source || "NEWS")}</p>
           <h3>${escapeHtml(item.title)}</h3>
           <p>${escapeHtml(item.body)}</p>
-          <footer><span>${escapeHtml(item.tone)}</span><span>${escapeHtml(item.time)}</span></footer>
+          <footer><span>${escapeHtml(item.tone || "ต้องจับตา")}</span><span>${escapeHtml(item.time || "—")}</span>${sourceLink}</footer>
         </div>
       </article>
     `;
   }).join("");
 }
 
-async function loadData() {
+function renderQuote(data) {
+  const quote = data?.quote;
+  const dollar = data?.drivers?.dollar;
+  const yield10y = data?.drivers?.yield10y;
+  $("#quoteGold").textContent = quote?.price ? formatNumber(quote.price) : "—";
+  $("#quoteGoldChange").textContent = quote?.stale ? "หน่วง" : "สด";
+  $("#quoteGoldChange").className = quote?.stale ? "muted-label" : "up";
+  $("#quoteDollar").textContent = dollar ? formatNumber(dollar.value) : "—";
+  $("#quoteDollarChange").textContent = dollar ? signed(dollar.change) : "—";
+  $("#quoteDollarChange").className = toneClass(dollar?.change);
+  $("#quoteYield").textContent = yield10y ? `${formatNumber(yield10y.value)}%` : "—";
+  $("#quoteYieldChange").textContent = yield10y ? signed(yield10y.change) : "—";
+  $("#quoteYieldChange").className = toneClass(yield10y?.change);
+  $("#quoteStatus").textContent = quote ? `${quote.provider} · ${quote.stale ? "หน่วง" : "สด"}` : "ไม่มีข้อมูล";
+  $("#dataNote").textContent = quote ? `อัปเดต ${formatDateTime(data.generatedAt)} · ราคาอ้างอิงจาก ${quote.provider} · ดอลลาร์/ยีลด์จาก FRED` : "ยังไม่มีข้อมูลสดจากแหล่งภายนอก";
+}
+
+function renderPulse(data) {
+  const analyst = data?.analyst;
+  const score = Number(analyst?.score);
+  const label = analyst?.label || "กำลังโหลด";
+  $("#pulseScore").textContent = Number.isFinite(score) ? score : "—";
+  $("#pulseDirection").textContent = label;
+  $("#pulseCopy").textContent = analyst?.note || "กำลังรวมราคาทอง ข่าว และตัวชี้วัดเศรษฐกิจ...";
+  $("#pulseMeter").style.width = `${Number.isFinite(score) ? score : 0}%`;
+  $("#pulseMeterWrap").setAttribute("aria-label", `คะแนนแรงส่งทอง ${Number.isFinite(score) ? score : "ยังไม่มี"} จาก 100`);
+  $("#pulseRisk").textContent = analyst?.direction === "volatile" ? "ผันผวนสูง" : analyst?.direction === "bullish" ? "เอนเอียงบวก" : "เอนเอียงลบ";
+  $("#pulseNotice").textContent = data?.news?.length ? `มีข่าวจริง ${data.news.length} รายการ · อ่านต้นฉบับก่อนตัดสินใจ` : "ยังไม่มีข่าวจริงจากฟีดที่ตอบกลับ";
+}
+
+function renderAnalyst(data) {
+  const analyst = data?.analyst;
+  $("#analystScore").textContent = Number.isFinite(Number(analyst?.score)) ? analyst.score : "—";
+  $("#analystLabel").textContent = analyst?.label || "กำลังโหลด";
+  $("#analystNote").textContent = analyst?.note || "คะแนนจะคำนวณจากดอลลาร์ ยีลด์ และข่าวที่มีต้นทาง";
+  $("#analystStatus").innerHTML = `<span class="status-dot"></span> ${analyst ? "อัปเดตจากข้อมูลจริง" : "รอข้อมูล"}`;
+  $("#analystReasons").innerHTML = (analyst?.reasons || []).map((reason) => `
+    <div class="reason-row"><span class="reason-mark ${escapeHtml(reason.tone)}">${escapeHtml(reason.mark)}</span><div><strong>${escapeHtml(reason.title)} <em class="mini-source">${escapeHtml(reason.source)}</em></strong><small>${escapeHtml(reason.note)}</small></div><b class="${escapeHtml(reason.tone)}">${reason.tone === "positive" ? "หนุน" : reason.tone === "negative" ? "กดดัน" : "เสี่ยง"}</b></div>
+  `).join("");
+  const sourceLinks = (analyst?.sources || []).map((source) => `<a href="${escapeHtml(source.url)}" target="_blank" rel="noreferrer">${escapeHtml(source.name)} <span>↗</span></a>`).join("");
+  $("#analystSources").innerHTML = `<p class="section-kicker">แหล่งอ้างอิงหลัก</p>${sourceLinks}<small>ระบบคำนวณมุมมองจากข้อมูล ไม่ใช่คำแนะนำซื้อขาย</small>`;
+}
+
+function formatDateTime(value) {
+  if (!value) return "ไม่ทราบเวลา";
+  return new Intl.DateTimeFormat("th-TH", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit", timeZone: "Asia/Bangkok" }).format(new Date(value));
+}
+
+async function loadData(showMessage = false) {
   try {
-    const [eventsResponse, newsResponse] = await Promise.all([fetch("data/events.json"), fetch("data/news.json")]);
-    if (eventsResponse.ok) events = await eventsResponse.json();
-    if (newsResponse.ok) renderNews(await newsResponse.json()); else renderNews(fallbackNews);
+    const response = await fetch(`data/live.json?ts=${Date.now()}`, { cache: "no-store" });
+    if (!response.ok) throw new Error("live data unavailable");
+    const data = await response.json();
+    liveData = data?.mode === "live" ? data : null;
+    events = liveData?.events?.length ? liveData.events : fallbackEvents;
+    renderNews(liveData?.news?.length ? liveData.news : fallbackNews);
+    renderQuote(liveData);
+    renderPulse(liveData);
+    renderAnalyst(liveData);
+    $("#liveStatus").innerHTML = `<span class="status-dot"></span> ${liveData ? "LIVE · อัปเดตอัตโนมัติ" : "รอข้อมูลภายนอก"}`;
+    $("#lastUpdated").textContent = liveData ? `อัปเดตล่าสุด ${formatDateTime(liveData.generatedAt)}` : "ยังไม่พบข้อมูลสด";
+    if (showMessage) showToast(liveData ? "โหลดข้อมูลจริงล่าสุดแล้ว" : "ยังโหลดข้อมูลภายนอกไม่ได้");
   } catch (error) {
+    events = fallbackEvents;
+    renderEvents();
     renderNews(fallbackNews);
+    $("#lastUpdated").textContent = "โหลดข้อมูลสดไม่สำเร็จ · กดรีเฟรชอีกครั้ง";
+    if (showMessage) showToast("โหลดข้อมูลไม่สำเร็จ");
   }
   renderEvents();
   $("#todayDate").textContent = formatToday();
@@ -86,8 +155,8 @@ document.querySelectorAll(".filter-tab").forEach((tab) => tab.addEventListener("
 
 function showToast(message) { const toast = $("#toast"); toast.textContent = message; toast.classList.add("show"); window.clearTimeout(showToast.timer); showToast.timer = window.setTimeout(() => toast.classList.remove("show"), 2600); }
 
-$("#refreshButton").addEventListener("click", () => { $("#refreshButton").animate([{ transform: "rotate(0)" }, { transform: "rotate(360deg)" }], { duration: 500 }); showToast("โหลดข้อมูลอ้างอิงใหม่แล้ว"); loadData(); });
+$("#refreshButton").addEventListener("click", () => { $("#refreshButton").animate([{ transform: "rotate(0)" }, { transform: "rotate(360deg)" }], { duration: 500 }); loadData(true); });
 $("#alertButton").addEventListener("click", (event) => { event.currentTarget.classList.toggle("active"); event.currentTarget.textContent = event.currentTarget.classList.contains("active") ? "เปิดแล้ว ✓" : "เปิดแจ้งเตือน"; showToast(event.currentTarget.classList.contains("active") ? "เปิดการแจ้งเตือนบนอุปกรณ์นี้แล้ว" : "ปิดการแจ้งเตือนแล้ว"); });
-$("#shareButton").addEventListener("click", async () => { const summary = `Gold Pulse — ${formatToday()}\nภาพรวม: ผันผวนสูง / เอนเอียงบวกเล็กน้อย\nเช็กข่าวสำคัญก่อนดูกราฟ XAUUSD`; try { await navigator.clipboard.writeText(summary); showToast("คัดลอกสรุปวันนี้แล้ว"); } catch (error) { showToast("เบราว์เซอร์นี้ไม่อนุญาตให้คัดลอกอัตโนมัติ"); } });
+$("#shareButton").addEventListener("click", async () => { const score = liveData?.analyst?.score ?? "—"; const summary = `Gold Pulse — ${formatToday()}\nมุมมองจากข้อมูลจริง: ${liveData?.analyst?.label || "รอตรวจสอบ"} (${score}/100)\nเช็กข่าวต้นฉบับก่อนดูกราฟ XAUUSD`; try { await navigator.clipboard.writeText(summary); showToast("คัดลอกสรุปวันนี้แล้ว"); } catch (error) { showToast("เบราว์เซอร์นี้ไม่อนุญาตให้คัดลอกอัตโนมัติ"); } });
 
 loadData();
