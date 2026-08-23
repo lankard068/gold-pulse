@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-08-23T20:50:34.841Z",
+  "generatedAt": "2026-08-23T21:24:16.812Z",
   "quote": {
     "symbol": "XAUUSD",
     "price": 4604.399902,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-08-23T20:50:34.841Z",
+    "asOf": "2026-08-23T21:24:16.812Z",
     "stale": false
   },
   "drivers": {
@@ -75,7 +75,7 @@
   "events": [
     {
       "time": "02:32",
-      "date": "The Guardian · 1 ชั่วโมงที่แล้ว",
+      "date": "The Guardian · 2 ชั่วโมงที่แล้ว",
       "title": "‘No more!!!’: Trump lashes out after US-Canada talks devolve into trade war",
       "titleTh": "ทรัมป์ตอบโต้หลังการเจรจาสหรัฐฯ–แคนาดากลายเป็นสงครามการค้า",
       "short": "PM Mark Carney says ‘we got attacked’ as tariffs come into force on items from hockey sticks to tongue depressors The lesson from Canada’s collapsed…",
@@ -173,7 +173,7 @@
       "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "tone": "หนุนทอง",
-      "time": "1 ชั่วโมงที่แล้ว",
+      "time": "2 ชั่วโมงที่แล้ว",
       "image": "https://i.guim.co.uk/img/media/b1fc5227ab8b91635aa6bdd84b88df0711c4cc64/200_0_6000_4800/master/6000.jpg?width=140&quality=85&auto=format&fit=max&s=1c8269f0891cb49afd4197177c4b7e56",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com/us-news/2026/aug/23/donald-trump-lashes-out-after-us-canada-talks-devolve-into-trade-war",
