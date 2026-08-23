@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-08-23T18:33:02.610Z",
+  "generatedAt": "2026-08-23T19:23:21.272Z",
   "quote": {
     "symbol": "XAUUSD",
     "price": 4604.399902,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-08-23T18:33:02.610Z",
+    "asOf": "2026-08-23T19:23:21.272Z",
     "stale": false
   },
   "drivers": {
@@ -105,7 +105,7 @@
     },
     {
       "time": "03:31",
-      "date": "MarketWatch · 22 ชั่วโมงที่แล้ว",
+      "date": "MarketWatch · 23 ชั่วโมงที่แล้ว",
       "title": "Canada announces retaliatory tariffs on U.S. goods after trade talks break down",
       "titleTh": "แคนาดาประกาศตอบโต้ด้วยภาษีสินค้านำเข้าจากสหรัฐฯ หลังการเจรจาการค้าล้มเหลว",
       "short": "Canadian Prime Minister Mark Carney on Saturday announced his country would impose “dollar-for-dollar” tariffs on U.S. goods — a retaliatory measure…",
@@ -205,7 +205,7 @@
       "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "tone": "ต้องจับตา",
-      "time": "22 ชั่วโมงที่แล้ว",
+      "time": "23 ชั่วโมงที่แล้ว",
       "image": "https://images.mktw.net/im-32140862",
       "source": "MarketWatch",
       "sourceUrl": "https://www.marketwatch.com/story/canada-announces-retaliatory-tariffs-on-u-s-goods-after-trade-talks-break-down-45081c2f?mod=mw_rss_topstories",
