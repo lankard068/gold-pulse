@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css?v=4" />
+    <link rel="stylesheet" href="styles.css?v=5" />
   </head>
   <body>
     <div class="app-shell">
@@ -27,7 +27,7 @@
           </span>
         </a>
         <div class="topbar-actions">
-          <span class="demo-badge"><span class="status-dot"></span> MVP · มีที่มา</span>
+          <span class="demo-badge" id="liveStatus"><span class="status-dot"></span> LIVE · อัปเดตอัตโนมัติ</span>
           <button class="icon-button" id="refreshButton" type="button" aria-label="โหลดข้อมูลใหม่" title="โหลดข้อมูลใหม่">↻</button>
         </div>
       </header>
@@ -48,7 +48,7 @@
             <div class="date-card">
               <span>สรุปประจำวัน</span>
               <strong id="todayDate">กำลังโหลด...</strong>
-              <small id="lastUpdated">โหมดตัวอย่าง · ยังไม่ดึงข้อมูลสด</small>
+              <small id="lastUpdated">กำลังเช็กข้อมูลสด...</small>
             </div>
           </div>
         </section>
@@ -60,18 +60,18 @@
                 <p class="section-kicker">PULSE CHECK</p>
                 <h2>ภาพรวมวันนี้</h2>
               </div>
-              <span class="risk-badge high">ผันผวนสูง</span>
+              <span class="risk-badge high" id="pulseRisk">กำลังประเมิน</span>
             </div>
             <div class="pulse-score-row">
-              <div class="pulse-score">68<span>/100</span></div>
+              <div class="pulse-score"><span id="pulseScore">—</span><span>/100</span></div>
               <div class="pulse-copy">
-                <strong>เอนเอียงบวกเล็กน้อย</strong>
-                <p>มีแรงหนุนจากความไม่แน่นอน แต่ตัวเลขสหรัฐฯ ยังอาจกดดันทองในช่วงข่าวออก</p>
+                <strong id="pulseDirection">กำลังโหลดมุมมอง</strong>
+                <p id="pulseCopy">กำลังรวมราคาทอง ข่าว และตัวชี้วัดเศรษฐกิจ...</p>
               </div>
             </div>
-            <div class="meter" aria-label="คะแนนแรงส่งทอง 68 จาก 100"><span style="width: 68%"></span></div>
+            <div class="meter" id="pulseMeterWrap" aria-label="กำลังโหลดคะแนนแรงส่งทอง"><span id="pulseMeter" style="width: 0%"></span></div>
             <div class="meter-labels"><span>กดดันทอง</span><span>สมดุล</span><span>หนุนทอง</span></div>
-            <div class="notice-box"><span class="notice-icon">!</span><span>ตัวเลขสำคัญวันนี้อาจทำให้ราคาเหวี่ยงแรงในไม่กี่นาทีแรก</span></div>
+            <div class="notice-box"><span class="notice-icon">!</span><span id="pulseNotice">ข้อมูลกำลังอัปเดตจากแหล่งอ้างอิงจริง</span></div>
           </article>
 
           <article class="panel quote-panel">
@@ -80,43 +80,36 @@
                 <p class="section-kicker">MARKET SNAPSHOT</p>
                 <h2>ตัวเลขที่ต้องมอง</h2>
               </div>
-              <span class="muted-label">indicative</span>
+              <span class="muted-label" id="quoteStatus">กำลังโหลด</span>
             </div>
             <div class="quote-list">
-              <div class="quote-row"><span>XAUUSD <small>Spot gold</small></span><strong>2,352.40</strong><em class="up">+0.46%</em></div>
-              <div class="quote-row"><span>DXY <small>ดอลลาร์สหรัฐ</small></span><strong>104.12</strong><em class="down">−0.18%</em></div>
-              <div class="quote-row"><span>US 10Y <small>บอนด์ยีลด์</small></span><strong>4.21%</strong><em class="down">−0.04</em></div>
+              <div class="quote-row"><span>XAUUSD <small>Spot gold · USD/oz</small></span><strong id="quoteGold">—</strong><em id="quoteGoldChange" class="muted-label">สด</em></div>
+              <div class="quote-row"><span>Dollar <small>Broad index · FRED</small></span><strong id="quoteDollar">—</strong><em id="quoteDollarChange" class="muted-label">—</em></div>
+              <div class="quote-row"><span>US 10Y <small>บอนด์ยีลด์ · FRED</small></span><strong id="quoteYield">—</strong><em id="quoteYieldChange" class="muted-label">—</em></div>
             </div>
-            <p class="data-note">* ตัวเลขด้านบนเป็นข้อมูลตัวอย่างใน MVP ยังไม่ใช่ราคาสด</p>
+            <p class="data-note" id="dataNote">กำลังโหลดเวลาอัปเดตและต้นทางข้อมูล...</p>
           </article>
         </section>
 
-        <section class="panel analyst-panel" aria-label="มุมมองนักวิเคราะห์">
+        <section class="panel analyst-panel" aria-label="มุมมองจากข้อมูลจริง">
           <div class="panel-heading">
             <div>
-              <p class="section-kicker">ANALYST VIEW</p>
-              <h2>มุมมองนักวิเคราะห์ทอง</h2>
+              <p class="section-kicker">LIVE DATA VIEW</p>
+              <h2>มุมมองจากข้อมูลจริง</h2>
             </div>
-            <span class="source-status"><span class="status-dot"></span> อ้างอิงหลัก 3 แหล่ง</span>
+            <span class="source-status" id="analystStatus"><span class="status-dot"></span> กำลังประเมิน</span>
           </div>
           <div class="analyst-grid">
             <div class="analyst-verdict">
               <span class="verdict-label">แนวโน้มระยะสั้น</span>
-              <strong><span class="verdict-dot"></span> บวกเล็กน้อย</strong>
-              <div class="analyst-score"><span>64</span><small>/100</small></div>
-              <p>เป็นตัวอย่างการสรุปเหตุผลจากข้อมูลที่ตรวจสอบได้ ยังไม่ใช่สัญญาณซื้อขาย</p>
+              <strong><span class="verdict-dot"></span> <span id="analystLabel">กำลังโหลด</span></strong>
+              <div class="analyst-score"><span id="analystScore">—</span><small>/100</small></div>
+              <p id="analystNote">คะแนนจะคำนวณจากดอลลาร์ ยีลด์ และข่าวที่มีต้นทาง</p>
             </div>
-            <div class="analyst-reasons">
-              <div class="reason-row"><span class="reason-mark positive">+</span><div><strong>ดอลลาร์อ่อน <em class="mini-source">FRED</em></strong><small>มักช่วยพยุงราคาทอง</small></div><b class="positive">หนุน</b></div>
-              <div class="reason-row"><span class="reason-mark positive">+</span><div><strong>ยีลด์มีโอกาสลด <em class="mini-source">FRED</em></strong><small>ต้นทุนถือทองลดลง</small></div><b class="positive">หนุน</b></div>
-              <div class="reason-row"><span class="reason-mark mixed">!</span><div><strong>รอ CPI และถ้อยแถลง Fed <em class="mini-source">BLS · Fed</em></strong><small>อาจทำให้มุมมองเปลี่ยนเร็ว</small></div><b class="mixed">เสี่ยง</b></div>
-            </div>
-            <div class="analyst-sources">
+            <div class="analyst-reasons" id="analystReasons"></div>
+            <div class="analyst-sources" id="analystSources">
               <p class="section-kicker">แหล่งอ้างอิงหลัก</p>
-              <a href="https://www.federalreserve.gov/newsevents/calendar.htm" target="_blank" rel="noreferrer">Federal Reserve <span>↗</span></a>
-              <a href="https://www.bls.gov/schedule/news_release/cpi.htm" target="_blank" rel="noreferrer">BLS · CPI <span>↗</span></a>
-              <a href="https://fred.stlouisfed.org/" target="_blank" rel="noreferrer">FRED · Dollar / Yield <span>↗</span></a>
-              <small>ต่อไปจะเพิ่มมุมมองรายสำนัก โดยแนบชื่อผู้เขียน วันที่ เหตุผล และลิงก์ต้นฉบับทุกครั้ง</small>
+              <small>ระบบจะเก็บชื่อแหล่งข้อมูล วันที่ และลิงก์ต้นฉบับทุกครั้งที่อัปเดต</small>
             </div>
           </div>
         </section>
@@ -232,6 +225,6 @@
       </footer>
       <div class="toast" id="toast" role="status" aria-live="polite"></div>
     </div>
-    <script src="app.js?v=3" defer></script>
+    <script src="app.js?v=4" defer></script>
   </body>
 </html>
