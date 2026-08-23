@@ -30,6 +30,35 @@ function toneClass(value) {
   return Number(value) < 0 ? "positive" : Number(value) > 0 ? "negative" : "muted-label";
 }
 
+function thaiTitle(title = "") {
+  const patterns = [
+    [/Treasury.*bond-market intervention.*working/i, "มาตรการแทรกแซงตลาดพันธบัตรของสหรัฐฯ ยังไม่ช่วยคลายแรงกดดัน แล้วต่อไปจะเกิดอะไรขึ้น?"],
+    [/retaliatory tariffs.*U\.S\. goods.*trade talks break down/i, "แคนาดาประกาศตอบโต้ด้วยภาษีสินค้านำเข้าจากสหรัฐฯ หลังการเจรจาการค้าล้มเหลว"],
+    [/vows.*dollar for dollar.*50% tariffs/i, "แคนาดาประกาศตอบโต้แบบดอลลาร์ต่อดอลลาร์ หลังสหรัฐฯ เก็บภาษีสินค้าบางรายการ 50%"],
+    [/AUD\/USD Price Forecast.*YTD high.*breakout/i, "คาดการณ์ AUD/USD: ฝั่งซื้อเล็งจุดสูงสุดของปี หลังราคาทะลุแนวต้าน"],
+    [/USD\/CHF Price Forecast.*reclaim.*recovery stalls/i, "คาดการณ์ USD/CHF: ฝั่งซื้อกลับมายืนเหนือ 0.8000 แต่การฟื้นตัวยังชะลอ"],
+    [/US Treasury yields.*Services PMI beats estimates/i, "ยีลด์พันธบัตรสหรัฐฯ ฟื้นต่อ หลังดัชนี PMI ภาคบริการออกมาดีกว่าคาด"],
+    [/Forecasting the upcoming week.*inflation test a soft US Dollar/i, "มองสัปดาห์หน้า: Jackson Hole และเงินเฟ้อสหรัฐฯ จะทดสอบดอลลาร์ที่อ่อนลง"],
+    [/Malaysian Ringgit.*US Dollar/i, "ริงกิตมาเลเซียยังได้แรงหนุนจากดอลลาร์สหรัฐฯ ที่อ่อนลงและพื้นฐานเศรษฐกิจแข็งแรง"],
+    [/Trump.*trade war/i, "ทรัมป์ตอบโต้หลังการเจรจาสหรัฐฯ–แคนาดากลายเป็นสงครามการค้า"],
+    [/Jumpy bond markets.*debt crisis/i, "ตลาดพันธบัตรผันผวน สะท้อนความเสี่ยงที่สหรัฐฯ อาจเผชิญวิกฤตหนี้"]
+  ];
+  const match = patterns.find(([pattern]) => pattern.test(title));
+  if (match) return match[1];
+  if (/gold|xau|bullion|precious metal/i.test(title)) return "ข่าวทองคำและปัจจัยที่อาจทำให้ XAUUSD เคลื่อนไหว";
+  if (/yield|treasury|dollar|usd|inflation|cpi|fed|interest rate/i.test(title)) return "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง";
+  return "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง";
+}
+
+function thaiSummary(item) {
+  const text = `${item.title || ""} ${item.body || ""}`;
+  if (/tariff|trade war|geopolit|conflict|war/i.test(text)) return "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น อาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูดอลลาร์ร่วมด้วย";
+  if (/bond|treasury|yield|debt crisis/i.test(text)) return "ข่าวพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD";
+  if (/inflation|cpi|fed|interest rate|pmi|payroll|unemployment/i.test(text)) return "ข้อมูลเศรษฐกิจและท่าที Fed มีผลต่อดอกเบี้ย ดอลลาร์ และต้นทุนการถือทอง";
+  if (/dollar|usd|aud\/usd|usd\/chf/i.test(text)) return "ดอลลาร์อ่อนมักช่วยพยุงทอง แต่ควรยืนยันกับกราฟและข้อมูลตลาดจริง";
+  return "ข่าวนี้ถูกคัดมาเพราะมีปัจจัยที่อาจทำให้ทองผันผวน ควรเปิดอ่านต้นฉบับประกอบ";
+}
+
 function renderEvents() {
   const visibleEvents = activeFilter === "all" ? events : events.filter((event) => event.direction === activeFilter);
   $("#eventCount").textContent = `${visibleEvents.length} เหตุการณ์`;
@@ -37,8 +66,8 @@ function renderEvents() {
     <article class="event-card ${escapeHtml(event.direction)}" data-index="${index}" tabindex="0" role="button" aria-expanded="false">
       <div class="event-time">${escapeHtml(event.time)}<small>${escapeHtml(event.date)}</small></div>
       <div class="event-main">
-        <strong>${escapeHtml(event.title)}</strong>
-        <p>${escapeHtml(event.short)}</p>
+        <strong>${escapeHtml(event.titleTh || thaiTitle(event.title))}</strong>
+        <p>${escapeHtml(event.shortTh || thaiSummary(event))}</p>
         <div class="event-meta"><span class="event-tag">${escapeHtml(event.expected || "ข่าวจริง")}</span><span class="impact-tag ${escapeHtml(event.impact)}">${event.impact === "high" ? "สำคัญมาก" : "สำคัญ"}</span></div>
       </div>
       <div class="event-direction"><strong>${escapeHtml(event.directionLabel)}</strong><small>กดดูเหตุผล ↘</small></div>
@@ -65,8 +94,8 @@ function renderNews(news) {
         <div class="news-thumb ${visualClass}">${visual}</div>
         <div class="news-card-body">
           <p class="section-kicker">${escapeHtml(item.label || item.source || "NEWS")}</p>
-          <h3>${escapeHtml(item.title)}</h3>
-          <p>${escapeHtml(item.body)}</p>
+          <h3>${escapeHtml(item.titleTh || thaiTitle(item.title))}</h3>
+          <p>${escapeHtml(item.bodyTh || item.body || thaiSummary(item))}</p>
           <footer><span>${escapeHtml(item.tone || "ต้องจับตา")}</span><span>${escapeHtml(item.time || "—")}</span>${sourceLink}</footer>
         </div>
       </article>
@@ -122,6 +151,21 @@ function formatDateTime(value) {
   return new Intl.DateTimeFormat("th-TH", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit", timeZone: "Asia/Bangkok" }).format(new Date(value));
 }
 
+function updateMarketStatus() {
+  const parts = new Intl.DateTimeFormat("en-US", { timeZone: "America/New_York", weekday: "short", hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).formatToParts(new Date());
+  const day = parts.find((part) => part.type === "weekday")?.value;
+  const hour = Number(parts.find((part) => part.type === "hour")?.value || 0);
+  const minute = Number(parts.find((part) => part.type === "minute")?.value || 0);
+  const totalMinutes = hour * 60 + minute;
+  const weekendClosed = day === "Sat" || (day === "Sun" && totalMinutes < 18 * 60 + 5) || (day === "Fri" && totalMinutes >= 16 * 60 + 59);
+  const status = $("#marketStatus");
+  if (!status) return;
+  const state = weekendClosed ? "closed" : "open";
+  status.className = `market-status ${state}`;
+  status.innerHTML = `<span class="market-status-dot"></span> ${state === "open" ? "ตลาดเปิด" : "ตลาดปิด"}`;
+  status.title = "อิงเวลาซื้อขาย XAU/USD ของ OANDA; เวลาโบรกเกอร์อาจแตกต่างกันเล็กน้อย";
+}
+
 async function loadData(showMessage = false) {
   try {
     const response = await fetch(`data/live.json?ts=${Date.now()}`, { cache: "no-store" });
@@ -145,6 +189,7 @@ async function loadData(showMessage = false) {
   }
   renderEvents();
   $("#todayDate").textContent = formatToday();
+  updateMarketStatus();
 }
 
 document.querySelectorAll(".filter-tab").forEach((tab) => tab.addEventListener("click", () => {
@@ -160,3 +205,5 @@ $("#alertButton").addEventListener("click", (event) => { event.currentTarget.cla
 $("#shareButton").addEventListener("click", async () => { const score = liveData?.analyst?.score ?? "—"; const summary = `Gold Pulse — ${formatToday()}\nมุมมองจากข้อมูลจริง: ${liveData?.analyst?.label || "รอตรวจสอบ"} (${score}/100)\nเช็กข่าวต้นฉบับก่อนดูกราฟ XAUUSD`; try { await navigator.clipboard.writeText(summary); showToast("คัดลอกสรุปวันนี้แล้ว"); } catch (error) { showToast("เบราว์เซอร์นี้ไม่อนุญาตให้คัดลอกอัตโนมัติ"); } });
 
 loadData();
+updateMarketStatus();
+window.setInterval(updateMarketStatus, 30000);
