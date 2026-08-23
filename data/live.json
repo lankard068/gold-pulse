@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-08-23T22:49:46.867Z",
+  "generatedAt": "2026-08-23T23:23:32.367Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 4609.899902,
+    "price": 4613.899902,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-08-23T22:49:46.867Z",
+    "asOf": "2026-08-23T23:23:32.367Z",
     "stale": false
   },
   "drivers": {
@@ -74,11 +74,11 @@
   },
   "events": [
     {
-      "time": "05:22",
-      "date": "MarketWatch · 28 นาทีที่แล้ว",
-      "title": "Stock futures slip as U.S. and Canada appear headed for trade war",
+      "time": "06:03",
+      "date": "MarketWatch · 21 นาทีที่แล้ว",
+      "title": "Stock futures flat as U.S. and Canada appear headed for trade war",
       "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
-      "short": "U.S. stock-index futures dipped on Sunday, as it appeared the U.S. was on the verge of an all-out trade war with Canada, one of its biggest trade par…",
+      "short": "U.S. stock-index futures were little changed on Sunday, as it appeared the U.S. was on the verge of an all-out trade war with Canada, one of its bigg…",
       "shortTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "why": "เนื้อหานี้มีปัจจัยที่มักช่วยหนุนทอง เช่น ความเสี่ยง ดอลลาร์อ่อน หรือยีลด์ลดลง ควรดูการยืนยันจากราคาและข้อมูลต้นทางประกอบ",
       "expected": "ข่าวจริง · ไม่มี Forecast",
@@ -90,7 +90,7 @@
     },
     {
       "time": "02:32",
-      "date": "The Guardian · 3 ชั่วโมงที่แล้ว",
+      "date": "The Guardian · 4 ชั่วโมงที่แล้ว",
       "title": "‘No more!!!’: Trump lashes out after US-Canada talks devolve into trade war",
       "titleTh": "ทรัมป์ตอบโต้หลังการเจรจาสหรัฐฯ–แคนาดากลายเป็นสงครามการค้า",
       "short": "PM Mark Carney says ‘we got attacked’ as tariffs come into force on items from hockey sticks to tongue depressors The lesson from Canada’s collapsed…",
@@ -168,16 +168,16 @@
     {
       "icon": "↗",
       "label": "MarketWatch",
-      "title": "Stock futures slip as U.S. and Canada appear headed for trade war",
+      "title": "Stock futures flat as U.S. and Canada appear headed for trade war",
       "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
       "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "tone": "หนุนทอง",
-      "time": "28 นาทีที่แล้ว",
+      "time": "21 นาทีที่แล้ว",
       "image": "https://images.mktw.net/im-20758647",
       "source": "MarketWatch",
       "sourceUrl": "https://www.marketwatch.com/story/stock-futures-slip-as-u-s-and-canada-appear-headed-for-trade-war-a9814b24?mod=mw_rss_topstories",
-      "publishedAt": "2026-08-23T22:22:00.000Z",
+      "publishedAt": "2026-08-23T23:03:00.000Z",
       "direction": "bullish",
       "impact": "high"
     },
@@ -189,7 +189,7 @@
       "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "tone": "หนุนทอง",
-      "time": "3 ชั่วโมงที่แล้ว",
+      "time": "4 ชั่วโมงที่แล้ว",
       "image": "https://i.guim.co.uk/img/media/b1fc5227ab8b91635aa6bdd84b88df0711c4cc64/200_0_6000_4800/master/6000.jpg?width=140&quality=85&auto=format&fit=max&s=1c8269f0891cb49afd4197177c4b7e56",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com/us-news/2026/aug/23/donald-trump-lashes-out-after-us-canada-talks-devolve-into-trade-war",
