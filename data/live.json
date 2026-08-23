@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-08-23T23:23:32.367Z",
+  "generatedAt": "2026-08-23T23:47:07.355Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 4613.899902,
+    "price": 4610.100098,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-08-23T23:23:32.367Z",
+    "asOf": "2026-08-23T23:47:07.355Z",
     "stale": false
   },
   "drivers": {
@@ -53,8 +53,8 @@
         "mark": "!",
         "tone": "mixed",
         "title": "ข่าวล่าสุดยังต้องยืนยันด้วยราคา",
-        "source": "MarketWatch",
-        "note": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง"
+        "source": "FXStreet",
+        "note": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง"
       }
     ],
     "sources": [
@@ -74,8 +74,23 @@
   },
   "events": [
     {
+      "time": "06:39",
+      "date": "FXStreet · 7 นาทีที่แล้ว",
+      "title": "New Zealand Dollar edges lower below 0.6000 after weaker Retail Sales data",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "short": "The NZD/USD pair declines to around 0.5970 during the early Asian session on Monday. The New Zealand Dollar (NZD) weakens against the US Dollar (USD)…",
+      "shortTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
+      "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
+      "expected": "ข่าวจริง · ไม่มี Forecast",
+      "impact": "medium",
+      "direction": "volatile",
+      "directionLabel": "ต้องจับตา",
+      "sourceLabel": "FXStreet",
+      "sourceUrl": "https://www.fxstreet.com/news/new-zealand-dollar-edges-lower-below-06000-after-weaker-retail-sales-data-202608232339"
+    },
+    {
       "time": "06:03",
-      "date": "MarketWatch · 21 นาทีที่แล้ว",
+      "date": "MarketWatch · 44 นาทีที่แล้ว",
       "title": "Stock futures flat as U.S. and Canada appear headed for trade war",
       "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
       "short": "U.S. stock-index futures were little changed on Sunday, as it appeared the U.S. was on the verge of an all-out trade war with Canada, one of its bigg…",
@@ -105,7 +120,7 @@
     },
     {
       "time": "19:00",
-      "date": "MarketWatch · 11 ชั่วโมงที่แล้ว",
+      "date": "MarketWatch · 12 ชั่วโมงที่แล้ว",
       "title": "The Treasury’s bond-market intervention isn’t working. So what comes next?",
       "titleTh": "มาตรการแทรกแซงตลาดพันธบัตรของสหรัฐฯ ยังไม่ช่วยคลายแรงกดดัน แล้วต่อไปจะเกิดอะไรขึ้น?",
       "short": "You can’t just sweep $40 trillion in U.S. national debt under a rug and forget about it — or so the bond market appears to be telling Treasury Secret…",
@@ -147,33 +162,34 @@
       "directionLabel": "ต้องจับตา",
       "sourceLabel": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/usd-chf-price-forecast-bulls-reclaim-08000-as-recovery-stalls-202608212302"
-    },
-    {
-      "time": "05:38",
-      "date": "FXStreet · 22 ส.ค.",
-      "title": "US Treasury yields extend rebound as Services PMI beats estimates",
-      "titleTh": "ยีลด์พันธบัตรสหรัฐฯ ฟื้นต่อ หลังดัชนี PMI ภาคบริการออกมาดีกว่าคาด",
-      "short": "US Treasury yields continue their recovery following the announcement of a bond buyback by the US Department of the Treasury, while data reveal that…",
-      "shortTh": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
-      "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
-      "expected": "ข่าวจริง · ไม่มี Forecast",
-      "impact": "high",
-      "direction": "volatile",
-      "directionLabel": "ต้องจับตา",
-      "sourceLabel": "FXStreet",
-      "sourceUrl": "https://www.fxstreet.com/news/us-treasury-yields-extend-rebound-as-services-pmi-beats-estimates-202608212238"
     }
   ],
   "news": [
     {
       "icon": "↗",
+      "label": "FXStreet",
+      "title": "New Zealand Dollar edges lower below 0.6000 after weaker Retail Sales data",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "body": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
+      "bodyTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
+      "tone": "ต้องจับตา",
+      "time": "7 นาทีที่แล้ว",
+      "image": "https://editorial.fxsstatic.com/images/i/NZD-bearish-line.png",
+      "source": "FXStreet",
+      "sourceUrl": "https://www.fxstreet.com/news/new-zealand-dollar-edges-lower-below-06000-after-weaker-retail-sales-data-202608232339",
+      "publishedAt": "2026-08-23T23:39:41.000Z",
+      "direction": "volatile",
+      "impact": "medium"
+    },
+    {
+      "icon": "◌",
       "label": "MarketWatch",
       "title": "Stock futures flat as U.S. and Canada appear headed for trade war",
       "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
       "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "tone": "หนุนทอง",
-      "time": "21 นาทีที่แล้ว",
+      "time": "44 นาทีที่แล้ว",
       "image": "https://images.mktw.net/im-20758647",
       "source": "MarketWatch",
       "sourceUrl": "https://www.marketwatch.com/story/stock-futures-slip-as-u-s-and-canada-appear-headed-for-trade-war-a9814b24?mod=mw_rss_topstories",
@@ -182,7 +198,7 @@
       "impact": "high"
     },
     {
-      "icon": "◌",
+      "icon": "◍",
       "label": "The Guardian",
       "title": "‘No more!!!’: Trump lashes out after US-Canada talks devolve into trade war",
       "titleTh": "ทรัมป์ตอบโต้หลังการเจรจาสหรัฐฯ–แคนาดากลายเป็นสงครามการค้า",
@@ -198,14 +214,14 @@
       "impact": "high"
     },
     {
-      "icon": "◍",
+      "icon": "≋",
       "label": "MarketWatch",
       "title": "The Treasury’s bond-market intervention isn’t working. So what comes next?",
       "titleTh": "มาตรการแทรกแซงตลาดพันธบัตรของสหรัฐฯ ยังไม่ช่วยคลายแรงกดดัน แล้วต่อไปจะเกิดอะไรขึ้น?",
       "body": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
       "bodyTh": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
       "tone": "ต้องจับตา",
-      "time": "11 ชั่วโมงที่แล้ว",
+      "time": "12 ชั่วโมงที่แล้ว",
       "image": "https://images.mktw.net/im-97802719",
       "source": "MarketWatch",
       "sourceUrl": "https://www.marketwatch.com/story/the-treasurys-bond-market-intervention-isnt-working-so-what-comes-next-ba5e132a?mod=mw_rss_topstories",
@@ -214,7 +230,7 @@
       "impact": "medium"
     },
     {
-      "icon": "≋",
+      "icon": "↗",
       "label": "FXStreet",
       "title": "AUD/USD Price Forecast: Bulls target YTD high after breakout",
       "titleTh": "คาดการณ์ AUD/USD: ฝั่งซื้อเล็งจุดสูงสุดของปี หลังราคาทะลุแนวต้าน",
@@ -230,7 +246,7 @@
       "impact": "medium"
     },
     {
-      "icon": "↗",
+      "icon": "◌",
       "label": "FXStreet",
       "title": "USD/CHF Price Forecast: Bulls reclaim 0.8000 as recovery stalls",
       "titleTh": "คาดการณ์ USD/CHF: ฝั่งซื้อกลับมายืนเหนือ 0.8000 แต่การฟื้นตัวยังชะลอ",
@@ -246,7 +262,7 @@
       "impact": "high"
     },
     {
-      "icon": "◌",
+      "icon": "◍",
       "label": "FXStreet",
       "title": "US Treasury yields extend rebound as Services PMI beats estimates",
       "titleTh": "ยีลด์พันธบัตรสหรัฐฯ ฟื้นต่อ หลังดัชนี PMI ภาคบริการออกมาดีกว่าคาด",
@@ -262,7 +278,7 @@
       "impact": "high"
     },
     {
-      "icon": "◍",
+      "icon": "≋",
       "label": "FXStreet",
       "title": "Forecasting the upcoming week: Warsh's Jackson Hole debut and US inflation test a soft US Dollar",
       "titleTh": "มองสัปดาห์หน้า: Jackson Hole และเงินเฟ้อสหรัฐฯ จะทดสอบดอลลาร์ที่อ่อนลง",
@@ -276,22 +292,6 @@
       "publishedAt": "2026-08-21T20:22:46.000Z",
       "direction": "bullish",
       "impact": "high"
-    },
-    {
-      "icon": "≋",
-      "label": "FXStreet",
-      "title": "Malaysian Ringgit: Supported by strong fundamentals against US Dollar – OCBC",
-      "titleTh": "ริงกิตมาเลเซียยังได้แรงหนุนจากดอลลาร์สหรัฐฯ ที่อ่อนลงและพื้นฐานเศรษฐกิจแข็งแรง",
-      "body": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
-      "bodyTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
-      "tone": "ต้องจับตา",
-      "time": "22 ส.ค.",
-      "image": "https://editorial.fxsstatic.com/images/i/MYR2-18326.png",
-      "source": "FXStreet",
-      "sourceUrl": "https://www.fxstreet.com/news/malaysian-ringgit-supported-by-strong-fundamentals-against-us-dollar-ocbc-202608211853",
-      "publishedAt": "2026-08-21T18:53:00.000Z",
-      "direction": "volatile",
-      "impact": "medium"
     }
   ],
   "feedStatus": [
