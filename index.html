@@ -27,7 +27,7 @@
           </span>
         </a>
         <div class="topbar-actions">
-          <span class="demo-badge"><span class="status-dot"></span> โหมดสาธิต</span>
+          <span class="demo-badge"><span class="status-dot"></span> MVP · มีที่มา</span>
           <button class="icon-button" id="refreshButton" type="button" aria-label="โหลดข้อมูลใหม่" title="โหลดข้อมูลใหม่">↻</button>
         </div>
       </header>
@@ -48,7 +48,7 @@
             <div class="date-card">
               <span>สรุปประจำวัน</span>
               <strong id="todayDate">กำลังโหลด...</strong>
-              <small id="lastUpdated">ข้อมูลตัวอย่างสำหรับทดสอบหน้าเว็บ</small>
+              <small id="lastUpdated">โหมดตัวอย่าง · ยังไม่ดึงข้อมูลสด</small>
             </div>
           </div>
         </section>
@@ -97,26 +97,26 @@
               <p class="section-kicker">ANALYST VIEW</p>
               <h2>มุมมองนักวิเคราะห์ทอง</h2>
             </div>
-            <span class="source-status"><span class="status-dot"></span> แสดงที่มาทุกครั้ง</span>
+            <span class="source-status"><span class="status-dot"></span> อ้างอิงหลัก 3 แหล่ง</span>
           </div>
           <div class="analyst-grid">
             <div class="analyst-verdict">
               <span class="verdict-label">แนวโน้มระยะสั้น</span>
               <strong><span class="verdict-dot"></span> บวกเล็กน้อย</strong>
               <div class="analyst-score"><span>64</span><small>/100</small></div>
-              <p>เป็นมุมมองจากปัจจัยตัวอย่าง ยังไม่ใช่สัญญาณซื้อขาย</p>
+              <p>เป็นตัวอย่างการสรุปเหตุผลจากข้อมูลที่ตรวจสอบได้ ยังไม่ใช่สัญญาณซื้อขาย</p>
             </div>
             <div class="analyst-reasons">
-              <div class="reason-row"><span class="reason-mark positive">+</span><div><strong>ดอลลาร์อ่อน</strong><small>มักช่วยพยุงราคาทอง</small></div><b class="positive">หนุน</b></div>
-              <div class="reason-row"><span class="reason-mark positive">+</span><div><strong>ยีลด์มีโอกาสลด</strong><small>ต้นทุนถือทองลดลง</small></div><b class="positive">หนุน</b></div>
-              <div class="reason-row"><span class="reason-mark mixed">!</span><div><strong>รอ CPI และถ้อยแถลง Fed</strong><small>อาจทำให้มุมมองเปลี่ยนเร็ว</small></div><b class="mixed">เสี่ยง</b></div>
+              <div class="reason-row"><span class="reason-mark positive">+</span><div><strong>ดอลลาร์อ่อน <em class="mini-source">FRED</em></strong><small>มักช่วยพยุงราคาทอง</small></div><b class="positive">หนุน</b></div>
+              <div class="reason-row"><span class="reason-mark positive">+</span><div><strong>ยีลด์มีโอกาสลด <em class="mini-source">FRED</em></strong><small>ต้นทุนถือทองลดลง</small></div><b class="positive">หนุน</b></div>
+              <div class="reason-row"><span class="reason-mark mixed">!</span><div><strong>รอ CPI และถ้อยแถลง Fed <em class="mini-source">BLS · Fed</em></strong><small>อาจทำให้มุมมองเปลี่ยนเร็ว</small></div><b class="mixed">เสี่ยง</b></div>
             </div>
             <div class="analyst-sources">
-              <p class="section-kicker">อ้างอิงที่ควรตรวจสอบ</p>
+              <p class="section-kicker">แหล่งอ้างอิงหลัก</p>
               <a href="https://www.federalreserve.gov/newsevents/calendar.htm" target="_blank" rel="noreferrer">Federal Reserve <span>↗</span></a>
               <a href="https://www.bls.gov/schedule/news_release/cpi.htm" target="_blank" rel="noreferrer">BLS · CPI <span>↗</span></a>
               <a href="https://fred.stlouisfed.org/" target="_blank" rel="noreferrer">FRED · Dollar / Yield <span>↗</span></a>
-              <small>เวอร์ชันถัดไปจะคำนวณมุมมองจากข้อมูลสด พร้อมเวลาที่ดึงข้อมูล</small>
+              <small>ต่อไปจะเพิ่มมุมมองรายสำนัก โดยแนบชื่อผู้เขียน วันที่ เหตุผล และลิงก์ต้นฉบับทุกครั้ง</small>
             </div>
           </div>
         </section>
