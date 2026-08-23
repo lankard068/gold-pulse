@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b1018" />
+    <meta name="description" content="สรุปข่าวและเหตุการณ์ที่อาจส่งผลต่อทองคำและ XAUUSD แบบเข้าใจง่าย" />
+    <title>Gold Pulse — วันนี้ทองเจออะไรบ้าง?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <a class="brand" href="#top" aria-label="Gold Pulse หน้าหลัก">
+          <span class="brand-mark">G</span>
+          <span>
+            <strong>Gold Pulse</strong>
+            <small>ข่าวที่ขยับทอง</small>
+          </span>
+        </a>
+        <div class="topbar-actions">
+          <span class="demo-badge"><span class="status-dot"></span> โหมดสาธิต</span>
+          <button class="icon-button" id="refreshButton" type="button" aria-label="โหลดข้อมูลใหม่" title="โหลดข้อมูลใหม่">↻</button>
+        </div>
+      </header>
+
+      <main id="top">
+        <section class="hero-section">
+          <div>
+            <p class="eyebrow"><span class="live-line"></span> GOLD / USD · DAILY BRIEF</p>
+            <h1>วันนี้ทองเจอ<br /><span>อะไรบ้าง?</span></h1>
+            <p class="hero-copy">รวมข่าวและตัวเลขเศรษฐกิจที่อาจทำให้ทองคำกับ XAUUSD สะเทือน อ่านจบในไม่กี่นาที</p>
+          </div>
+          <div class="date-card">
+            <span>สรุปประจำวัน</span>
+            <strong id="todayDate">กำลังโหลด...</strong>
+            <small id="lastUpdated">ข้อมูลตัวอย่างสำหรับทดสอบหน้าเว็บ</small>
+          </div>
+        </section>
+
+        <section class="dashboard-grid" aria-label="ภาพรวมตลาด">
+          <article class="panel pulse-panel">
+            <div class="panel-heading">
+              <div>
+                <p class="section-kicker">PULSE CHECK</p>
+                <h2>ภาพรวมวันนี้</h2>
+              </div>
+              <span class="risk-badge high">ผันผวนสูง</span>
+            </div>
+            <div class="pulse-score-row">
+              <div class="pulse-score">68<span>/100</span></div>
+              <div class="pulse-copy">
+                <strong>เอนเอียงบวกเล็กน้อย</strong>
+                <p>มีแรงหนุนจากความไม่แน่นอน แต่ตัวเลขสหรัฐฯ ยังอาจกดดันทองในช่วงข่าวออก</p>
+              </div>
+            </div>
+            <div class="meter" aria-label="คะแนนแรงส่งทอง 68 จาก 100"><span style="width: 68%"></span></div>
+            <div class="meter-labels"><span>กดดันทอง</span><span>สมดุล</span><span>หนุนทอง</span></div>
+            <div class="notice-box"><span class="notice-icon">!</span><span>ตัวเลขสำคัญวันนี้อาจทำให้ราคาเหวี่ยงแรงในไม่กี่นาทีแรก</span></div>
+          </article>
+
+          <article class="panel quote-panel">
+            <div class="panel-heading">
+              <div>
+                <p class="section-kicker">MARKET SNAPSHOT</p>
+                <h2>ตัวเลขที่ต้องมอง</h2>
+              </div>
+              <span class="muted-label">indicative</span>
+            </div>
+            <div class="quote-list">
+              <div class="quote-row"><span>XAUUSD <small>Spot gold</small></span><strong>2,352.40</strong><em class="up">+0.46%</em></div>
+              <div class="quote-row"><span>DXY <small>ดอลลาร์สหรัฐ</small></span><strong>104.12</strong><em class="down">−0.18%</em></div>
+              <div class="quote-row"><span>US 10Y <small>บอนด์ยีลด์</small></span><strong>4.21%</strong><em class="down">−0.04</em></div>
+            </div>
+            <p class="data-note">* ตัวเลขด้านบนเป็นข้อมูลตัวอย่างใน MVP ยังไม่ใช่ราคาสด</p>
+          </article>
+        </section>
+
+        <section class="content-grid">
+          <div class="main-column">
+            <div class="section-title-row">
+              <div>
+                <p class="section-kicker">THE AGENDA</p>
+                <h2>เหตุการณ์ที่ต้องจับตา</h2>
+              </div>
+              <span class="count-label" id="eventCount">0 เหตุการณ์</span>
+            </div>
+            <div class="filter-tabs" role="tablist" aria-label="กรองเหตุการณ์">
+              <button class="filter-tab active" data-filter="all" type="button">ทั้งหมด</button>
+              <button class="filter-tab" data-filter="bullish" type="button">หนุนทอง</button>
+              <button class="filter-tab" data-filter="bearish" type="button">กดดันทอง</button>
+              <button class="filter-tab" data-filter="volatile" type="button">ผันผวน</button>
+            </div>
+            <div class="event-list" id="eventList" aria-live="polite"></div>
+
+            <div class="section-title-row news-heading">
+              <div>
+                <p class="section-kicker">WHY IT MATTERS</p>
+                <h2>แปลข่าวเป็นภาษาคน</h2>
+              </div>
+            </div>
+            <div class="news-grid" id="newsGrid"></div>
+          </div>
+
+          <aside class="side-column">
+            <article class="panel map-panel">
+              <div class="panel-heading">
+                <div>
+                  <p class="section-kicker">QUICK MAP</p>
+                  <h2>อะไรดันทอง?</h2>
+                </div>
+                <span class="gold-spark">✦</span>
+              </div>
+              <div class="driver-list">
+                <div class="driver-row"><span class="driver-icon green">↘</span><div><strong>ดอลลาร์อ่อน</strong><small>มักช่วยพยุงทอง</small></div><b class="positive">บวก</b></div>
+                <div class="driver-row"><span class="driver-icon green">↘</span><div><strong>ยีลด์ลด</strong><small>ต้นทุนถือทองลดลง</small></div><b class="positive">บวก</b></div>
+                <div class="driver-row"><span class="driver-icon red">↗</span><div><strong>ดอกเบี้ยสูงนาน</strong><small>มักกดดันทอง</small></div><b class="negative">ลบ</b></div>
+                <div class="driver-row"><span class="driver-icon yellow">!</span><div><strong>ข่าวเสี่ยงโลก</strong><small>เงินอาจไหลเข้าทอง</small></div><b class="mixed">ผสม</b></div>
+              </div>
+              <p class="map-footnote">เป็นแนวโน้มทั่วไป ไม่ใช่สัญญาณซื้อขาย</p>
+            </article>
+
+            <article class="panel checklist-panel">
+              <div class="panel-heading">
+                <div>
+                  <p class="section-kicker">BEFORE YOU TRADE</p>
+                  <h2>เช็กก่อนดูกราฟ</h2>
+                </div>
+              </div>
+              <label class="check-item"><input type="checkbox" /><span class="fake-check"></span><span>รู้เวลาข่าวสำคัญตามเวลาไทย</span></label>
+              <label class="check-item"><input type="checkbox" /><span class="fake-check"></span><span>ดู Actual เทียบกับ Forecast</span></label>
+              <label class="check-item"><input type="checkbox" /><span class="fake-check"></span><span>ตั้งจุดตัดขาดทุนไว้แล้ว</span></label>
+              <label class="check-item"><input type="checkbox" /><span class="fake-check"></span><span>ไม่ไล่ราคาช่วงแท่งข่าว</span></label>
+            </article>
+
+            <article class="panel alert-panel">
+              <div class="alert-icon">⌁</div>
+              <div><strong>อยากให้เตือนข่าวไหม?</strong><p>เวอร์ชันถัดไปจะเพิ่มแจ้งเตือนก่อนตัวเลขสำคัญออก</p></div>
+              <button class="outline-button" id="alertButton" type="button">เปิดแจ้งเตือน</button>
+            </article>
+          </aside>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div><span class="brand-mark small">G</span> Gold Pulse <span class="footer-note">ข้อมูลเพื่อการศึกษา ไม่ใช่คำแนะนำการลงทุน</span></div>
+        <button class="share-button" id="shareButton" type="button">คัดลอกสรุปวันนี้ <span>↗</span></button>
+      </footer>
+      <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    </div>
+    <script src="app.js" defer></script>
+  </body>
+</html>
