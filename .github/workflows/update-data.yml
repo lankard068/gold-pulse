@@ -1,0 +1,38 @@
+name: Refresh Gold Pulse live data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"
+  push:
+    paths:
+      - "scripts/update-data.mjs"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gold-pulse-data
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Update live snapshot
+        run: node scripts/update-data.mjs
+
+      - name: Commit live snapshot when changed
+        run: |
+          git config user.name "gold-pulse-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- data/live.json; then
+            echo "No live data changes"
+            exit 0
+          fi
+          git add data/live.json
+          git commit -m "chore: refresh live market data"
+          git push
