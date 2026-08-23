@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-08-23T22:24:34.232Z",
+  "generatedAt": "2026-08-23T22:49:46.867Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 4618,
+    "price": 4609.899902,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-08-23T22:24:34.232Z",
+    "asOf": "2026-08-23T22:49:46.867Z",
     "stale": false
   },
   "drivers": {
@@ -75,7 +75,7 @@
   "events": [
     {
       "time": "05:22",
-      "date": "MarketWatch · 3 นาทีที่แล้ว",
+      "date": "MarketWatch · 28 นาทีที่แล้ว",
       "title": "Stock futures slip as U.S. and Canada appear headed for trade war",
       "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
       "short": "U.S. stock-index futures dipped on Sunday, as it appeared the U.S. was on the verge of an all-out trade war with Canada, one of its biggest trade par…",
@@ -105,7 +105,7 @@
     },
     {
       "time": "19:00",
-      "date": "MarketWatch · 10 ชั่วโมงที่แล้ว",
+      "date": "MarketWatch · 11 ชั่วโมงที่แล้ว",
       "title": "The Treasury’s bond-market intervention isn’t working. So what comes next?",
       "titleTh": "มาตรการแทรกแซงตลาดพันธบัตรของสหรัฐฯ ยังไม่ช่วยคลายแรงกดดัน แล้วต่อไปจะเกิดอะไรขึ้น?",
       "short": "You can’t just sweep $40 trillion in U.S. national debt under a rug and forget about it — or so the bond market appears to be telling Treasury Secret…",
@@ -173,7 +173,7 @@
       "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "tone": "หนุนทอง",
-      "time": "3 นาทีที่แล้ว",
+      "time": "28 นาทีที่แล้ว",
       "image": "https://images.mktw.net/im-20758647",
       "source": "MarketWatch",
       "sourceUrl": "https://www.marketwatch.com/story/stock-futures-slip-as-u-s-and-canada-appear-headed-for-trade-war-a9814b24?mod=mw_rss_topstories",
@@ -205,7 +205,7 @@
       "body": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
       "bodyTh": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
       "tone": "ต้องจับตา",
-      "time": "10 ชั่วโมงที่แล้ว",
+      "time": "11 ชั่วโมงที่แล้ว",
       "image": "https://images.mktw.net/im-97802719",
       "source": "MarketWatch",
       "sourceUrl": "https://www.marketwatch.com/story/the-treasurys-bond-market-intervention-isnt-working-so-what-comes-next-ba5e132a?mod=mw_rss_topstories",
