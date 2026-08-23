@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css?v=5" />
+    <link rel="stylesheet" href="styles.css?v=6" />
   </head>
   <body>
     <div class="app-shell">
@@ -49,6 +49,25 @@
               <span>สรุปประจำวัน</span>
               <strong id="todayDate">กำลังโหลด...</strong>
               <small id="lastUpdated">กำลังเช็กข้อมูลสด...</small>
+            </div>
+          </div>
+        </section>
+
+        <section class="market-status-panel panel" aria-label="สถานะตลาดและแนวโน้มวันนี้">
+          <div class="market-state-block">
+            <div class="market-status-icon closed" id="marketStateIcon" aria-hidden="true">×</div>
+            <div>
+              <p class="section-kicker">MARKET STATUS</p>
+              <h2 id="marketStateLabel">ตลาดกำลังโหลด</h2>
+              <small id="marketStateDetail">กำลังตรวจสอบเวลาซื้อขาย XAU/USD...</small>
+            </div>
+          </div>
+          <div class="trend-state-block">
+            <div class="trend-icon sideway" id="todayTrendIcon" aria-hidden="true">↔</div>
+            <div>
+              <p class="section-kicker">TODAY'S TREND</p>
+              <h2 id="todayTrendLabel">SIDEWAY</h2>
+              <small id="todayTrendDetail">กำลังประเมินจากข้อมูลจริง...</small>
             </div>
           </div>
         </section>
@@ -225,6 +244,6 @@
       </footer>
       <div class="toast" id="toast" role="status" aria-live="polite"></div>
     </div>
-    <script src="app.js?v=4" defer></script>
+    <script src="app.js?v=5" defer></script>
   </body>
 </html>
