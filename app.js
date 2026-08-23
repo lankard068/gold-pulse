@@ -47,15 +47,23 @@ function renderEvents() {
 }
 
 function renderNews(news) {
-  $("#newsGrid").innerHTML = news.map((item) => `
-    <article class="news-card">
-      <div class="news-icon">${escapeHtml(item.icon)}</div>
-      <p class="section-kicker">${escapeHtml(item.label)}</p>
-      <h3>${escapeHtml(item.title)}</h3>
-      <p>${escapeHtml(item.body)}</p>
-      <footer><span>${escapeHtml(item.tone)}</span><span>${escapeHtml(item.time)}</span></footer>
-    </article>
-  `).join("");
+  $("#newsGrid").innerHTML = news.map((item, index) => {
+    const visualClass = `news-art-${index % 4}`;
+    const visual = item.image
+      ? `<img src="${escapeHtml(item.image)}" alt="ภาพประกอบข่าว: ${escapeHtml(item.title)}" loading="lazy" />`
+      : `<span class="thumb-symbol">${escapeHtml(item.icon)}</span><span class="thumb-label">ภาพประกอบ</span>`;
+    return `
+      <article class="news-card">
+        <div class="news-thumb ${visualClass}">${visual}</div>
+        <div class="news-card-body">
+          <p class="section-kicker">${escapeHtml(item.label)}</p>
+          <h3>${escapeHtml(item.title)}</h3>
+          <p>${escapeHtml(item.body)}</p>
+          <footer><span>${escapeHtml(item.tone)}</span><span>${escapeHtml(item.time)}</span></footer>
+        </div>
+      </article>
+    `;
+  }).join("");
 }
 
 async function loadData() {
