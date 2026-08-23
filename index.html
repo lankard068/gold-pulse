@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#0b1018" />
     <meta name="description" content="สรุปข่าวและเหตุการณ์ที่อาจส่งผลต่อทองคำและ XAUUSD แบบเข้าใจง่าย" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Gold Pulse" />
     <title>Gold Pulse — วันนี้ทองเจออะไรบ้าง?</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
@@ -15,7 +20,7 @@
     <div class="app-shell">
       <header class="topbar">
         <a class="brand" href="#top" aria-label="Gold Pulse หน้าหลัก">
-          <span class="brand-mark">G</span>
+          <img class="brand-mark brand-image" src="apple-touch-icon.png" alt="" />
           <span>
             <strong>Gold Pulse</strong>
             <small>ข่าวที่ขยับทอง</small>
@@ -34,10 +39,17 @@
             <h1>วันนี้ทองเจอ<br /><span>อะไรบ้าง?</span></h1>
             <p class="hero-copy">รวมข่าวและตัวเลขเศรษฐกิจที่อาจทำให้ทองคำกับ XAUUSD สะเทือน อ่านจบในไม่กี่นาที</p>
           </div>
-          <div class="date-card">
-            <span>สรุปประจำวัน</span>
-            <strong id="todayDate">กำลังโหลด...</strong>
-            <small id="lastUpdated">ข้อมูลตัวอย่างสำหรับทดสอบหน้าเว็บ</small>
+          <div class="hero-aside">
+            <div class="hero-icon-card" aria-hidden="true">
+              <img src="icon-512.png" alt="" />
+              <div><span>GOLD PULSE</span><strong>XAU / USD</strong></div>
+              <i>↗</i>
+            </div>
+            <div class="date-card">
+              <span>สรุปประจำวัน</span>
+              <strong id="todayDate">กำลังโหลด...</strong>
+              <small id="lastUpdated">ข้อมูลตัวอย่างสำหรับทดสอบหน้าเว็บ</small>
+            </div>
           </div>
         </section>
 
@@ -77,6 +89,36 @@
             </div>
             <p class="data-note">* ตัวเลขด้านบนเป็นข้อมูลตัวอย่างใน MVP ยังไม่ใช่ราคาสด</p>
           </article>
+        </section>
+
+        <section class="panel analyst-panel" aria-label="มุมมองนักวิเคราะห์">
+          <div class="panel-heading">
+            <div>
+              <p class="section-kicker">ANALYST VIEW</p>
+              <h2>มุมมองนักวิเคราะห์ทอง</h2>
+            </div>
+            <span class="source-status"><span class="status-dot"></span> แสดงที่มาทุกครั้ง</span>
+          </div>
+          <div class="analyst-grid">
+            <div class="analyst-verdict">
+              <span class="verdict-label">แนวโน้มระยะสั้น</span>
+              <strong><span class="verdict-dot"></span> บวกเล็กน้อย</strong>
+              <div class="analyst-score"><span>64</span><small>/100</small></div>
+              <p>เป็นมุมมองจากปัจจัยตัวอย่าง ยังไม่ใช่สัญญาณซื้อขาย</p>
+            </div>
+            <div class="analyst-reasons">
+              <div class="reason-row"><span class="reason-mark positive">+</span><div><strong>ดอลลาร์อ่อน</strong><small>มักช่วยพยุงราคาทอง</small></div><b class="positive">หนุน</b></div>
+              <div class="reason-row"><span class="reason-mark positive">+</span><div><strong>ยีลด์มีโอกาสลด</strong><small>ต้นทุนถือทองลดลง</small></div><b class="positive">หนุน</b></div>
+              <div class="reason-row"><span class="reason-mark mixed">!</span><div><strong>รอ CPI และถ้อยแถลง Fed</strong><small>อาจทำให้มุมมองเปลี่ยนเร็ว</small></div><b class="mixed">เสี่ยง</b></div>
+            </div>
+            <div class="analyst-sources">
+              <p class="section-kicker">อ้างอิงที่ควรตรวจสอบ</p>
+              <a href="https://www.federalreserve.gov/newsevents/calendar.htm" target="_blank" rel="noreferrer">Federal Reserve <span>↗</span></a>
+              <a href="https://www.bls.gov/schedule/news_release/cpi.htm" target="_blank" rel="noreferrer">BLS · CPI <span>↗</span></a>
+              <a href="https://fred.stlouisfed.org/" target="_blank" rel="noreferrer">FRED · Dollar / Yield <span>↗</span></a>
+              <small>เวอร์ชันถัดไปจะคำนวณมุมมองจากข้อมูลสด พร้อมเวลาที่ดึงข้อมูล</small>
+            </div>
+          </div>
         </section>
 
         <section class="content-grid">
