@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-08-24T22:29:18.636Z",
+  "generatedAt": "2026-08-24T22:56:17.690Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 4658.600098,
+    "price": 4665.299805,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-08-24T22:29:18.636Z",
+    "asOf": "2026-08-24T22:56:17.690Z",
     "stale": false
   },
   "drivers": {
@@ -74,8 +74,23 @@
   },
   "events": [
     {
+      "time": "05:33",
+      "date": "FXStreet · 23 นาทีที่แล้ว",
+      "title": "Chinese Yuan: Targeting 6.7200 against US Dollar – UOB",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "short": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann keep a downside bias on USD/CNH after the pair dipped to 6.7180 and closed near 6.7210.",
+      "shortTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
+      "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
+      "expected": "ข่าวจริง · ไม่มี Forecast",
+      "impact": "medium",
+      "direction": "volatile",
+      "directionLabel": "ต้องจับตา",
+      "sourceLabel": "FXStreet",
+      "sourceUrl": "https://www.fxstreet.com/news/chinese-yuan-targeting-67200-against-us-dollar-uob-202608242233"
+    },
+    {
       "time": "04:46",
-      "date": "FXStreet · 43 นาทีที่แล้ว",
+      "date": "FXStreet · 1 ชั่วโมงที่แล้ว",
       "title": "EUR/USD Price Forecast: 1.1700 caps bulls as RSI overheats",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "The shared currency registers minimal losses of 0.13% versus the US Dollar as EUR/USD fails to surpass 1.1700, exacerbating the drop towards the 1.16…",
@@ -90,7 +105,7 @@
     },
     {
       "time": "04:41",
-      "date": "FXStreet · 48 นาทีที่แล้ว",
+      "date": "FXStreet · 1 ชั่วโมงที่แล้ว",
       "title": "New Zealand Dollar muted near multi-month highs as it outweighs soft retail sales",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "The New Zealand Dollar (NZD) is holding firm against the US Dollar (USD) at the time of writing, with NZD/USD consolidating near its recent multi-mon…",
@@ -105,7 +120,7 @@
     },
     {
       "time": "04:15",
-      "date": "FXStreet · 1 ชั่วโมงที่แล้ว",
+      "date": "FXStreet · 2 ชั่วโมงที่แล้ว",
       "title": "Japanese Yen lower as US Dollar firms on heavier Iran sanctions",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "The US Dollar (USD) is grinding higher against the Japanese Yen (JPY) at the time of writing, with USD/JPY holding north of the 159.00 mark.",
@@ -147,33 +162,34 @@
       "directionLabel": "ต้องจับตา",
       "sourceLabel": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/asia-fx-mixed-central-bank-paths-shape-thb-krw-php-bbh-202608242033"
-    },
-    {
-      "time": "03:22",
-      "date": "MarketWatch · 2 ชั่วโมงที่แล้ว",
-      "title": "Ford’s $3 billion Canadian bet is getting caught in trade-war crosshairs",
-      "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
-      "short": "While certain U.S. sectors are facing headwinds from the new tariffs on Canadian goods, analysts have said the broad economic effects of the new 50%…",
-      "shortTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
-      "why": "เนื้อหานี้มีปัจจัยที่มักช่วยหนุนทอง เช่น ความเสี่ยง ดอลลาร์อ่อน หรือยีลด์ลดลง ควรดูการยืนยันจากราคาและข้อมูลต้นทางประกอบ",
-      "expected": "ข่าวจริง · ไม่มี Forecast",
-      "impact": "high",
-      "direction": "bullish",
-      "directionLabel": "หนุนทอง",
-      "sourceLabel": "MarketWatch",
-      "sourceUrl": "https://www.marketwatch.com/story/u-s-automakers-and-home-builders-are-among-the-big-losers-as-trump-launches-a-trade-war-against-canada-063c1d4c?mod=mw_rss_topstories"
     }
   ],
   "news": [
     {
       "icon": "↗",
       "label": "FXStreet",
+      "title": "Chinese Yuan: Targeting 6.7200 against US Dollar – UOB",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "body": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
+      "bodyTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
+      "tone": "ต้องจับตา",
+      "time": "23 นาทีที่แล้ว",
+      "image": "https://editorial.fxsstatic.com/images/i/usd-cnh-02.jpg",
+      "source": "FXStreet",
+      "sourceUrl": "https://www.fxstreet.com/news/chinese-yuan-targeting-67200-against-us-dollar-uob-202608242233",
+      "publishedAt": "2026-08-24T22:33:00.000Z",
+      "direction": "volatile",
+      "impact": "medium"
+    },
+    {
+      "icon": "◌",
+      "label": "FXStreet",
       "title": "EUR/USD Price Forecast: 1.1700 caps bulls as RSI overheats",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "tone": "หนุนทอง",
-      "time": "43 นาทีที่แล้ว",
+      "time": "1 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/EURUSD-neutral-object.png",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/eur-usd-price-forecast-11700-caps-bulls-as-rsi-overheats-202608242146",
@@ -182,14 +198,14 @@
       "impact": "high"
     },
     {
-      "icon": "◌",
+      "icon": "◍",
       "label": "FXStreet",
       "title": "New Zealand Dollar muted near multi-month highs as it outweighs soft retail sales",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "bodyTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "tone": "ต้องจับตา",
-      "time": "48 นาทีที่แล้ว",
+      "time": "1 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/christian-hawkesby-001.jpg",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/new-zealand-dollar-muted-near-multi-month-highs-as-it-outweighs-soft-retail-sales-202608242141",
@@ -198,14 +214,14 @@
       "impact": "medium"
     },
     {
-      "icon": "◍",
+      "icon": "≋",
       "label": "FXStreet",
       "title": "Japanese Yen lower as US Dollar firms on heavier Iran sanctions",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "bodyTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "tone": "กดดันทอง",
-      "time": "1 ชั่วโมงที่แล้ว",
+      "time": "2 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/USDJPY-neutral-line-1.png",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/japanese-yen-lower-as-us-dollar-firms-on-heavier-iran-sanctions-202608242115",
@@ -214,7 +230,7 @@
       "impact": "medium"
     },
     {
-      "icon": "≋",
+      "icon": "↗",
       "label": "MarketWatch",
       "title": "Bitcoin has beaten stocks and gold over six months. Now it’s closing in on $80,000.",
       "titleTh": "ข่าวทองคำและปัจจัยที่อาจทำให้ XAUUSD เคลื่อนไหว",
@@ -230,7 +246,7 @@
       "impact": "medium"
     },
     {
-      "icon": "↗",
+      "icon": "◌",
       "label": "FXStreet",
       "title": "Asia FX: Mixed central bank paths shape THB, KRW, PHP – BBH",
       "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
@@ -246,14 +262,14 @@
       "impact": "high"
     },
     {
-      "icon": "◌",
+      "icon": "◍",
       "label": "MarketWatch",
       "title": "Ford’s $3 billion Canadian bet is getting caught in trade-war crosshairs",
       "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
       "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "tone": "หนุนทอง",
-      "time": "2 ชั่วโมงที่แล้ว",
+      "time": "3 ชั่วโมงที่แล้ว",
       "image": "https://images.mktw.net/im-38924133",
       "source": "MarketWatch",
       "sourceUrl": "https://www.marketwatch.com/story/u-s-automakers-and-home-builders-are-among-the-big-losers-as-trump-launches-a-trade-war-against-canada-063c1d4c?mod=mw_rss_topstories",
@@ -262,36 +278,20 @@
       "impact": "high"
     },
     {
-      "icon": "◍",
+      "icon": "≋",
       "label": "FXStreet",
       "title": "Mexican Peso weakens as Iran sanctions offset Mexico’s inflation data",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "tone": "ต้องจับตา",
-      "time": "2 ชั่วโมงที่แล้ว",
+      "time": "3 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/mexican-peso-bear-01.jpg",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/mexican-peso-weakens-as-iran-sanctions-offset-mexicos-inflation-data-202608242013",
       "publishedAt": "2026-08-24T20:13:47.000Z",
       "direction": "volatile",
       "impact": "high"
-    },
-    {
-      "icon": "≋",
-      "label": "FXStreet",
-      "title": "Forex Today: US Dollar firms on safe-haven demand ahead of data-heavy Tuesday",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "body": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
-      "bodyTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
-      "tone": "กดดันทอง",
-      "time": "2 ชั่วโมงที่แล้ว",
-      "image": "https://editorial.fxsstatic.com/images/i/discover-76.png",
-      "source": "FXStreet",
-      "sourceUrl": "https://www.fxstreet.com/news/forex-today-us-dollar-firms-on-safe-haven-demand-ahead-of-data-heavy-tuesday-202608242013",
-      "publishedAt": "2026-08-24T20:13:42.000Z",
-      "direction": "bearish",
-      "impact": "medium"
     }
   ],
   "feedStatus": [
