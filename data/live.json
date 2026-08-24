@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-08-24T23:26:56.437Z",
+  "generatedAt": "2026-08-24T23:49:39.550Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 4674.700195,
+    "price": 4677.100098,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-08-24T23:26:56.437Z",
+    "asOf": "2026-08-24T23:49:39.550Z",
     "stale": false
   },
   "drivers": {
@@ -75,7 +75,7 @@
   "events": [
     {
       "time": "05:58",
-      "date": "FXStreet · 29 นาทีที่แล้ว",
+      "date": "FXStreet · 51 นาทีที่แล้ว",
       "title": "Australian Dollar falls as Iran sanctions sour risk appetite, RBA minutes eyed",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "The Australian Dollar began the week on a lower note, trading with a 0.28% loss against the Greenback as risk appetite soured after the US Department…",
@@ -90,7 +90,7 @@
     },
     {
       "time": "05:33",
-      "date": "FXStreet · 54 นาทีที่แล้ว",
+      "date": "FXStreet · 1 ชั่วโมงที่แล้ว",
       "title": "Chinese Yuan: Targeting 6.7200 against US Dollar – UOB",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann keep a downside bias on USD/CNH after the pair dipped to 6.7180 and closed near 6.7210.",
@@ -135,7 +135,7 @@
     },
     {
       "time": "04:15",
-      "date": "FXStreet · 2 ชั่วโมงที่แล้ว",
+      "date": "FXStreet · 3 ชั่วโมงที่แล้ว",
       "title": "Japanese Yen lower as US Dollar firms on heavier Iran sanctions",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "The US Dollar (USD) is grinding higher against the Japanese Yen (JPY) at the time of writing, with USD/JPY holding north of the 159.00 mark.",
@@ -173,7 +173,7 @@
       "body": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
       "bodyTh": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
       "tone": "หนุนทอง",
-      "time": "29 นาทีที่แล้ว",
+      "time": "51 นาทีที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/AUDUSD-bearish-animal.png",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/australian-dollar-falls-as-iran-sanctions-sour-risk-appetite-rba-minutes-eyed-202608242258",
@@ -189,7 +189,7 @@
       "body": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "bodyTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "tone": "ต้องจับตา",
-      "time": "54 นาทีที่แล้ว",
+      "time": "1 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/usd-cnh-02.jpg",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/chinese-yuan-targeting-67200-against-us-dollar-uob-202608242233",
@@ -237,7 +237,7 @@
       "body": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "bodyTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "tone": "กดดันทอง",
-      "time": "2 ชั่วโมงที่แล้ว",
+      "time": "3 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/USDJPY-neutral-line-1.png",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/japanese-yen-lower-as-us-dollar-firms-on-heavier-iran-sanctions-202608242115",
