@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-08-25T09:38:03.063Z",
+  "generatedAt": "2026-08-25T10:35:48.802Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 4636,
+    "price": 4636.700195,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-08-25T09:38:03.063Z",
+    "asOf": "2026-08-25T10:35:48.802Z",
     "stale": false
   },
   "drivers": {
@@ -54,7 +54,7 @@
         "tone": "mixed",
         "title": "ข่าวล่าสุดยังต้องยืนยันด้วยราคา",
         "source": "FXStreet",
-        "note": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง"
+        "note": "ข่าวทองคำและปัจจัยที่อาจทำให้ XAUUSD เคลื่อนไหว"
       }
     ],
     "sources": [
@@ -74,8 +74,23 @@
   },
   "events": [
     {
+      "time": "17:22",
+      "date": "FXStreet · 13 นาทีที่แล้ว",
+      "title": "Gold Price Forecast: XAU/USD holds onto early losses near $4,630, US Yields plunge",
+      "titleTh": "ข่าวทองคำและปัจจัยที่อาจทำให้ XAUUSD เคลื่อนไหว",
+      "short": "Gold price (XAU/USD) is down 0.4% to near $4,630 during the European trading session on Tuesday. The precious metal corrects after failing to extend…",
+      "shortTh": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
+      "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
+      "expected": "ข่าวจริง · ไม่มี Forecast",
+      "impact": "high",
+      "direction": "volatile",
+      "directionLabel": "ต้องจับตา",
+      "sourceLabel": "FXStreet",
+      "sourceUrl": "https://www.fxstreet.com/news/gold-price-forecast-xau-usd-holds-onto-early-losses-near-4-630-us-yields-plunge-202608251022"
+    },
+    {
       "time": "16:31",
-      "date": "FXStreet · 7 นาทีที่แล้ว",
+      "date": "FXStreet · 1 ชั่วโมงที่แล้ว",
       "title": "Silver price today: Silver falls, according to FXStreet data",
       "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
       "short": "Silver prices (XAG/USD) fell on Tuesday, according to FXStreet data. Silver trades at $67.82 per troy ounce, down 0.97% from the $68.48 it cost on Mo…",
@@ -90,7 +105,7 @@
     },
     {
       "time": "16:31",
-      "date": "FXStreet · 7 นาทีที่แล้ว",
+      "date": "FXStreet · 1 ชั่วโมงที่แล้ว",
       "title": "Canadian Dollar: Tariff risks cloud outlook – Commerzbank",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "Michael Pfister at Commerzbank assesses the potential impact of higher US auto tariffs on Canada and the Canadian Dollar.",
@@ -105,7 +120,7 @@
     },
     {
       "time": "16:17",
-      "date": "FXStreet · 21 นาทีที่แล้ว",
+      "date": "FXStreet · 1 ชั่วโมงที่แล้ว",
       "title": "Japanese Yen: Range trade within 157.90 and 159.80 against US Dollar – UOB",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann describe USD/JPY as locked in a range-trading phase, with a slightly firmer tone keeping…",
@@ -120,7 +135,7 @@
     },
     {
       "time": "16:17",
-      "date": "MarketWatch · 21 นาทีที่แล้ว",
+      "date": "MarketWatch · 1 ชั่วโมงที่แล้ว",
       "title": "He once mentored Scott Bessent. Now Stanley Druckenmiller is criticizing the treasury secretary.",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "Treasury Secretary Scott Bessent’s recent maneuvers in the bond market have come in for some searing criticism from illustrious investor Stanley Druc…",
@@ -135,7 +150,7 @@
     },
     {
       "time": "16:04",
-      "date": "FXStreet · 34 นาทีที่แล้ว",
+      "date": "FXStreet · 2 ชั่วโมงที่แล้ว",
       "title": "Silver Price Forecast: XAG/USD faces rejection near $70.00 as upside momentum fades",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "Silver (XAG/USD) continues its struggle to make it through the $70.00 psychological mark and turns lower for the second straight day on Tuesday.",
@@ -147,33 +162,34 @@
       "directionLabel": "ต้องจับตา",
       "sourceLabel": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-faces-rejection-near-7000-as-upside-momentum-fades-202608250904"
-    },
-    {
-      "time": "16:02",
-      "date": "FXStreet · 35 นาทีที่แล้ว",
-      "title": "Indian Rupee: Range holds against US Dollar as inflows offset trade drag – DBS",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "short": "DBS economist Radhika Rao observes that strong FCNR (B) swap inflows and higher FX reserves have not translated into significant Rupee gains, with US…",
-      "shortTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
-      "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
-      "expected": "ข่าวจริง · ไม่มี Forecast",
-      "impact": "medium",
-      "direction": "volatile",
-      "directionLabel": "ต้องจับตา",
-      "sourceLabel": "FXStreet",
-      "sourceUrl": "https://www.fxstreet.com/news/indian-rupee-range-holds-against-us-dollar-as-inflows-offset-trade-drag-dbs-202608250902"
     }
   ],
   "news": [
     {
       "icon": "↗",
       "label": "FXStreet",
+      "title": "Gold Price Forecast: XAU/USD holds onto early losses near $4,630, US Yields plunge",
+      "titleTh": "ข่าวทองคำและปัจจัยที่อาจทำให้ XAUUSD เคลื่อนไหว",
+      "body": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
+      "bodyTh": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
+      "tone": "ต้องจับตา",
+      "time": "13 นาทีที่แล้ว",
+      "image": "https://editorial.fxsstatic.com/images/i/Commodities_Gold-2.jpg",
+      "source": "FXStreet",
+      "sourceUrl": "https://www.fxstreet.com/news/gold-price-forecast-xau-usd-holds-onto-early-losses-near-4-630-us-yields-plunge-202608251022",
+      "publishedAt": "2026-08-25T10:22:26.000Z",
+      "direction": "volatile",
+      "impact": "high"
+    },
+    {
+      "icon": "◌",
+      "label": "FXStreet",
       "title": "Silver price today: Silver falls, according to FXStreet data",
       "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
       "body": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "bodyTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "tone": "ต้องจับตา",
-      "time": "7 นาทีที่แล้ว",
+      "time": "1 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/Silver3.png",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/silver-price-today-silver-falls-according-to-fxstreet-data-202608250931",
@@ -182,14 +198,14 @@
       "impact": "medium"
     },
     {
-      "icon": "◌",
+      "icon": "◍",
       "label": "FXStreet",
       "title": "Canadian Dollar: Tariff risks cloud outlook – Commerzbank",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "tone": "ต้องจับตา",
-      "time": "7 นาทีที่แล้ว",
+      "time": "1 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/currency-cad.jpg",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/canadian-dollar-tariff-risks-cloud-outlook-commerzbank-202608250931",
@@ -198,14 +214,14 @@
       "impact": "high"
     },
     {
-      "icon": "◍",
+      "icon": "≋",
       "label": "FXStreet",
       "title": "Japanese Yen: Range trade within 157.90 and 159.80 against US Dollar – UOB",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "bodyTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "tone": "ต้องจับตา",
-      "time": "21 นาทีที่แล้ว",
+      "time": "1 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/usd-jpy-01.jpg",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/japanese-yen-range-trade-within-15790-and-15980-against-us-dollar-uob-202608250917",
@@ -214,14 +230,14 @@
       "impact": "medium"
     },
     {
-      "icon": "≋",
+      "icon": "↗",
       "label": "MarketWatch",
       "title": "He once mentored Scott Bessent. Now Stanley Druckenmiller is criticizing the treasury secretary.",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
       "bodyTh": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
       "tone": "ต้องจับตา",
-      "time": "21 นาทีที่แล้ว",
+      "time": "1 ชั่วโมงที่แล้ว",
       "image": "https://images.mktw.net/im-336694",
       "source": "MarketWatch",
       "sourceUrl": "https://www.marketwatch.com/story/he-once-mentored-scott-bessent-now-stanley-druckenmiller-is-criticizing-the-treasury-secretary-c229d410?mod=mw_rss_topstories",
@@ -230,14 +246,14 @@
       "impact": "medium"
     },
     {
-      "icon": "↗",
+      "icon": "◌",
       "label": "FXStreet",
       "title": "Silver Price Forecast: XAG/USD faces rejection near $70.00 as upside momentum fades",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "bodyTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "tone": "ต้องจับตา",
-      "time": "34 นาทีที่แล้ว",
+      "time": "2 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/discover-54.png",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-faces-rejection-near-7000-as-upside-momentum-fades-202608250904",
@@ -246,14 +262,14 @@
       "impact": "medium"
     },
     {
-      "icon": "◌",
+      "icon": "◍",
       "label": "FXStreet",
       "title": "Indian Rupee: Range holds against US Dollar as inflows offset trade drag – DBS",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "bodyTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "tone": "ต้องจับตา",
-      "time": "35 นาทีที่แล้ว",
+      "time": "2 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/discover-45.png",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/indian-rupee-range-holds-against-us-dollar-as-inflows-offset-trade-drag-dbs-202608250902",
@@ -262,36 +278,20 @@
       "impact": "medium"
     },
     {
-      "icon": "◍",
+      "icon": "≋",
       "label": "FXStreet",
       "title": "Australian Dollar: CPI keeps RBA on hold bias – ING",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "tone": "กดดันทอง",
-      "time": "50 นาทีที่แล้ว",
+      "time": "2 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/discover-70.png",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/australian-dollar-cpi-keeps-rba-on-hold-bias-ing-202608250848",
       "publishedAt": "2026-08-25T08:48:22.000Z",
       "direction": "bearish",
       "impact": "high"
-    },
-    {
-      "icon": "≋",
-      "label": "FXStreet",
-      "title": "Euro holds gains against Canadian Dollar on upbeat German IFO data",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "body": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
-      "bodyTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
-      "tone": "ต้องจับตา",
-      "time": "1 ชั่วโมงที่แล้ว",
-      "image": "https://editorial.fxsstatic.com/images/i/CAD-bullish-animal.png",
-      "source": "FXStreet",
-      "sourceUrl": "https://www.fxstreet.com/news/euro-holds-gains-against-canadian-dollar-on-upbeat-german-ifo-data-202608250830",
-      "publishedAt": "2026-08-25T08:30:12.000Z",
-      "direction": "volatile",
-      "impact": "medium"
     }
   ],
   "feedStatus": [
