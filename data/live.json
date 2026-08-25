@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-08-25T19:33:57.996Z",
+  "generatedAt": "2026-08-25T20:32:00.517Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 4662.5,
+    "price": 4663.200195,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-08-25T19:33:57.996Z",
+    "asOf": "2026-08-25T20:32:00.517Z",
     "stale": false
   },
   "drivers": {
@@ -21,16 +21,16 @@
       "sourceUrl": "https://fred.stlouisfed.org/series/DTWEXBGS"
     },
     "yield10y": {
-      "value": 4.74,
-      "previousValue": 4.69,
-      "change": 0.04999999999999982,
-      "date": "2026-08-21",
+      "value": 4.7,
+      "previousValue": 4.74,
+      "change": -0.040000000000000036,
+      "date": "2026-08-24",
       "label": "US 10Y · FRED",
       "sourceUrl": "https://fred.stlouisfed.org/series/DGS10"
     }
   },
   "analyst": {
-    "score": 59,
+    "score": 80,
     "direction": "bullish",
     "label": "บวกเล็กน้อย",
     "note": "คะแนนคำนวณจากข้อมูลตลาดรายวันและข่าวที่ดึงได้ ไม่ใช่คำแนะนำซื้อขาย",
@@ -43,17 +43,17 @@
         "note": "118.06 · เปลี่ยนแปลง -0.19"
       },
       {
-        "mark": "−",
-        "tone": "negative",
-        "title": "ยีลด์ 10Y สูงขึ้น",
+        "mark": "+",
+        "tone": "positive",
+        "title": "ยีลด์ 10Y ลดลง",
         "source": "FRED",
-        "note": "4.74% · เปลี่ยนแปลง +0.05"
+        "note": "4.70% · เปลี่ยนแปลง -0.04"
       },
       {
         "mark": "!",
         "tone": "mixed",
         "title": "ข่าวล่าสุดยังต้องยืนยันด้วยราคา",
-        "source": "MarketWatch",
+        "source": "FXStreet",
         "note": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง"
       }
     ],
@@ -74,8 +74,38 @@
   },
   "events": [
     {
+      "time": "02:54",
+      "date": "FXStreet · 38 นาทีที่แล้ว",
+      "title": "US Treasury yields fall as Hormuz progress eases inflation fears",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "short": "US yields edge lower across the whole curve on Tuesday, following suit.",
+      "shortTh": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
+      "why": "เนื้อหานี้มีปัจจัยที่มักช่วยหนุนทอง เช่น ความเสี่ยง ดอลลาร์อ่อน หรือยีลด์ลดลง ควรดูการยืนยันจากราคาและข้อมูลต้นทางประกอบ",
+      "expected": "ข่าวจริง · ไม่มี Forecast",
+      "impact": "high",
+      "direction": "bullish",
+      "directionLabel": "หนุนทอง",
+      "sourceLabel": "FXStreet",
+      "sourceUrl": "https://www.fxstreet.com/news/us-treasury-yields-fall-as-hormuz-progress-eases-inflation-fears-202608251954"
+    },
+    {
+      "time": "02:54",
+      "date": "FXStreet · 38 นาทีที่แล้ว",
+      "title": "South Korean Won: Strength backed by tech flows against US Dollar – Societe Generale",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "short": "Societe Generale analysts highlight that the Korean Won (KRW) has gained 12% versus the Dollar year-to-date, with USD/KRW falling from around 1560 in…",
+      "shortTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
+      "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
+      "expected": "ข่าวจริง · ไม่มี Forecast",
+      "impact": "medium",
+      "direction": "volatile",
+      "directionLabel": "ต้องจับตา",
+      "sourceLabel": "FXStreet",
+      "sourceUrl": "https://www.fxstreet.com/news/south-korean-won-strength-backed-by-tech-flows-against-us-dollar-societe-generale-202608251954"
+    },
+    {
       "time": "02:24",
-      "date": "MarketWatch · 10 นาทีที่แล้ว",
+      "date": "MarketWatch · 1 ชั่วโมงที่แล้ว",
       "title": "U.S.-Canada trade war threatens to worsen inflation for both economies. Neither can afford it.",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "An actual trade war with Canada would undoubtably hurt the smaller neighbor to the north, economists say, but the U.S. wouldn’t escape entirely unsca…",
@@ -90,7 +120,7 @@
     },
     {
       "time": "02:23",
-      "date": "FXStreet · 11 นาทีที่แล้ว",
+      "date": "FXStreet · 1 ชั่วโมงที่แล้ว",
       "title": "Chinese Yuan: Trade risks limit gains against US Dollar – OCBC",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "OCBC’s Sim Moh Siong and Christopher Wong note that reports of potential US tariffs on Chinese goods and the PBoC’s resistance to rapid Renminbi (RMB…",
@@ -105,7 +135,7 @@
     },
     {
       "time": "01:53",
-      "date": "FXStreet · 40 นาทีที่แล้ว",
+      "date": "FXStreet · 2 ชั่วโมงที่แล้ว",
       "title": "The US Dollar Index stops paying for hawks who cannot vote",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "A non-voting regional Federal Reserve president published a conditional hold on Tuesday, tying the current target range to continued evidence that in…",
@@ -120,7 +150,7 @@
     },
     {
       "time": "01:43",
-      "date": "FXStreet · 50 นาทีที่แล้ว",
+      "date": "FXStreet · 2 ชั่วโมงที่แล้ว",
       "title": "Forex Today: US Dollar stays on the back foot ahead of PCE",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "The US Dollar Index (DXY) is hovering below the 99.00 mark as traders squared positions ahead of a heavy Wednesday data slate and Federal Reserve (Fe…",
@@ -132,48 +162,50 @@
       "directionLabel": "หนุนทอง",
       "sourceLabel": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/forex-today-us-dollar-stays-on-the-back-foot-ahead-of-pce-202608251843"
-    },
-    {
-      "time": "01:39",
-      "date": "FXStreet · 55 นาทีที่แล้ว",
-      "title": "Singapore Dollar: Upside momentum eases against US Dollar – UOB",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "short": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann note that USD/SGD remains under mild downward pressure but short-term momentum is flat, k…",
-      "shortTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
-      "why": "เนื้อหานี้มีปัจจัยที่มักช่วยหนุนทอง เช่น ความเสี่ยง ดอลลาร์อ่อน หรือยีลด์ลดลง ควรดูการยืนยันจากราคาและข้อมูลต้นทางประกอบ",
-      "expected": "ข่าวจริง · ไม่มี Forecast",
-      "impact": "high",
-      "direction": "bullish",
-      "directionLabel": "หนุนทอง",
-      "sourceLabel": "FXStreet",
-      "sourceUrl": "https://www.fxstreet.com/news/singapore-dollar-upside-momentum-eases-against-us-dollar-uob-202608251839"
-    },
-    {
-      "time": "01:31",
-      "date": "FXStreet · 1 ชั่วโมงที่แล้ว",
-      "title": "Silver Price Forecast: XAG/USD reclaims 100-day SMA, eyes $70",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "short": "Silver price registers modest gains on Tuesday, after briefly breaching the 100-day Simple Moving Average (SMA) at $68.38, pushing the white metal to…",
-      "shortTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
-      "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
-      "expected": "ข่าวจริง · ไม่มี Forecast",
-      "impact": "medium",
-      "direction": "volatile",
-      "directionLabel": "ต้องจับตา",
-      "sourceLabel": "FXStreet",
-      "sourceUrl": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-reclaims-100-day-sma-eyes-70-202608251831"
     }
   ],
   "news": [
     {
       "icon": "↗",
+      "label": "FXStreet",
+      "title": "US Treasury yields fall as Hormuz progress eases inflation fears",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "body": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
+      "bodyTh": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
+      "tone": "หนุนทอง",
+      "time": "38 นาทีที่แล้ว",
+      "image": "https://editorial.fxsstatic.com/images/i/DXY-bearish-line.png",
+      "source": "FXStreet",
+      "sourceUrl": "https://www.fxstreet.com/news/us-treasury-yields-fall-as-hormuz-progress-eases-inflation-fears-202608251954",
+      "publishedAt": "2026-08-25T19:54:06.000Z",
+      "direction": "bullish",
+      "impact": "high"
+    },
+    {
+      "icon": "◌",
+      "label": "FXStreet",
+      "title": "South Korean Won: Strength backed by tech flows against US Dollar – Societe Generale",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "body": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
+      "bodyTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
+      "tone": "ต้องจับตา",
+      "time": "38 นาทีที่แล้ว",
+      "image": "https://editorial.fxsstatic.com/images/i/AsiaFX3-18326.png",
+      "source": "FXStreet",
+      "sourceUrl": "https://www.fxstreet.com/news/south-korean-won-strength-backed-by-tech-flows-against-us-dollar-societe-generale-202608251954",
+      "publishedAt": "2026-08-25T19:54:00.000Z",
+      "direction": "volatile",
+      "impact": "medium"
+    },
+    {
+      "icon": "◍",
       "label": "MarketWatch",
       "title": "U.S.-Canada trade war threatens to worsen inflation for both economies. Neither can afford it.",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "tone": "หนุนทอง",
-      "time": "10 นาทีที่แล้ว",
+      "time": "1 ชั่วโมงที่แล้ว",
       "image": "https://images.mktw.net/im-81435918",
       "source": "MarketWatch",
       "sourceUrl": "https://www.marketwatch.com/story/u-s-canada-trade-war-threatens-to-worsen-inflation-for-both-economies-neither-can-afford-it-bd797506?mod=mw_rss_topstories",
@@ -182,14 +214,14 @@
       "impact": "high"
     },
     {
-      "icon": "◌",
+      "icon": "≋",
       "label": "FXStreet",
       "title": "Chinese Yuan: Trade risks limit gains against US Dollar – OCBC",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "tone": "ต้องจับตา",
-      "time": "11 นาทีที่แล้ว",
+      "time": "1 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/usd-cnh-02.jpg",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/chinese-yuan-trade-risks-limit-gains-against-us-dollar-ocbc-202608251923",
@@ -198,14 +230,14 @@
       "impact": "high"
     },
     {
-      "icon": "◍",
+      "icon": "↗",
       "label": "FXStreet",
       "title": "The US Dollar Index stops paying for hawks who cannot vote",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "tone": "ต้องจับตา",
-      "time": "40 นาทีที่แล้ว",
+      "time": "2 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/DXY-neutral-object-1.png",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/the-us-dollar-index-stops-paying-for-hawks-who-cannot-vote-202608251853",
@@ -214,14 +246,14 @@
       "impact": "high"
     },
     {
-      "icon": "≋",
+      "icon": "◌",
       "label": "FXStreet",
       "title": "Forex Today: US Dollar stays on the back foot ahead of PCE",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "tone": "หนุนทอง",
-      "time": "50 นาทีที่แล้ว",
+      "time": "2 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/Federal-Reserve-Building_3.png",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/forex-today-us-dollar-stays-on-the-back-foot-ahead-of-pce-202608251843",
@@ -230,14 +262,14 @@
       "impact": "high"
     },
     {
-      "icon": "↗",
+      "icon": "◍",
       "label": "FXStreet",
       "title": "Singapore Dollar: Upside momentum eases against US Dollar – UOB",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "tone": "หนุนทอง",
-      "time": "55 นาทีที่แล้ว",
+      "time": "2 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/Singapore2-18326.png",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/singapore-dollar-upside-momentum-eases-against-us-dollar-uob-202608251839",
@@ -246,52 +278,20 @@
       "impact": "high"
     },
     {
-      "icon": "◌",
+      "icon": "≋",
       "label": "FXStreet",
       "title": "Silver Price Forecast: XAG/USD reclaims 100-day SMA, eyes $70",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "bodyTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "tone": "ต้องจับตา",
-      "time": "1 ชั่วโมงที่แล้ว",
+      "time": "2 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/Silver4.png",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-reclaims-100-day-sma-eyes-70-202608251831",
       "publishedAt": "2026-08-25T18:31:57.000Z",
       "direction": "volatile",
       "impact": "medium"
-    },
-    {
-      "icon": "◍",
-      "label": "FXStreet",
-      "title": "Gold pulls back from $4,700 as Hormuz hopes cool haven demand",
-      "titleTh": "ข่าวทองคำและปัจจัยที่อาจทำให้ XAUUSD เคลื่อนไหว",
-      "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
-      "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
-      "tone": "หนุนทอง",
-      "time": "1 ชั่วโมงที่แล้ว",
-      "image": "https://editorial.fxsstatic.com/images/i/discover-51.png",
-      "source": "FXStreet",
-      "sourceUrl": "https://www.fxstreet.com/news/gold-pulls-back-from-4-700-as-hormuz-hopes-cool-haven-demand-202608251814",
-      "publishedAt": "2026-08-25T18:14:14.000Z",
-      "direction": "bullish",
-      "impact": "high"
-    },
-    {
-      "icon": "≋",
-      "label": "FXStreet",
-      "title": "USD/CAD Price Forecast: Bearish indicators keep the path tilted lower",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
-      "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
-      "tone": "ต้องจับตา",
-      "time": "2 ชั่วโมงที่แล้ว",
-      "image": "https://editorial.fxsstatic.com/images/i/USDCAD-bearish-animal.png",
-      "source": "FXStreet",
-      "sourceUrl": "https://www.fxstreet.com/news/usd-cad-price-forecast-bearish-indicators-keep-the-path-tilted-lower-202608251756",
-      "publishedAt": "2026-08-25T17:56:36.000Z",
-      "direction": "volatile",
-      "impact": "high"
     }
   ],
   "feedStatus": [
