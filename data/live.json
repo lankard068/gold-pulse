@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-08-25T22:30:06.244Z",
+  "generatedAt": "2026-08-25T22:58:44.943Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 4667.700195,
+    "price": 4674.100098,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-08-25T22:30:06.244Z",
+    "asOf": "2026-08-25T22:58:44.943Z",
     "stale": false
   },
   "drivers": {
@@ -30,7 +30,7 @@
     }
   },
   "analyst": {
-    "score": 77,
+    "score": 74,
     "direction": "bullish",
     "label": "บวกเล็กน้อย",
     "note": "คะแนนคำนวณจากข้อมูลตลาดรายวันและข่าวที่ดึงได้ ไม่ใช่คำแนะนำซื้อขาย",
@@ -74,8 +74,38 @@
   },
   "events": [
     {
+      "time": "05:37",
+      "date": "FXStreet · 22 นาทีที่แล้ว",
+      "title": "Singapore Dollar: Consolidation risk after recent gains against US Dollar – OCBC",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "short": "OCBC’s Sim Moh Siong and Christopher Wong expect USD/SGD to consolidate as earlier Singapore Dollar (SGD) gains face a modest US Dollar (USD) rebound…",
+      "shortTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
+      "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
+      "expected": "ข่าวจริง · ไม่มี Forecast",
+      "impact": "medium",
+      "direction": "volatile",
+      "directionLabel": "ต้องจับตา",
+      "sourceLabel": "FXStreet",
+      "sourceUrl": "https://www.fxstreet.com/news/singapore-dollar-consolidation-risk-after-recent-gains-against-us-dollar-ocbc-202608252237"
+    },
+    {
+      "time": "05:30",
+      "date": "FXStreet · 29 นาทีที่แล้ว",
+      "title": "Australia CPI expected to show inflation easing in July",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "short": "The Australian Bureau of Statistics (ABS) will publish the July Consumer Price Index (CPI) on Wednesday at 01:30 GMT. The report is expected to show…",
+      "shortTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
+      "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
+      "expected": "ข่าวจริง · ไม่มี Forecast",
+      "impact": "high",
+      "direction": "volatile",
+      "directionLabel": "ต้องจับตา",
+      "sourceLabel": "FXStreet",
+      "sourceUrl": "https://www.fxstreet.com/news/australia-cpi-expected-to-show-inflation-easing-in-july-202608252230"
+    },
+    {
       "time": "04:54",
-      "date": "FXStreet · 36 นาทีที่แล้ว",
+      "date": "FXStreet · 1 ชั่วโมงที่แล้ว",
       "title": "Thai Baht: Bullish bias against US Dollar faces BoT sensitivity – OCBC",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "OCBC’s Sim Moh Siong and Christopher Wong highlight that Thai Baht (THB) has rallied to a two‑month high on softer US Dollar (USD), lower Oil prices,…",
@@ -90,7 +120,7 @@
     },
     {
       "time": "04:21",
-      "date": "FXStreet · 1 ชั่วโมงที่แล้ว",
+      "date": "FXStreet · 2 ชั่วโมงที่แล้ว",
       "title": "Chinese Yuan: Bullish bias with focus on 6.7000 against US Dollar – UOB",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann maintain a negative stance on USD/CNH, noting a softened underlying tone even as recent p…",
@@ -132,48 +162,50 @@
       "directionLabel": "ต้องจับตา",
       "sourceLabel": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/singapore-dollar-range-bound-consolidation-outlook-against-us-dollar-commerzbank-202608252040"
-    },
-    {
-      "time": "02:54",
-      "date": "FXStreet · 3 ชั่วโมงที่แล้ว",
-      "title": "US Treasury yields fall as Hormuz progress eases inflation fears",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "short": "US yields edge lower across the whole curve on Tuesday, following suit.",
-      "shortTh": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
-      "why": "เนื้อหานี้มีปัจจัยที่มักช่วยหนุนทอง เช่น ความเสี่ยง ดอลลาร์อ่อน หรือยีลด์ลดลง ควรดูการยืนยันจากราคาและข้อมูลต้นทางประกอบ",
-      "expected": "ข่าวจริง · ไม่มี Forecast",
-      "impact": "high",
-      "direction": "bullish",
-      "directionLabel": "หนุนทอง",
-      "sourceLabel": "FXStreet",
-      "sourceUrl": "https://www.fxstreet.com/news/us-treasury-yields-fall-as-hormuz-progress-eases-inflation-fears-202608251954"
-    },
-    {
-      "time": "02:54",
-      "date": "FXStreet · 3 ชั่วโมงที่แล้ว",
-      "title": "South Korean Won: Strength backed by tech flows against US Dollar – Societe Generale",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "short": "Societe Generale analysts highlight that the Korean Won (KRW) has gained 12% versus the Dollar year-to-date, with USD/KRW falling from around 1560 in…",
-      "shortTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
-      "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
-      "expected": "ข่าวจริง · ไม่มี Forecast",
-      "impact": "medium",
-      "direction": "volatile",
-      "directionLabel": "ต้องจับตา",
-      "sourceLabel": "FXStreet",
-      "sourceUrl": "https://www.fxstreet.com/news/south-korean-won-strength-backed-by-tech-flows-against-us-dollar-societe-generale-202608251954"
     }
   ],
   "news": [
     {
       "icon": "↗",
       "label": "FXStreet",
+      "title": "Singapore Dollar: Consolidation risk after recent gains against US Dollar – OCBC",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "body": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
+      "bodyTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
+      "tone": "ต้องจับตา",
+      "time": "22 นาทีที่แล้ว",
+      "image": "https://editorial.fxsstatic.com/images/i/Singapore3-18326.png",
+      "source": "FXStreet",
+      "sourceUrl": "https://www.fxstreet.com/news/singapore-dollar-consolidation-risk-after-recent-gains-against-us-dollar-ocbc-202608252237",
+      "publishedAt": "2026-08-25T22:37:00.000Z",
+      "direction": "volatile",
+      "impact": "medium"
+    },
+    {
+      "icon": "◌",
+      "label": "FXStreet",
+      "title": "Australia CPI expected to show inflation easing in July",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
+      "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
+      "tone": "ต้องจับตา",
+      "time": "29 นาทีที่แล้ว",
+      "image": "https://editorial.fxsstatic.com/images/i/cpi-basic-products.png",
+      "source": "FXStreet",
+      "sourceUrl": "https://www.fxstreet.com/news/australia-cpi-expected-to-show-inflation-easing-in-july-202608252230",
+      "publishedAt": "2026-08-25T22:30:00.000Z",
+      "direction": "volatile",
+      "impact": "high"
+    },
+    {
+      "icon": "◍",
+      "label": "FXStreet",
       "title": "Thai Baht: Bullish bias against US Dollar faces BoT sensitivity – OCBC",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "bodyTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "tone": "ต้องจับตา",
-      "time": "36 นาทีที่แล้ว",
+      "time": "1 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/Thailand2-18326.png",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/thai-baht-bullish-bias-against-us-dollar-faces-bot-sensitivity-ocbc-202608252154",
@@ -182,14 +214,14 @@
       "impact": "medium"
     },
     {
-      "icon": "◌",
+      "icon": "≋",
       "label": "FXStreet",
       "title": "Chinese Yuan: Bullish bias with focus on 6.7000 against US Dollar – UOB",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "bodyTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "tone": "ต้องจับตา",
-      "time": "1 ชั่วโมงที่แล้ว",
+      "time": "2 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/usd-cnh-01.jpg",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/chinese-yuan-bullish-bias-with-focus-on-67000-against-us-dollar-uob-202608252121",
@@ -198,7 +230,7 @@
       "impact": "medium"
     },
     {
-      "icon": "◍",
+      "icon": "↗",
       "label": "FXStreet",
       "title": "New Zealand Dollar climbs to fresh highs amid timid US Dollar",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -214,7 +246,7 @@
       "impact": "medium"
     },
     {
-      "icon": "≋",
+      "icon": "◌",
       "label": "FXStreet",
       "title": "Singapore Dollar: Range-bound consolidation outlook against US Dollar – Commerzbank",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -230,7 +262,7 @@
       "impact": "medium"
     },
     {
-      "icon": "↗",
+      "icon": "◍",
       "label": "FXStreet",
       "title": "US Treasury yields fall as Hormuz progress eases inflation fears",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -246,7 +278,7 @@
       "impact": "high"
     },
     {
-      "icon": "◌",
+      "icon": "≋",
       "label": "FXStreet",
       "title": "South Korean Won: Strength backed by tech flows against US Dollar – Societe Generale",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -260,38 +292,6 @@
       "publishedAt": "2026-08-25T19:54:00.000Z",
       "direction": "volatile",
       "impact": "medium"
-    },
-    {
-      "icon": "◍",
-      "label": "FXStreet",
-      "title": "Chinese Yuan: Trade risks limit gains against US Dollar – OCBC",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
-      "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
-      "tone": "ต้องจับตา",
-      "time": "3 ชั่วโมงที่แล้ว",
-      "image": "https://editorial.fxsstatic.com/images/i/usd-cnh-02.jpg",
-      "source": "FXStreet",
-      "sourceUrl": "https://www.fxstreet.com/news/chinese-yuan-trade-risks-limit-gains-against-us-dollar-ocbc-202608251923",
-      "publishedAt": "2026-08-25T19:23:00.000Z",
-      "direction": "volatile",
-      "impact": "high"
-    },
-    {
-      "icon": "≋",
-      "label": "FXStreet",
-      "title": "The US Dollar Index stops paying for hawks who cannot vote",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
-      "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
-      "tone": "ต้องจับตา",
-      "time": "4 ชั่วโมงที่แล้ว",
-      "image": "https://editorial.fxsstatic.com/images/i/DXY-neutral-object-1.png",
-      "source": "FXStreet",
-      "sourceUrl": "https://www.fxstreet.com/news/the-us-dollar-index-stops-paying-for-hawks-who-cannot-vote-202608251853",
-      "publishedAt": "2026-08-25T18:53:53.000Z",
-      "direction": "volatile",
-      "impact": "high"
     }
   ],
   "feedStatus": [
