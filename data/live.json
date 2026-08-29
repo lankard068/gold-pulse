@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-08-29T08:45:08.421Z",
+  "generatedAt": "2026-08-29T14:14:14.412Z",
   "quote": {
     "symbol": "XAUUSD",
     "price": 4456.399902,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-08-29T08:45:08.421Z",
+    "asOf": "2026-08-29T14:14:14.412Z",
     "stale": false
   },
   "drivers": {
@@ -75,7 +75,7 @@
   "events": [
     {
       "time": "06:41",
-      "date": "FXStreet · 9 ชั่วโมงที่แล้ว",
+      "date": "FXStreet · 15 ชั่วโมงที่แล้ว",
       "title": "South Korean Won: BoK tightening supports KRW against US Dollar – Commerzbank",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "Commerzbank’s Charlie Lay reports that the Bank of Korea (BoK) delivered a second consecutive 25 bp hike to 3.0% and kept a tightening bias, supporti…",
@@ -90,7 +90,7 @@
     },
     {
       "time": "04:56",
-      "date": "FXStreet · 11 ชั่วโมงที่แล้ว",
+      "date": "FXStreet · 16 ชั่วโมงที่แล้ว",
       "title": "Philippine Peso: BSP tightening bias on inflation risks – DBS",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "DBS Group Research economists Radhika Rao and Chua Han Teng note that Bangko Sentral ng Pilipinas (BSP) raised its policy rate by 25 bps to 5.0% to a…",
@@ -105,7 +105,7 @@
     },
     {
       "time": "03:24",
-      "date": "FXStreet · 12 ชั่วโมงที่แล้ว",
+      "date": "FXStreet · 18 ชั่วโมงที่แล้ว",
       "title": "Mexican Peso tumbles as Warsh embarks on inflation fight",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "The Mexican Peso (MXN) depreciates against the US Dollar (USD) on Friday, down by over 0.42% on hawkish remarks by Federal Reserve (Fed) Chair Kevin…",
@@ -119,23 +119,8 @@
       "sourceUrl": "https://www.fxstreet.com/news/mexican-peso-tumbles-as-warsh-embarks-on-inflation-fight-202608282024"
     },
     {
-      "time": "03:10",
-      "date": "MarketWatch · 13 ชั่วโมงที่แล้ว",
-      "title": "Kevin Warsh gets what every Fed chair hopes for: a bond market that trusts his word",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "short": "Kevin Warsh passed another big test as a new Federal Reserve chairman on Friday: He said the central bank still has work to do on inflation, and the…",
-      "shortTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
-      "why": "เนื้อหานี้มีปัจจัยที่มักช่วยหนุนทอง เช่น ความเสี่ยง ดอลลาร์อ่อน หรือยีลด์ลดลง ควรดูการยืนยันจากราคาและข้อมูลต้นทางประกอบ",
-      "expected": "ข่าวจริง · ไม่มี Forecast",
-      "impact": "high",
-      "direction": "bullish",
-      "directionLabel": "หนุนทอง",
-      "sourceLabel": "MarketWatch",
-      "sourceUrl": "https://www.marketwatch.com/story/kevin-warsh-gets-what-every-fed-chair-hopes-for-a-bond-market-that-trust-his-words-5103dad5?mod=mw_rss_topstories"
-    },
-    {
       "time": "01:48",
-      "date": "FXStreet · 14 ชั่วโมงที่แล้ว",
+      "date": "FXStreet · 19 ชั่วโมงที่แล้ว",
       "title": "BoE’s Bailey sees muted inflation effects ahead of policy meeting",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "Bank of England (BoE) Governor Andrew Bailey said on Friday that he doesn’t see significant second-round inflation effects in the UK, in an interview…",
@@ -150,7 +135,7 @@
     },
     {
       "time": "01:23",
-      "date": "FXStreet · 14 ชั่วโมงที่แล้ว",
+      "date": "FXStreet · 20 ชั่วโมงที่แล้ว",
       "title": "Fed’s Goolsbee says inflation is the main issue right now",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "Chicago Federal Reserve (Fed) President Austan Goolsbee commented in a CNBC interview at the Jackson Hole Symposium on Friday that he agreed with Fed…",
@@ -162,6 +147,21 @@
       "directionLabel": "หนุนทอง",
       "sourceLabel": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/feds-goolsbee-says-inflation-is-the-main-issue-right-now-202608281823"
+    },
+    {
+      "time": "23:30",
+      "date": "FXStreet · 22 ชั่วโมงที่แล้ว",
+      "title": "Silver Price Forecast: False breakout and hawkish Fed sink XAG",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "short": "Silver (XAG/USD) price made a U-turn after reaching a two-month high of $71.12 on Friday, then dove below the $69.00 figure as Federal Reserve (Fed)…",
+      "shortTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
+      "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
+      "expected": "ข่าวจริง · ไม่มี Forecast",
+      "impact": "high",
+      "direction": "volatile",
+      "directionLabel": "ต้องจับตา",
+      "sourceLabel": "FXStreet",
+      "sourceUrl": "https://www.fxstreet.com/news/silver-price-forecast-false-breakout-and-hawkish-fed-sinks-xag-202608281630"
     }
   ],
   "news": [
@@ -173,7 +173,7 @@
       "body": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "bodyTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "tone": "ต้องจับตา",
-      "time": "9 ชั่วโมงที่แล้ว",
+      "time": "15 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/AsiaFX-18326.png",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/south-korean-won-bok-tightening-supports-krw-against-us-dollar-commerzbank-202608282341",
@@ -189,7 +189,7 @@
       "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "tone": "ต้องจับตา",
-      "time": "11 ชั่วโมงที่แล้ว",
+      "time": "16 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/Indonesiamap2-18326.png",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/philippine-peso-bsp-tightening-bias-on-inflation-risks-dbs-202608282156",
@@ -205,7 +205,7 @@
       "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "tone": "ต้องจับตา",
-      "time": "12 ชั่วโมงที่แล้ว",
+      "time": "18 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/mexican-peso-bear-01.jpg",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/mexican-peso-tumbles-as-warsh-embarks-on-inflation-fight-202608282024",
@@ -215,29 +215,13 @@
     },
     {
       "icon": "≋",
-      "label": "MarketWatch",
-      "title": "Kevin Warsh gets what every Fed chair hopes for: a bond market that trusts his word",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
-      "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
-      "tone": "หนุนทอง",
-      "time": "13 ชั่วโมงที่แล้ว",
-      "image": "https://images.mktw.net/im-30918507",
-      "source": "MarketWatch",
-      "sourceUrl": "https://www.marketwatch.com/story/kevin-warsh-gets-what-every-fed-chair-hopes-for-a-bond-market-that-trust-his-words-5103dad5?mod=mw_rss_topstories",
-      "publishedAt": "2026-08-28T20:10:00.000Z",
-      "direction": "bullish",
-      "impact": "high"
-    },
-    {
-      "icon": "↗",
       "label": "FXStreet",
       "title": "BoE’s Bailey sees muted inflation effects ahead of policy meeting",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "tone": "ต้องจับตา",
-      "time": "14 ชั่วโมงที่แล้ว",
+      "time": "19 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/Public-Figures_Andrew-Bailey_4.jpg",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/boes-bailey-sees-muted-inflation-effects-ahead-of-boes-meeting-202608281848",
@@ -246,14 +230,14 @@
       "impact": "high"
     },
     {
-      "icon": "◌",
+      "icon": "↗",
       "label": "FXStreet",
       "title": "Fed’s Goolsbee says inflation is the main issue right now",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "tone": "หนุนทอง",
-      "time": "14 ชั่วโมงที่แล้ว",
+      "time": "20 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/Federal-Reserve-Building_3.png",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/feds-goolsbee-says-inflation-is-the-main-issue-right-now-202608281823",
@@ -262,14 +246,14 @@
       "impact": "high"
     },
     {
-      "icon": "◍",
+      "icon": "◌",
       "label": "FXStreet",
       "title": "Silver Price Forecast: False breakout and hawkish Fed sink XAG",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "tone": "ต้องจับตา",
-      "time": "16 ชั่วโมงที่แล้ว",
+      "time": "22 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/discover-54.png",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/silver-price-forecast-false-breakout-and-hawkish-fed-sinks-xag-202608281630",
@@ -278,18 +262,34 @@
       "impact": "high"
     },
     {
-      "icon": "≋",
+      "icon": "◍",
       "label": "FXStreet",
       "title": "Australian Dollar retreats from highs as Warsh’s hawkish message lifts US Dollar",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "tone": "ต้องจับตา",
-      "time": "17 ชั่วโมงที่แล้ว",
+      "time": "22 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/AUDUSD-bearish-animal-1.png",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/australian-dollar-retreats-from-highs-as-warshs-hawkish-message-lifts-us-dollar-202608281603",
       "publishedAt": "2026-08-28T16:03:26.000Z",
+      "direction": "volatile",
+      "impact": "high"
+    },
+    {
+      "icon": "≋",
+      "label": "FXStreet",
+      "title": "Dow Jones Industrial Average round-trips a Fed that promised nothing",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
+      "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
+      "tone": "ต้องจับตา",
+      "time": "22 ชั่วโมงที่แล้ว",
+      "image": "https://editorial.fxsstatic.com/images/i/Equity-Index_DJI-2.jpg",
+      "source": "FXStreet",
+      "sourceUrl": "https://www.fxstreet.com/news/dow-jones-industrial-average-round-trips-a-fed-that-promised-nothing-202608281554",
+      "publishedAt": "2026-08-28T15:54:40.000Z",
       "direction": "volatile",
       "impact": "high"
     }
