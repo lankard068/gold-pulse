@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-09-03T19:22:08.942Z",
+  "generatedAt": "2026-09-03T21:49:45.923Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 4476,
+    "price": 4474.200195,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-09-03T19:22:08.942Z",
+    "asOf": "2026-09-03T21:49:45.923Z",
     "stale": false
   },
   "drivers": {
@@ -22,17 +22,17 @@
     },
     "yield10y": {
       "value": 4.79,
-      "previousValue": 4.75,
-      "change": 0.040000000000000036,
-      "date": "2026-09-01",
+      "previousValue": 4.79,
+      "change": 0,
+      "date": "2026-09-02",
       "label": "US 10Y · FRED",
       "sourceUrl": "https://fred.stlouisfed.org/series/DGS10"
     }
   },
   "analyst": {
-    "score": 29,
-    "direction": "bearish",
-    "label": "ลบเล็กน้อย",
+    "score": 44,
+    "direction": "volatile",
+    "label": "ผันผวน / รอดูข้อมูล",
     "note": "คะแนนคำนวณจากข้อมูลตลาดรายวันและข่าวที่ดึงได้ ไม่ใช่คำแนะนำซื้อขาย",
     "reasons": [
       {
@@ -43,18 +43,18 @@
         "note": "118.75 · เปลี่ยนแปลง +0.39"
       },
       {
-        "mark": "−",
-        "tone": "negative",
-        "title": "ยีลด์ 10Y สูงขึ้น",
+        "mark": "+",
+        "tone": "positive",
+        "title": "ยีลด์ 10Y ลดลง",
         "source": "FRED",
-        "note": "4.79% · เปลี่ยนแปลง +0.04"
+        "note": "4.79% · เปลี่ยนแปลง +0.00"
       },
       {
         "mark": "!",
         "tone": "mixed",
         "title": "ข่าวล่าสุดยังต้องยืนยันด้วยราคา",
-        "source": "MarketWatch",
-        "note": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง"
+        "source": "FXStreet",
+        "note": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง"
       }
     ],
     "sources": [
@@ -74,8 +74,38 @@
   },
   "events": [
     {
+      "time": "02:57",
+      "date": "FXStreet · 2 ชั่วโมงที่แล้ว",
+      "title": "Silver Price Forecast: XAG eyes 100-day SMA after Waller-led rally",
+      "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
+      "short": "Silver (XAG/USD) price advances by some 2.45% on Thursday, boosted by dovish comments from Federal Reserve (Fed) Governor Christopher Waller, which p…",
+      "shortTh": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
+      "why": "เนื้อหานี้มีปัจจัยที่มักช่วยหนุนทอง เช่น ความเสี่ยง ดอลลาร์อ่อน หรือยีลด์ลดลง ควรดูการยืนยันจากราคาและข้อมูลต้นทางประกอบ",
+      "expected": "ข่าวจริง · ไม่มี Forecast",
+      "impact": "high",
+      "direction": "bullish",
+      "directionLabel": "หนุนทอง",
+      "sourceLabel": "FXStreet",
+      "sourceUrl": "https://www.fxstreet.com/news/silver-price-forecast-xag-eyes-100-day-sma-after-waller-rally-202609031957"
+    },
+    {
+      "time": "02:38",
+      "date": "FXStreet · 2 ชั่วโมงที่แล้ว",
+      "title": "Singapore Dollar: Stronger Singapore growth with contained inflation – Commerzbank",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "short": "Commerzbank’s Singapore-based team highlights robust Singapore manufacturing and electronics PMIs, supported by an AI-driven semiconductor cycle, alo…",
+      "shortTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
+      "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
+      "expected": "ข่าวจริง · ไม่มี Forecast",
+      "impact": "high",
+      "direction": "volatile",
+      "directionLabel": "ต้องจับตา",
+      "sourceLabel": "FXStreet",
+      "sourceUrl": "https://www.fxstreet.com/news/singapore-dollar-stronger-singapore-growth-with-contained-inflation-commerzbank-202609031938"
+    },
+    {
       "time": "02:09",
-      "date": "MarketWatch · 13 นาทีที่แล้ว",
+      "date": "MarketWatch · 3 ชั่วโมงที่แล้ว",
       "title": "Wall Street is betting on Fed Chair Kevin Warsh to keep a manic bond market from unraveling",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "The market “needs stability and trust” as a deluge of corporate bond supply is expected in the coming months.",
@@ -90,7 +120,7 @@
     },
     {
       "time": "01:52",
-      "date": "FXStreet · 30 นาทีที่แล้ว",
+      "date": "FXStreet · 3 ชั่วโมงที่แล้ว",
       "title": "Chinese Yuan: Range trade persists against US Dollar – UOB",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "United Overseas Bank (UOB) analysts Quek Ser Leang and Lee Sue Ann see USD/CNH confined to tight ranges in different time frames. For the next 24 hou…",
@@ -105,10 +135,10 @@
     },
     {
       "time": "01:47",
-      "date": "FXStreet · 35 นาทีที่แล้ว",
-      "title": "USD/CHF Price Forecast: 50-day SMA break exposes 0.8040",
+      "date": "FXStreet · 3 ชั่วโมงที่แล้ว",
+      "title": "USD/CHF Price Forecast: Break of 50-day SMA exposes 0.8040",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "short": "The USD/CHF tumbles nearly 0.80% on Thursday as the Greenback weakens on rumours of a potential intervention in the FX markets to boost the Japanese…",
+      "short": "The USD/CHF pair tumbles nearly 0.80% on Thursday as the US Dollar (USD) weakens on rumors of a potential intervention in the FX markets to boost the…",
       "shortTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
       "expected": "ข่าวจริง · ไม่มี Forecast",
@@ -119,23 +149,8 @@
       "sourceUrl": "https://www.fxstreet.com/news/usd-chf-price-forecast-50-day-sma-break-exposes-08040-202609031847"
     },
     {
-      "time": "01:24",
-      "date": "MarketWatch · 58 นาทีที่แล้ว",
-      "title": "New doubts emerge about whether Fed will raise interest rates this month",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "short": "Fed governor Christopher Waller made a strong case for the Fed to hold rates steady.",
-      "shortTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
-      "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
-      "expected": "ข่าวจริง · ไม่มี Forecast",
-      "impact": "high",
-      "direction": "volatile",
-      "directionLabel": "ต้องจับตา",
-      "sourceLabel": "MarketWatch",
-      "sourceUrl": "https://www.marketwatch.com/story/new-doubts-emerge-about-whether-fed-will-raise-interest-rates-this-month-1d23cc12?mod=mw_rss_topstories"
-    },
-    {
       "time": "01:22",
-      "date": "FXStreet · 1 ชั่วโมงที่แล้ว",
+      "date": "FXStreet · 3 ชั่วโมงที่แล้ว",
       "title": "US Dollar extends decline as NFP takes centre stage",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "The US Dollar Index (DXY), which tracks the Greenback’s value against a basket of six major currencies, slides below 99.00 to its lowest level in ove…",
@@ -147,33 +162,50 @@
       "directionLabel": "ต้องจับตา",
       "sourceLabel": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/us-dollar-extends-decline-as-nfp-takes-centre-stage-202609031822"
-    },
-    {
-      "time": "01:20",
-      "date": "FXStreet · 1 ชั่วโมงที่แล้ว",
-      "title": "Gold soars as Waller's dovish tone hurts Fed hike bets ahead of NFP",
-      "titleTh": "ข่าวทองคำและปัจจัยที่อาจทำให้ XAUUSD เคลื่อนไหว",
-      "short": "Gold (XAU/USD) rallies more than 2% on Thursday following dovish comments by Federal Reserve (Fed) Governor Christopher Waller, who advocated holding…",
-      "shortTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
-      "why": "เนื้อหานี้มีปัจจัยที่มักช่วยหนุนทอง เช่น ความเสี่ยง ดอลลาร์อ่อน หรือยีลด์ลดลง ควรดูการยืนยันจากราคาและข้อมูลต้นทางประกอบ",
-      "expected": "ข่าวจริง · ไม่มี Forecast",
-      "impact": "high",
-      "direction": "bullish",
-      "directionLabel": "หนุนทอง",
-      "sourceLabel": "FXStreet",
-      "sourceUrl": "https://www.fxstreet.com/news/gold-soars-as-wallers-dovish-tone-hurts-fed-hike-bets-ahead-of-nfp-202609031820"
     }
   ],
   "news": [
     {
       "icon": "↗",
+      "label": "FXStreet",
+      "title": "Silver Price Forecast: XAG eyes 100-day SMA after Waller-led rally",
+      "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
+      "body": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
+      "bodyTh": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
+      "tone": "หนุนทอง",
+      "time": "2 ชั่วโมงที่แล้ว",
+      "image": "https://editorial.fxsstatic.com/images/i/Silver4.png",
+      "source": "FXStreet",
+      "sourceUrl": "https://www.fxstreet.com/news/silver-price-forecast-xag-eyes-100-day-sma-after-waller-rally-202609031957",
+      "publishedAt": "2026-09-03T19:57:43.000Z",
+      "direction": "bullish",
+      "impact": "high"
+    },
+    {
+      "icon": "◌",
+      "label": "FXStreet",
+      "title": "Singapore Dollar: Stronger Singapore growth with contained inflation – Commerzbank",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
+      "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
+      "tone": "ต้องจับตา",
+      "time": "2 ชั่วโมงที่แล้ว",
+      "image": "https://editorial.fxsstatic.com/images/i/Singapore2-18326.png",
+      "source": "FXStreet",
+      "sourceUrl": "https://www.fxstreet.com/news/singapore-dollar-stronger-singapore-growth-with-contained-inflation-commerzbank-202609031938",
+      "publishedAt": "2026-09-03T19:38:00.000Z",
+      "direction": "volatile",
+      "impact": "high"
+    },
+    {
+      "icon": "◍",
       "label": "MarketWatch",
       "title": "Wall Street is betting on Fed Chair Kevin Warsh to keep a manic bond market from unraveling",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "tone": "หนุนทอง",
-      "time": "13 นาทีที่แล้ว",
+      "time": "3 ชั่วโมงที่แล้ว",
       "image": "https://images.mktw.net/im-06729967",
       "source": "MarketWatch",
       "sourceUrl": "https://www.marketwatch.com/story/wall-street-is-betting-on-fed-chair-kevin-warsh-to-keep-a-manic-bond-market-from-unraveling-03bbd093?mod=mw_rss_topstories",
@@ -182,14 +214,14 @@
       "impact": "high"
     },
     {
-      "icon": "◌",
+      "icon": "≋",
       "label": "FXStreet",
       "title": "Chinese Yuan: Range trade persists against US Dollar – UOB",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "bodyTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "tone": "ต้องจับตา",
-      "time": "30 นาทีที่แล้ว",
+      "time": "3 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/usd-cnh-01.jpg",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/chinese-yuan-range-trade-persists-against-us-dollar-uob-202609031852",
@@ -198,14 +230,14 @@
       "impact": "medium"
     },
     {
-      "icon": "◍",
+      "icon": "↗",
       "label": "FXStreet",
-      "title": "USD/CHF Price Forecast: 50-day SMA break exposes 0.8040",
+      "title": "USD/CHF Price Forecast: Break of 50-day SMA exposes 0.8040",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "bodyTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "tone": "ต้องจับตา",
-      "time": "35 นาทีที่แล้ว",
+      "time": "3 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/USDCHF-bearish-animal.png",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/usd-chf-price-forecast-50-day-sma-break-exposes-08040-202609031847",
@@ -214,30 +246,14 @@
       "impact": "medium"
     },
     {
-      "icon": "≋",
-      "label": "MarketWatch",
-      "title": "New doubts emerge about whether Fed will raise interest rates this month",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
-      "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
-      "tone": "ต้องจับตา",
-      "time": "58 นาทีที่แล้ว",
-      "image": "https://images.mktw.net/im-98261821",
-      "source": "MarketWatch",
-      "sourceUrl": "https://www.marketwatch.com/story/new-doubts-emerge-about-whether-fed-will-raise-interest-rates-this-month-1d23cc12?mod=mw_rss_topstories",
-      "publishedAt": "2026-09-03T18:24:00.000Z",
-      "direction": "volatile",
-      "impact": "high"
-    },
-    {
-      "icon": "↗",
+      "icon": "◌",
       "label": "FXStreet",
       "title": "US Dollar extends decline as NFP takes centre stage",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "bodyTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "tone": "ต้องจับตา",
-      "time": "1 ชั่วโมงที่แล้ว",
+      "time": "3 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/DXY-bearish-object.png",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/us-dollar-extends-decline-as-nfp-takes-centre-stage-202609031822",
@@ -246,14 +262,14 @@
       "impact": "medium"
     },
     {
-      "icon": "◌",
+      "icon": "◍",
       "label": "FXStreet",
       "title": "Gold soars as Waller's dovish tone hurts Fed hike bets ahead of NFP",
       "titleTh": "ข่าวทองคำและปัจจัยที่อาจทำให้ XAUUSD เคลื่อนไหว",
       "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "tone": "หนุนทอง",
-      "time": "1 ชั่วโมงที่แล้ว",
+      "time": "3 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/discover-51.png",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/gold-soars-as-wallers-dovish-tone-hurts-fed-hike-bets-ahead-of-nfp-202609031820",
@@ -262,34 +278,18 @@
       "impact": "high"
     },
     {
-      "icon": "◍",
+      "icon": "≋",
       "label": "FXStreet",
       "title": "BoE’s Pill backs rate hike to 4% to limit inflation catch-up effects",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "tone": "ต้องจับตา",
-      "time": "4 ชั่วโมงที่แล้ว",
+      "time": "6 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/discover-46.jpg",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/boes-pill-backs-rate-hike-to-4-to-limit-inflation-catch-up-effects-202609031544",
       "publishedAt": "2026-09-03T15:44:00.000Z",
-      "direction": "volatile",
-      "impact": "high"
-    },
-    {
-      "icon": "≋",
-      "label": "FXStreet",
-      "title": "British Pound rises as Fed’s Waller tempers hike bets ahead of NFP",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
-      "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
-      "tone": "ต้องจับตา",
-      "time": "4 ชั่วโมงที่แล้ว",
-      "image": "https://editorial.fxsstatic.com/images/i/GBPUSD-bullish-object-1.png",
-      "source": "FXStreet",
-      "sourceUrl": "https://www.fxstreet.com/news/british-pound-rises-as-feds-waller-tempers-fed-hike-bets-before-nfp-202609031541",
-      "publishedAt": "2026-09-03T15:41:36.000Z",
       "direction": "volatile",
       "impact": "high"
     }
