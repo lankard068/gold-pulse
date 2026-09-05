@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-09-05T21:33:22.338Z",
+  "generatedAt": "2026-09-05T23:37:15.540Z",
   "quote": {
     "symbol": "XAUUSD",
     "price": 4431.100098,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-09-05T21:33:22.338Z",
+    "asOf": "2026-09-05T23:37:15.540Z",
     "stale": false
   },
   "drivers": {
@@ -75,7 +75,7 @@
   "events": [
     {
       "time": "05:51",
-      "date": "FXStreet · 23 ชั่วโมงที่แล้ว",
+      "date": "FXStreet · 5 ก.ย.",
       "title": "Malaysian Ringgit: Range-bound risks and key levels against US Dollar – OCBC",
       "titleTh": "ริงกิตมาเลเซียยังได้แรงหนุนจากดอลลาร์สหรัฐฯ ที่อ่อนลงและพื้นฐานเศรษฐกิจแข็งแรง",
       "short": "OCBC’s Christopher Wong notes that Bank Negara Malaysia (BNM) kept the OPR at 2.75% and struck a slightly firmer tone, with growth expected to stay r…",
@@ -173,7 +173,7 @@
       "body": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "bodyTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "tone": "ต้องจับตา",
-      "time": "23 ชั่วโมงที่แล้ว",
+      "time": "5 ก.ย.",
       "image": "https://editorial.fxsstatic.com/images/i/Thailand-18326.png",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/malaysian-ringgit-range-bound-risks-and-key-levels-against-us-dollar-ocbc-202609042251",
