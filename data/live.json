@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-09-05T19:22:23.629Z",
+  "generatedAt": "2026-09-05T21:33:22.338Z",
   "quote": {
     "symbol": "XAUUSD",
     "price": 4431.100098,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-09-05T19:22:23.629Z",
+    "asOf": "2026-09-05T21:33:22.338Z",
     "stale": false
   },
   "drivers": {
@@ -75,7 +75,7 @@
   "events": [
     {
       "time": "05:51",
-      "date": "FXStreet · 21 ชั่วโมงที่แล้ว",
+      "date": "FXStreet · 23 ชั่วโมงที่แล้ว",
       "title": "Malaysian Ringgit: Range-bound risks and key levels against US Dollar – OCBC",
       "titleTh": "ริงกิตมาเลเซียยังได้แรงหนุนจากดอลลาร์สหรัฐฯ ที่อ่อนลงและพื้นฐานเศรษฐกิจแข็งแรง",
       "short": "OCBC’s Christopher Wong notes that Bank Negara Malaysia (BNM) kept the OPR at 2.75% and struck a slightly firmer tone, with growth expected to stay r…",
@@ -90,7 +90,7 @@
     },
     {
       "time": "04:59",
-      "date": "FXStreet · 21 ชั่วโมงที่แล้ว",
+      "date": "FXStreet · 5 ก.ย.",
       "title": "USD/MXN Price Forecast: Peso rally targets April 2024 low",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "The Mexican Peso appreciates against the US Dollar, testing two-year highs near 16.85 as the USD/MXN sets aside a strong US Nonfarm Payrolls report,…",
@@ -105,7 +105,7 @@
     },
     {
       "time": "04:27",
-      "date": "FXStreet · 22 ชั่วโมงที่แล้ว",
+      "date": "FXStreet · 5 ก.ย.",
       "title": "USD/CHF Price Forecast: NFP rally stalls at 0.8100, retraces",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "The USD/CHF registers modest gains of over 0.30% as the Greenback is boosted by a solid US Nonfarm Payrolls report, pushing the pair above the 50-day…",
@@ -173,7 +173,7 @@
       "body": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "bodyTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "tone": "ต้องจับตา",
-      "time": "21 ชั่วโมงที่แล้ว",
+      "time": "23 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/Thailand-18326.png",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/malaysian-ringgit-range-bound-risks-and-key-levels-against-us-dollar-ocbc-202609042251",
@@ -189,7 +189,7 @@
       "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "tone": "ต้องจับตา",
-      "time": "21 ชั่วโมงที่แล้ว",
+      "time": "5 ก.ย.",
       "image": "https://editorial.fxsstatic.com/images/i/MXN-18326.png",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/usd-mxn-price-forecast-peso-rally-targets-april-2024-low-202609042159",
@@ -205,7 +205,7 @@
       "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "tone": "ต้องจับตา",
-      "time": "22 ชั่วโมงที่แล้ว",
+      "time": "5 ก.ย.",
       "image": "https://editorial.fxsstatic.com/images/i/USDCHF-bullish-realistic.png",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/usd-chf-price-forecast-nfp-rally-stalls-at-08100-retraces-202609042127",
