@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-09-06T12:17:25.415Z",
+  "generatedAt": "2026-09-06T15:39:44.431Z",
   "quote": {
     "symbol": "XAUUSD",
     "price": 4431.100098,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-09-06T12:17:25.415Z",
+    "asOf": "2026-09-06T15:39:44.431Z",
     "stale": false
   },
   "drivers": {
@@ -30,7 +30,7 @@
     }
   },
   "analyst": {
-    "score": 53,
+    "score": 56,
     "direction": "volatile",
     "label": "ผันผวน / รอดูข้อมูล",
     "note": "คะแนนคำนวณจากข้อมูลตลาดรายวันและข่าวที่ดึงได้ ไม่ใช่คำแนะนำซื้อขาย",
@@ -53,8 +53,8 @@
         "mark": "!",
         "tone": "mixed",
         "title": "ข่าวล่าสุดยังต้องยืนยันด้วยราคา",
-        "source": "FXStreet",
-        "note": "ริงกิตมาเลเซียยังได้แรงหนุนจากดอลลาร์สหรัฐฯ ที่อ่อนลงและพื้นฐานเศรษฐกิจแข็งแรง"
+        "source": "MarketWatch",
+        "note": "ข่าวทองคำและปัจจัยที่อาจทำให้ XAUUSD เคลื่อนไหว"
       }
     ],
     "sources": [
@@ -73,6 +73,21 @@
     ]
   },
   "events": [
+    {
+      "time": "20:00",
+      "date": "MarketWatch · 3 ชั่วโมงที่แล้ว",
+      "title": "Is the U.S. losing its safe-haven status? Why global central banks are pulling gold out of New York.",
+      "titleTh": "ข่าวทองคำและปัจจัยที่อาจทำให้ XAUUSD เคลื่อนไหว",
+      "short": "What to know about safe havens and the U.S., as the Netherlands’ central bank follows France in pulling gold out of New York.",
+      "shortTh": "ข่าวนี้มีปัจจัยที่อาจช่วยหนุนทอง ควรเปิดอ่านต้นฉบับและดูปฏิกิริยาของราคาเพิ่มเติม",
+      "why": "เนื้อหานี้มีปัจจัยที่มักช่วยหนุนทอง เช่น ความเสี่ยง ดอลลาร์อ่อน หรือยีลด์ลดลง ควรดูการยืนยันจากราคาและข้อมูลต้นทางประกอบ",
+      "expected": "ข่าวจริง · ไม่มี Forecast",
+      "impact": "medium",
+      "direction": "bullish",
+      "directionLabel": "หนุนทอง",
+      "sourceLabel": "MarketWatch",
+      "sourceUrl": "https://www.marketwatch.com/story/is-the-u-s-losing-its-safe-haven-status-why-global-central-banks-are-pulling-gold-out-of-new-york-3e24d510?mod=mw_rss_topstories"
+    },
     {
       "time": "05:51",
       "date": "FXStreet · 5 ก.ย.",
@@ -147,26 +162,27 @@
       "directionLabel": "ต้องจับตา",
       "sourceLabel": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/indian-rupee-dollar-inflows-support-inr-but-impulse-may-fade-ocbc-202609041932"
-    },
-    {
-      "time": "01:50",
-      "date": "FXStreet · 5 ก.ย.",
-      "title": "Eurozone: Inflation above target into 2027 – Nordea",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "short": "Nordea expects Eurozone inflation dynamics to stay persistent, with headline inflation projected above the ECB’s target at least until spring 2027.",
-      "shortTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
-      "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
-      "expected": "ข่าวจริง · ไม่มี Forecast",
-      "impact": "high",
-      "direction": "volatile",
-      "directionLabel": "ต้องจับตา",
-      "sourceLabel": "FXStreet",
-      "sourceUrl": "https://www.fxstreet.com/news/eurozone-inflation-above-target-into-2027-nordea-202609041850"
     }
   ],
   "news": [
     {
       "icon": "↗",
+      "label": "MarketWatch",
+      "title": "Is the U.S. losing its safe-haven status? Why global central banks are pulling gold out of New York.",
+      "titleTh": "ข่าวทองคำและปัจจัยที่อาจทำให้ XAUUSD เคลื่อนไหว",
+      "body": "ข่าวนี้มีปัจจัยที่อาจช่วยหนุนทอง ควรเปิดอ่านต้นฉบับและดูปฏิกิริยาของราคาเพิ่มเติม",
+      "bodyTh": "ข่าวนี้มีปัจจัยที่อาจช่วยหนุนทอง ควรเปิดอ่านต้นฉบับและดูปฏิกิริยาของราคาเพิ่มเติม",
+      "tone": "หนุนทอง",
+      "time": "3 ชั่วโมงที่แล้ว",
+      "image": "https://images.mktw.net/im-31764368",
+      "source": "MarketWatch",
+      "sourceUrl": "https://www.marketwatch.com/story/is-the-u-s-losing-its-safe-haven-status-why-global-central-banks-are-pulling-gold-out-of-new-york-3e24d510?mod=mw_rss_topstories",
+      "publishedAt": "2026-09-06T13:00:00.000Z",
+      "direction": "bullish",
+      "impact": "medium"
+    },
+    {
+      "icon": "◌",
       "label": "FXStreet",
       "title": "Malaysian Ringgit: Range-bound risks and key levels against US Dollar – OCBC",
       "titleTh": "ริงกิตมาเลเซียยังได้แรงหนุนจากดอลลาร์สหรัฐฯ ที่อ่อนลงและพื้นฐานเศรษฐกิจแข็งแรง",
@@ -182,7 +198,7 @@
       "impact": "medium"
     },
     {
-      "icon": "◌",
+      "icon": "◍",
       "label": "FXStreet",
       "title": "USD/MXN Price Forecast: Peso rally targets April 2024 low",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -198,7 +214,7 @@
       "impact": "high"
     },
     {
-      "icon": "◍",
+      "icon": "≋",
       "label": "FXStreet",
       "title": "USD/CHF Price Forecast: NFP rally stalls at 0.8100, retraces",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -214,7 +230,7 @@
       "impact": "high"
     },
     {
-      "icon": "≋",
+      "icon": "↗",
       "label": "FXStreet",
       "title": "Sterling’s rally stalls as US jobs data reopens Fed debate",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -230,7 +246,7 @@
       "impact": "high"
     },
     {
-      "icon": "↗",
+      "icon": "◌",
       "label": "FXStreet",
       "title": "Indian Rupee: Dollar inflows support INR but impulse may fade – OCBC",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -246,7 +262,7 @@
       "impact": "medium"
     },
     {
-      "icon": "◌",
+      "icon": "◍",
       "label": "FXStreet",
       "title": "Eurozone: Inflation above target into 2027 – Nordea",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -262,7 +278,7 @@
       "impact": "high"
     },
     {
-      "icon": "◍",
+      "icon": "≋",
       "label": "FXStreet",
       "title": "Fed’s Hammack says policy is not restrictive enough",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -276,22 +292,6 @@
       "publishedAt": "2026-09-04T18:16:53.000Z",
       "direction": "volatile",
       "impact": "high"
-    },
-    {
-      "icon": "≋",
-      "label": "FXStreet",
-      "title": "Australian Dollar resumes advance as US Dollar loses post-NFP momentum",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "body": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
-      "bodyTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
-      "tone": "ต้องจับตา",
-      "time": "5 ก.ย.",
-      "image": "https://editorial.fxsstatic.com/images/i/aud-usd-02.jpg",
-      "source": "FXStreet",
-      "sourceUrl": "https://www.fxstreet.com/news/australian-dollar-resumes-advance-as-us-dollar-loses-post-nfp-momentum-202609041810",
-      "publishedAt": "2026-09-04T18:10:40.000Z",
-      "direction": "volatile",
-      "impact": "medium"
     }
   ],
   "feedStatus": [
