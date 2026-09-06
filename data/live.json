@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-09-06T15:39:44.431Z",
+  "generatedAt": "2026-09-06T18:06:45.633Z",
   "quote": {
     "symbol": "XAUUSD",
     "price": 4431.100098,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-09-06T15:39:44.431Z",
+    "asOf": "2026-09-06T18:06:45.633Z",
     "stale": false
   },
   "drivers": {
@@ -75,7 +75,7 @@
   "events": [
     {
       "time": "20:00",
-      "date": "MarketWatch · 3 ชั่วโมงที่แล้ว",
+      "date": "MarketWatch · 5 ชั่วโมงที่แล้ว",
       "title": "Is the U.S. losing its safe-haven status? Why global central banks are pulling gold out of New York.",
       "titleTh": "ข่าวทองคำและปัจจัยที่อาจทำให้ XAUUSD เคลื่อนไหว",
       "short": "What to know about safe havens and the U.S., as the Netherlands’ central bank follows France in pulling gold out of New York.",
@@ -173,7 +173,7 @@
       "body": "ข่าวนี้มีปัจจัยที่อาจช่วยหนุนทอง ควรเปิดอ่านต้นฉบับและดูปฏิกิริยาของราคาเพิ่มเติม",
       "bodyTh": "ข่าวนี้มีปัจจัยที่อาจช่วยหนุนทอง ควรเปิดอ่านต้นฉบับและดูปฏิกิริยาของราคาเพิ่มเติม",
       "tone": "หนุนทอง",
-      "time": "3 ชั่วโมงที่แล้ว",
+      "time": "5 ชั่วโมงที่แล้ว",
       "image": "https://images.mktw.net/im-31764368",
       "source": "MarketWatch",
       "sourceUrl": "https://www.marketwatch.com/story/is-the-u-s-losing-its-safe-haven-status-why-global-central-banks-are-pulling-gold-out-of-new-york-3e24d510?mod=mw_rss_topstories",
