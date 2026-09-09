@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-09-09T21:51:17.223Z",
+  "generatedAt": "2026-09-09T23:53:37.181Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 4402.799805,
+    "price": 4395.600098,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-09-09T21:51:17.223Z",
+    "asOf": "2026-09-09T23:53:37.181Z",
     "stale": false
   },
   "drivers": {
@@ -30,7 +30,7 @@
     }
   },
   "analyst": {
-    "score": 50,
+    "score": 53,
     "direction": "volatile",
     "label": "ผันผวน / รอดูข้อมูล",
     "note": "คะแนนคำนวณจากข้อมูลตลาดรายวันและข่าวที่ดึงได้ ไม่ใช่คำแนะนำซื้อขาย",
@@ -54,7 +54,7 @@
         "tone": "mixed",
         "title": "ข่าวล่าสุดยังต้องยืนยันด้วยราคา",
         "source": "FXStreet",
-        "note": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง"
+        "note": "ข่าวทองคำและปัจจัยที่อาจทำให้ XAUUSD เคลื่อนไหว"
       }
     ],
     "sources": [
@@ -74,8 +74,23 @@
   },
   "events": [
     {
+      "time": "06:22",
+      "date": "FXStreet · 31 นาทีที่แล้ว",
+      "title": "Gold rebounds above $4,400 on weaker Dollar, US PPI inflation data looms",
+      "titleTh": "ข่าวทองคำและปัจจัยที่อาจทำให้ XAUUSD เคลื่อนไหว",
+      "short": "Gold price (XAU/USD) recovers to near $4,400, snapping the three-day losing streak during the early Asian session on Thursday. The precious metal gai…",
+      "shortTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
+      "why": "เนื้อหานี้มีปัจจัยที่มักช่วยหนุนทอง เช่น ความเสี่ยง ดอลลาร์อ่อน หรือยีลด์ลดลง ควรดูการยืนยันจากราคาและข้อมูลต้นทางประกอบ",
+      "expected": "ข่าวจริง · ไม่มี Forecast",
+      "impact": "high",
+      "direction": "bullish",
+      "directionLabel": "หนุนทอง",
+      "sourceLabel": "FXStreet",
+      "sourceUrl": "https://www.fxstreet.com/news/gold-rebounds-above-4-400-on-weaker-dollar-us-ppi-inflation-data-looms-202609092322"
+    },
+    {
       "time": "04:36",
-      "date": "FXStreet · 15 นาทีที่แล้ว",
+      "date": "FXStreet · 2 ชั่วโมงที่แล้ว",
       "title": "Australian Dollar flatlines as US yield ripples meet RBA hawks",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "The Australian Dollar is virtually unchanged against the US Dollar on Wednesday amid a light economic calendar, with the US Treasury's announcement o…",
@@ -90,7 +105,7 @@
     },
     {
       "time": "04:19",
-      "date": "FXStreet · 32 นาทีที่แล้ว",
+      "date": "FXStreet · 3 ชั่วโมงที่แล้ว",
       "title": "Pound Sterling awaits the Fed's two-strike inflation test",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "The real tension weighing on GBP/USD is a rate parity that masks a divergence. Both central banks sit at 3.75%.",
@@ -105,7 +120,7 @@
     },
     {
       "time": "03:36",
-      "date": "MarketWatch · 1 ชั่วโมงที่แล้ว",
+      "date": "MarketWatch · 3 ชั่วโมงที่แล้ว",
       "title": "Oil’s surge back above $100 fuels fresh inflation fears at a crucial time for interest rates",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "A prolonged oil shock could keep consumer prices elevated and complicate the path for central banks already navigating a difficult policy environment.",
@@ -120,10 +135,10 @@
     },
     {
       "time": "03:34",
-      "date": "FXStreet · 1 ชั่วโมงที่แล้ว",
+      "date": "FXStreet · 3 ชั่วโมงที่แล้ว",
       "title": "NZD/USD Price Forecast: SMA cluster wobbles as US yields bite",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "short": "The New Zealand Dollar extends its losses against the US Dollar, down 0.30% as the Greenback gets underpinned by rising US Treasury yields, with the…",
+      "short": "The New Zealand Dollar (NZD) extends its losses against the US Dollar (USD), down 0.30% on Wednesday as the Greenback gets underpinned by rising US T…",
       "shortTh": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
       "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
       "expected": "ข่าวจริง · ไม่มี Forecast",
@@ -135,7 +150,7 @@
     },
     {
       "time": "02:56",
-      "date": "The Guardian · 2 ชั่วโมงที่แล้ว",
+      "date": "The Guardian · 4 ชั่วโมงที่แล้ว",
       "title": "Bond market rebuffs US treasury’s plan to buy back $6bn in government debt",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "Scott Bessent made announcement on Wednesday as bond yields rose to highest point since 2008 financial crisis US politics live – latest updates The U…",
@@ -147,33 +162,34 @@
       "directionLabel": "ต้องจับตา",
       "sourceLabel": "The Guardian",
       "sourceUrl": "https://www.theguardian.com/business/2026/sep/09/treasury-bond-buyback"
-    },
-    {
-      "time": "02:54",
-      "date": "FXStreet · 2 ชั่วโมงที่แล้ว",
-      "title": "Chinese Yuan: Uptrend intact with muted inflation against US Dollar – BBH",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "short": "Brown Brothers Harriman’s (BBH) Elias Haddad reports that USD/CNH continues to drift lower to its weakest level since January 2023 as China’s August…",
-      "shortTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
-      "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
-      "expected": "ข่าวจริง · ไม่มี Forecast",
-      "impact": "high",
-      "direction": "volatile",
-      "directionLabel": "ต้องจับตา",
-      "sourceLabel": "FXStreet",
-      "sourceUrl": "https://www.fxstreet.com/news/chinese-yuan-uptrend-intact-with-muted-inflation-against-us-dollar-bbh-202609091954"
     }
   ],
   "news": [
     {
       "icon": "↗",
       "label": "FXStreet",
+      "title": "Gold rebounds above $4,400 on weaker Dollar, US PPI inflation data looms",
+      "titleTh": "ข่าวทองคำและปัจจัยที่อาจทำให้ XAUUSD เคลื่อนไหว",
+      "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
+      "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
+      "tone": "หนุนทอง",
+      "time": "31 นาทีที่แล้ว",
+      "image": "https://editorial.fxsstatic.com/images/i/discover-50.png",
+      "source": "FXStreet",
+      "sourceUrl": "https://www.fxstreet.com/news/gold-rebounds-above-4-400-on-weaker-dollar-us-ppi-inflation-data-looms-202609092322",
+      "publishedAt": "2026-09-09T23:22:42.000Z",
+      "direction": "bullish",
+      "impact": "high"
+    },
+    {
+      "icon": "◌",
+      "label": "FXStreet",
       "title": "Australian Dollar flatlines as US yield ripples meet RBA hawks",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
       "bodyTh": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
       "tone": "ต้องจับตา",
-      "time": "15 นาทีที่แล้ว",
+      "time": "2 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/aud-usd-02.jpg",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/australian-dollar-flatlines-as-us-yield-ripples-meet-rba-hawks-202609092136",
@@ -182,14 +198,14 @@
       "impact": "high"
     },
     {
-      "icon": "◌",
+      "icon": "◍",
       "label": "FXStreet",
       "title": "Pound Sterling awaits the Fed's two-strike inflation test",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "tone": "ต้องจับตา",
-      "time": "32 นาทีที่แล้ว",
+      "time": "3 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/discover-46.jpg",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/pound-sterling-awaits-the-feds-two-strike-inflation-test-202609092119",
@@ -198,14 +214,14 @@
       "impact": "high"
     },
     {
-      "icon": "◍",
+      "icon": "≋",
       "label": "MarketWatch",
       "title": "Oil’s surge back above $100 fuels fresh inflation fears at a crucial time for interest rates",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "tone": "ต้องจับตา",
-      "time": "1 ชั่วโมงที่แล้ว",
+      "time": "3 ชั่วโมงที่แล้ว",
       "image": "https://images.mktw.net/im-77918704",
       "source": "MarketWatch",
       "sourceUrl": "https://www.marketwatch.com/story/brent-crude-reaches-100-as-war-in-iran-intensifies-b73832e2?mod=mw_rss_topstories",
@@ -214,14 +230,14 @@
       "impact": "high"
     },
     {
-      "icon": "≋",
+      "icon": "↗",
       "label": "FXStreet",
       "title": "NZD/USD Price Forecast: SMA cluster wobbles as US yields bite",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
       "bodyTh": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
       "tone": "ต้องจับตา",
-      "time": "1 ชั่วโมงที่แล้ว",
+      "time": "3 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/NZDUSD-bearish-line.png",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/nzd-usd-price-forecast-sma-cluster-wobbles-as-us-yields-bite-202609092034",
@@ -230,14 +246,14 @@
       "impact": "high"
     },
     {
-      "icon": "↗",
+      "icon": "◌",
       "label": "The Guardian",
       "title": "Bond market rebuffs US treasury’s plan to buy back $6bn in government debt",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
       "bodyTh": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
       "tone": "ต้องจับตา",
-      "time": "2 ชั่วโมงที่แล้ว",
+      "time": "4 ชั่วโมงที่แล้ว",
       "image": "https://i.guim.co.uk/img/media/1a911ae996dc514699adf57c6dc341a0f83c0cab/682_0_6829_5464/master/6829.jpg?width=140&quality=85&auto=format&fit=max&s=bc94f13278b105754e0eb44d31b8c848",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com/business/2026/sep/09/treasury-bond-buyback",
@@ -246,14 +262,14 @@
       "impact": "high"
     },
     {
-      "icon": "◌",
+      "icon": "◍",
       "label": "FXStreet",
       "title": "Chinese Yuan: Uptrend intact with muted inflation against US Dollar – BBH",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "tone": "ต้องจับตา",
-      "time": "2 ชั่วโมงที่แล้ว",
+      "time": "4 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/usd-cnh-02.jpg",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/chinese-yuan-uptrend-intact-with-muted-inflation-against-us-dollar-bbh-202609091954",
@@ -262,34 +278,18 @@
       "impact": "high"
     },
     {
-      "icon": "◍",
+      "icon": "≋",
       "label": "FXStreet",
       "title": "Mexican Peso holds firm as inflation cools, fiscal plan lands",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "tone": "ต้องจับตา",
-      "time": "2 ชั่วโมงที่แล้ว",
+      "time": "4 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/MXN2-18326.png",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/mexican-peso-holds-firm-as-inflation-cools-fiscal-plan-lands-202609091949",
       "publishedAt": "2026-09-09T19:49:41.000Z",
-      "direction": "volatile",
-      "impact": "high"
-    },
-    {
-      "icon": "≋",
-      "label": "MarketWatch",
-      "title": "Treasury will buy more government bonds than previously announced. The market remains ‘underwhelmed.’",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "body": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
-      "bodyTh": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
-      "tone": "ต้องจับตา",
-      "time": "2 ชั่วโมงที่แล้ว",
-      "image": "https://images.mktw.net/im-60416201",
-      "source": "MarketWatch",
-      "sourceUrl": "https://www.marketwatch.com/story/treasury-to-buy-back-more-government-bonds-than-previously-announced-940363ee?mod=mw_rss_topstories",
-      "publishedAt": "2026-09-09T19:27:00.000Z",
       "direction": "volatile",
       "impact": "high"
     }
