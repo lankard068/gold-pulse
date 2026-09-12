@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-09-11T23:03:38.889Z",
+  "generatedAt": "2026-09-12T01:23:27.288Z",
   "quote": {
     "symbol": "XAUUSD",
     "price": 4349.700195,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-09-11T23:03:38.889Z",
+    "asOf": "2026-09-12T01:23:27.288Z",
     "stale": false
   },
   "drivers": {
@@ -53,7 +53,7 @@
         "mark": "!",
         "tone": "mixed",
         "title": "ข่าวล่าสุดยังต้องยืนยันด้วยราคา",
-        "source": "FXStreet",
+        "source": "MarketWatch",
         "note": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง"
       }
     ],
@@ -74,8 +74,23 @@
   },
   "events": [
     {
+      "time": "06:54",
+      "date": "MarketWatch · 1 ชั่วโมงที่แล้ว",
+      "title": "The Fed could raise interest rates three times. Here’s where the market could face the stiffest test.",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "short": "Economists note that the Fed historically has not been content to raise rates only once.",
+      "shortTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
+      "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
+      "expected": "ข่าวจริง · ไม่มี Forecast",
+      "impact": "high",
+      "direction": "volatile",
+      "directionLabel": "ต้องจับตา",
+      "sourceLabel": "MarketWatch",
+      "sourceUrl": "https://www.marketwatch.com/story/the-fed-could-raise-interest-rates-three-times-heres-where-the-market-could-face-the-stiffest-test-757872a1?mod=mw_rss_topstories"
+    },
+    {
       "time": "05:01",
-      "date": "FXStreet · 1 ชั่วโมงที่แล้ว",
+      "date": "FXStreet · 3 ชั่วโมงที่แล้ว",
       "title": "AUD/USD Price Forecast: Doji high guards bulls as Fed bets bite",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "The AUD/USD ended the day in the green but finished the week 0.45% lower amid growing bets that the Fed will raise rates next week, boosting the US D…",
@@ -90,7 +105,7 @@
     },
     {
       "time": "04:21",
-      "date": "FXStreet · 2 ชั่วโมงที่แล้ว",
+      "date": "FXStreet · 4 ชั่วโมงที่แล้ว",
       "title": "Singapore Dollar: Downside bias capped with 1.2705 against US Dollar – UOB",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "United Overseas Bank (UOB) strategists Quek Ser Leang and Lee Sue Ann note that USD/SGD has rebounded strongly, with short-term momentum pointing hig…",
@@ -105,7 +120,7 @@
     },
     {
       "time": "04:01",
-      "date": "FXStreet · 2 ชั่วโมงที่แล้ว",
+      "date": "FXStreet · 4 ชั่วโมงที่แล้ว",
       "title": "USD/CHF Price Forecast: Bulls break 0.8150 as CPI fuels Fed bets",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "The USDCHF climbs over 0.40% on Friday after US consumer inflation data, coupled with Thursday's PPI, pushed investors to price in a Fed interest rat…",
@@ -120,7 +135,7 @@
     },
     {
       "time": "03:41",
-      "date": "FXStreet · 2 ชั่วโมงที่แล้ว",
+      "date": "FXStreet · 5 ชั่วโมงที่แล้ว",
       "title": "Taiwan Dollar: CBC seen on hold before December hike – DBS",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "DBS Group Research expects Taiwan’s central bank to keep its policy rate unchanged on September 17, before raising it to 2.125% in December.",
@@ -135,7 +150,7 @@
     },
     {
       "time": "02:56",
-      "date": "FXStreet · 3 ชั่วโมงที่แล้ว",
+      "date": "FXStreet · 5 ชั่วโมงที่แล้ว",
       "title": "Chinese Yuan: Bullish bias fades against dollar – UOB",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "United Overseas Bank (UOB) strategists Quek Ser Leang and Lee Sue Ann reports that USD/CNH has bounced sharply to 6.7153, with intraday gains likely…",
@@ -147,33 +162,34 @@
       "directionLabel": "ต้องจับตา",
       "sourceLabel": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/chinese-yuan-bullish-bias-fades-against-dollar-uob-202609111956"
-    },
-    {
-      "time": "02:53",
-      "date": "FXStreet · 3 ชั่วโมงที่แล้ว",
-      "title": "Silver Price Forecast: Neckline failure keeps bears in control",
-      "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
-      "short": "Silver price registers gains of over 1%, yet it is trading below the ‘head and shoulders’ neckline, an indication that the overall trend in the short…",
-      "shortTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
-      "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
-      "expected": "ข่าวจริง · ไม่มี Forecast",
-      "impact": "medium",
-      "direction": "volatile",
-      "directionLabel": "ต้องจับตา",
-      "sourceLabel": "FXStreet",
-      "sourceUrl": "https://www.fxstreet.com/news/silver-price-forecast-neckline-failure-keeps-bears-in-control-202609111953"
     }
   ],
   "news": [
     {
       "icon": "↗",
+      "label": "MarketWatch",
+      "title": "The Fed could raise interest rates three times. Here’s where the market could face the stiffest test.",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
+      "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
+      "tone": "ต้องจับตา",
+      "time": "1 ชั่วโมงที่แล้ว",
+      "image": "https://images.mktw.net/im-41184402",
+      "source": "MarketWatch",
+      "sourceUrl": "https://www.marketwatch.com/story/the-fed-could-raise-interest-rates-three-times-heres-where-the-market-could-face-the-stiffest-test-757872a1?mod=mw_rss_topstories",
+      "publishedAt": "2026-09-11T23:54:00.000Z",
+      "direction": "volatile",
+      "impact": "high"
+    },
+    {
+      "icon": "◌",
       "label": "FXStreet",
       "title": "AUD/USD Price Forecast: Doji high guards bulls as Fed bets bite",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "tone": "ต้องจับตา",
-      "time": "1 ชั่วโมงที่แล้ว",
+      "time": "3 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/aud-usd-002.jpg",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/aud-usd-price-forecast-doji-high-guards-bulls-as-fed-bets-bite-202609112201",
@@ -182,14 +198,14 @@
       "impact": "high"
     },
     {
-      "icon": "◌",
+      "icon": "◍",
       "label": "FXStreet",
       "title": "Singapore Dollar: Downside bias capped with 1.2705 against US Dollar – UOB",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "bodyTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "tone": "ต้องจับตา",
-      "time": "2 ชั่วโมงที่แล้ว",
+      "time": "4 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/Singapore3-18326.png",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/singapore-dollar-downside-bias-capped-with-12705-against-us-dollar-uob-202609112121",
@@ -198,14 +214,14 @@
       "impact": "medium"
     },
     {
-      "icon": "◍",
+      "icon": "≋",
       "label": "FXStreet",
       "title": "USD/CHF Price Forecast: Bulls break 0.8150 as CPI fuels Fed bets",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "tone": "กดดันทอง",
-      "time": "2 ชั่วโมงที่แล้ว",
+      "time": "4 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/Discover-f-7.jpg",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/usd-chf-price-forecast-bulls-break-08150-as-cpi-fuels-fed-bets-202609112101",
@@ -214,14 +230,14 @@
       "impact": "high"
     },
     {
-      "icon": "≋",
+      "icon": "↗",
       "label": "FXStreet",
       "title": "Taiwan Dollar: CBC seen on hold before December hike – DBS",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "bodyTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "tone": "ต้องจับตา",
-      "time": "2 ชั่วโมงที่แล้ว",
+      "time": "5 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/taiwan-02.jpg",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/taiwan-dollar-cbc-seen-on-hold-before-december-hike-dbs-202609112041",
@@ -230,14 +246,14 @@
       "impact": "medium"
     },
     {
-      "icon": "↗",
+      "icon": "◌",
       "label": "FXStreet",
       "title": "Chinese Yuan: Bullish bias fades against dollar – UOB",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "bodyTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "tone": "ต้องจับตา",
-      "time": "3 ชั่วโมงที่แล้ว",
+      "time": "5 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/usd-cnh-02.jpg",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/chinese-yuan-bullish-bias-fades-against-dollar-uob-202609111956",
@@ -246,14 +262,14 @@
       "impact": "medium"
     },
     {
-      "icon": "◌",
+      "icon": "◍",
       "label": "FXStreet",
       "title": "Silver Price Forecast: Neckline failure keeps bears in control",
       "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
       "body": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "bodyTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "tone": "ต้องจับตา",
-      "time": "3 ชั่วโมงที่แล้ว",
+      "time": "6 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/Silver4.png",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/silver-price-forecast-neckline-failure-keeps-bears-in-control-202609111953",
@@ -262,35 +278,19 @@
       "impact": "medium"
     },
     {
-      "icon": "◍",
+      "icon": "≋",
       "label": "FXStreet",
       "title": "Forecasting the upcoming week: Fed, BoE and BoJ headline a central bank triple-header",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "tone": "ต้องจับตา",
-      "time": "3 ชั่วโมงที่แล้ว",
+      "time": "6 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/Japanese-Bank_4.png",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/forecasting-the-upcoming-week-fed-boe-and-boj-headline-a-central-bank-triple-header-202609111952",
       "publishedAt": "2026-09-11T19:52:21.000Z",
       "direction": "volatile",
-      "impact": "high"
-    },
-    {
-      "icon": "≋",
-      "label": "FXStreet",
-      "title": "US Treasury yields ease after CPI as Fed hike risks linger",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "body": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
-      "bodyTh": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
-      "tone": "หนุนทอง",
-      "time": "4 ชั่วโมงที่แล้ว",
-      "image": "https://editorial.fxsstatic.com/images/i/Ondo-finance_Bull.png",
-      "source": "FXStreet",
-      "sourceUrl": "https://www.fxstreet.com/news/us-treasury-yields-ease-after-cpi-but-fed-hike-risks-linger-202609111852",
-      "publishedAt": "2026-09-11T18:52:24.000Z",
-      "direction": "bullish",
       "impact": "high"
     }
   ],
