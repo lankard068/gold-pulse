@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-09-12T22:00:15.472Z",
+  "generatedAt": "2026-09-13T00:08:57.129Z",
   "quote": {
     "symbol": "XAUUSD",
     "price": 4349.700195,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-09-12T22:00:15.472Z",
+    "asOf": "2026-09-13T00:08:57.129Z",
     "stale": false
   },
   "drivers": {
@@ -75,7 +75,7 @@
   "events": [
     {
       "time": "06:54",
-      "date": "MarketWatch · 22 ชั่วโมงที่แล้ว",
+      "date": "MarketWatch · 12 ก.ย.",
       "title": "The Fed could raise interest rates three times. Here’s where the market could face the stiffest test.",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "Economists note that the Fed historically has not been content to raise rates only once.",
@@ -173,7 +173,7 @@
       "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "tone": "ต้องจับตา",
-      "time": "22 ชั่วโมงที่แล้ว",
+      "time": "12 ก.ย.",
       "image": "https://images.mktw.net/im-41184402",
       "source": "MarketWatch",
       "sourceUrl": "https://www.marketwatch.com/story/the-fed-could-raise-interest-rates-three-times-heres-where-the-market-could-face-the-stiffest-test-757872a1?mod=mw_rss_topstories",
