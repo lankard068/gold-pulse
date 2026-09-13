@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-09-13T20:41:15.364Z",
+  "generatedAt": "2026-09-13T22:59:11.590Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 4349.700195,
+    "price": 4339.799805,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-09-13T20:41:15.364Z",
+    "asOf": "2026-09-13T22:59:11.590Z",
     "stale": false
   },
   "drivers": {
@@ -75,7 +75,7 @@
   "events": [
     {
       "time": "02:00",
-      "date": "MarketWatch · 2 ชั่วโมงที่แล้ว",
+      "date": "MarketWatch · 4 ชั่วโมงที่แล้ว",
       "title": "Fed rate hikes won’t bring down gas prices. Why the bond market is pushing for them anyway.",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "The 10-year Treasury yield is sitting on the doorstep of 5%, and that’s a warning sign for stocks.",
@@ -173,7 +173,7 @@
       "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "tone": "ต้องจับตา",
-      "time": "2 ชั่วโมงที่แล้ว",
+      "time": "4 ชั่วโมงที่แล้ว",
       "image": "https://images.mktw.net/im-90902515",
       "source": "MarketWatch",
       "sourceUrl": "https://www.marketwatch.com/story/fed-rate-hikes-wont-bring-down-gas-prices-why-the-bond-market-is-pushing-for-them-anyway-98f2c7e3?mod=mw_rss_topstories",
