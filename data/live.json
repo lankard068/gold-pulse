@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-09-13T22:59:11.590Z",
+  "generatedAt": "2026-09-14T00:56:50.645Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 4339.799805,
+    "price": 4342.200195,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-09-13T22:59:11.590Z",
+    "asOf": "2026-09-14T00:56:50.645Z",
     "stale": false
   },
   "drivers": {
@@ -30,7 +30,7 @@
     }
   },
   "analyst": {
-    "score": 47,
+    "score": 44,
     "direction": "volatile",
     "label": "ผันผวน / รอดูข้อมูล",
     "note": "คะแนนคำนวณจากข้อมูลตลาดรายวันและข่าวที่ดึงได้ ไม่ใช่คำแนะนำซื้อขาย",
@@ -53,7 +53,7 @@
         "mark": "!",
         "tone": "mixed",
         "title": "ข่าวล่าสุดยังต้องยืนยันด้วยราคา",
-        "source": "MarketWatch",
+        "source": "FXStreet",
         "note": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง"
       }
     ],
@@ -74,8 +74,38 @@
   },
   "events": [
     {
+      "time": "07:47",
+      "date": "FXStreet · 9 นาทีที่แล้ว",
+      "title": "Euro softens below 1.1600 as markets price in Fed rate hike",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "short": "The EUR/USD pair declines to near 1.1585 during the early Asian session on Monday. The pair extends the decline amid aggressive Federal Reserve (Fed)…",
+      "shortTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
+      "why": "เนื้อหานี้มีปัจจัยที่มักกดดันทอง เช่น ดอลลาร์แข็ง ยีลด์สูง หรือท่าทีเข้มงวด ควรเทียบกับตัวเลขจริงก่อนสรุปทิศทาง",
+      "expected": "ข่าวจริง · ไม่มี Forecast",
+      "impact": "high",
+      "direction": "bearish",
+      "directionLabel": "กดดันทอง",
+      "sourceLabel": "FXStreet",
+      "sourceUrl": "https://www.fxstreet.com/news/euro-softens-below-11600-as-markets-price-in-fed-rate-hike-202609140047"
+    },
+    {
+      "time": "06:39",
+      "date": "FXStreet · 1 ชั่วโมงที่แล้ว",
+      "title": "Australian Dollar declines to near 0.7150 as hot US inflation data boost case for Fed rate hike",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "short": "The AUD/USD pair edges lower to around 0.7160 during the early Asian session on Monday. Stronger-than-expected US inflation reports provide some supp…",
+      "shortTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
+      "why": "เนื้อหานี้มีปัจจัยที่มักกดดันทอง เช่น ดอลลาร์แข็ง ยีลด์สูง หรือท่าทีเข้มงวด ควรเทียบกับตัวเลขจริงก่อนสรุปทิศทาง",
+      "expected": "ข่าวจริง · ไม่มี Forecast",
+      "impact": "high",
+      "direction": "bearish",
+      "directionLabel": "กดดันทอง",
+      "sourceLabel": "FXStreet",
+      "sourceUrl": "https://www.fxstreet.com/news/australian-dollar-declines-to-near-07150-as-hot-us-inflation-data-boost-case-for-fed-rate-hike-202609132339"
+    },
+    {
       "time": "02:00",
-      "date": "MarketWatch · 4 ชั่วโมงที่แล้ว",
+      "date": "MarketWatch · 6 ชั่วโมงที่แล้ว",
       "title": "Fed rate hikes won’t bring down gas prices. Why the bond market is pushing for them anyway.",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "The 10-year Treasury yield is sitting on the doorstep of 5%, and that’s a warning sign for stocks.",
@@ -132,48 +162,50 @@
       "directionLabel": "กดดันทอง",
       "sourceLabel": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/usd-chf-price-forecast-bulls-break-08150-as-cpi-fuels-fed-bets-202609112101"
-    },
-    {
-      "time": "03:41",
-      "date": "FXStreet · 12 ก.ย.",
-      "title": "Taiwan Dollar: CBC seen on hold before December hike – DBS",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "short": "DBS Group Research expects Taiwan’s central bank to keep its policy rate unchanged on September 17, before raising it to 2.125% in December.",
-      "shortTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
-      "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
-      "expected": "ข่าวจริง · ไม่มี Forecast",
-      "impact": "medium",
-      "direction": "volatile",
-      "directionLabel": "ต้องจับตา",
-      "sourceLabel": "FXStreet",
-      "sourceUrl": "https://www.fxstreet.com/news/taiwan-dollar-cbc-seen-on-hold-before-december-hike-dbs-202609112041"
-    },
-    {
-      "time": "02:56",
-      "date": "FXStreet · 12 ก.ย.",
-      "title": "Chinese Yuan: Bullish bias fades against dollar – UOB",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "short": "United Overseas Bank (UOB) strategists Quek Ser Leang and Lee Sue Ann reports that USD/CNH has bounced sharply to 6.7153, with intraday gains likely…",
-      "shortTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
-      "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
-      "expected": "ข่าวจริง · ไม่มี Forecast",
-      "impact": "medium",
-      "direction": "volatile",
-      "directionLabel": "ต้องจับตา",
-      "sourceLabel": "FXStreet",
-      "sourceUrl": "https://www.fxstreet.com/news/chinese-yuan-bullish-bias-fades-against-dollar-uob-202609111956"
     }
   ],
   "news": [
     {
       "icon": "↗",
+      "label": "FXStreet",
+      "title": "Euro softens below 1.1600 as markets price in Fed rate hike",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
+      "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
+      "tone": "กดดันทอง",
+      "time": "9 นาทีที่แล้ว",
+      "image": "https://editorial.fxsstatic.com/images/i/EUR-bearish-line.png",
+      "source": "FXStreet",
+      "sourceUrl": "https://www.fxstreet.com/news/euro-softens-below-11600-as-markets-price-in-fed-rate-hike-202609140047",
+      "publishedAt": "2026-09-14T00:47:22.000Z",
+      "direction": "bearish",
+      "impact": "high"
+    },
+    {
+      "icon": "◌",
+      "label": "FXStreet",
+      "title": "Australian Dollar declines to near 0.7150 as hot US inflation data boost case for Fed rate hike",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
+      "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
+      "tone": "กดดันทอง",
+      "time": "1 ชั่วโมงที่แล้ว",
+      "image": "https://editorial.fxsstatic.com/images/i/AUD-bearish-animal.png",
+      "source": "FXStreet",
+      "sourceUrl": "https://www.fxstreet.com/news/australian-dollar-declines-to-near-07150-as-hot-us-inflation-data-boost-case-for-fed-rate-hike-202609132339",
+      "publishedAt": "2026-09-13T23:39:47.000Z",
+      "direction": "bearish",
+      "impact": "high"
+    },
+    {
+      "icon": "◍",
       "label": "MarketWatch",
       "title": "Fed rate hikes won’t bring down gas prices. Why the bond market is pushing for them anyway.",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "tone": "ต้องจับตา",
-      "time": "4 ชั่วโมงที่แล้ว",
+      "time": "6 ชั่วโมงที่แล้ว",
       "image": "https://images.mktw.net/im-90902515",
       "source": "MarketWatch",
       "sourceUrl": "https://www.marketwatch.com/story/fed-rate-hikes-wont-bring-down-gas-prices-why-the-bond-market-is-pushing-for-them-anyway-98f2c7e3?mod=mw_rss_topstories",
@@ -182,7 +214,7 @@
       "impact": "high"
     },
     {
-      "icon": "◌",
+      "icon": "≋",
       "label": "FXStreet",
       "title": "AUD/USD Price Forecast: Doji high guards bulls as Fed bets bite",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -198,7 +230,7 @@
       "impact": "high"
     },
     {
-      "icon": "◍",
+      "icon": "↗",
       "label": "FXStreet",
       "title": "Singapore Dollar: Downside bias capped with 1.2705 against US Dollar – UOB",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -214,7 +246,7 @@
       "impact": "medium"
     },
     {
-      "icon": "≋",
+      "icon": "◌",
       "label": "FXStreet",
       "title": "USD/CHF Price Forecast: Bulls break 0.8150 as CPI fuels Fed bets",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -230,7 +262,7 @@
       "impact": "high"
     },
     {
-      "icon": "↗",
+      "icon": "◍",
       "label": "FXStreet",
       "title": "Taiwan Dollar: CBC seen on hold before December hike – DBS",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -246,7 +278,7 @@
       "impact": "medium"
     },
     {
-      "icon": "◌",
+      "icon": "≋",
       "label": "FXStreet",
       "title": "Chinese Yuan: Bullish bias fades against dollar – UOB",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -260,38 +292,6 @@
       "publishedAt": "2026-09-11T19:56:00.000Z",
       "direction": "volatile",
       "impact": "medium"
-    },
-    {
-      "icon": "◍",
-      "label": "FXStreet",
-      "title": "Silver Price Forecast: Neckline failure keeps bears in control",
-      "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
-      "body": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
-      "bodyTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
-      "tone": "ต้องจับตา",
-      "time": "12 ก.ย.",
-      "image": "https://editorial.fxsstatic.com/images/i/Silver4.png",
-      "source": "FXStreet",
-      "sourceUrl": "https://www.fxstreet.com/news/silver-price-forecast-neckline-failure-keeps-bears-in-control-202609111953",
-      "publishedAt": "2026-09-11T19:53:25.000Z",
-      "direction": "volatile",
-      "impact": "medium"
-    },
-    {
-      "icon": "≋",
-      "label": "FXStreet",
-      "title": "Forecasting the upcoming week: Fed, BoE and BoJ headline a central bank triple-header",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
-      "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
-      "tone": "ต้องจับตา",
-      "time": "12 ก.ย.",
-      "image": "https://editorial.fxsstatic.com/images/i/Japanese-Bank_4.png",
-      "source": "FXStreet",
-      "sourceUrl": "https://www.fxstreet.com/news/forecasting-the-upcoming-week-fed-boe-and-boj-headline-a-central-bank-triple-header-202609111952",
-      "publishedAt": "2026-09-11T19:52:21.000Z",
-      "direction": "volatile",
-      "impact": "high"
     }
   ],
   "feedStatus": [
