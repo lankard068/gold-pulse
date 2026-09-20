@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-09-20T17:35:34.031Z",
+  "generatedAt": "2026-09-20T20:30:33.716Z",
   "quote": {
     "symbol": "XAUUSD",
     "price": 4379,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-09-20T17:35:34.031Z",
+    "asOf": "2026-09-20T20:30:33.716Z",
     "stale": false
   },
   "drivers": {
@@ -75,7 +75,7 @@
   "events": [
     {
       "time": "20:16",
-      "date": "MarketWatch · 4 ชั่วโมงที่แล้ว",
+      "date": "MarketWatch · 7 ชั่วโมงที่แล้ว",
       "title": "‘There might be a silver lining’: My friend’s wife died at 60 after a high-earning career. Can he claim her Social Security?",
       "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
       "short": "“They had been married for over 30 years when she passed.”",
@@ -173,7 +173,7 @@
       "body": "ข่าวนี้อาจทำให้ตลาดผันผวน ควรอ่านต้นฉบับและเทียบกับข้อมูลตลาดก่อนสรุปทิศทาง",
       "bodyTh": "ข่าวนี้อาจทำให้ตลาดผันผวน ควรอ่านต้นฉบับและเทียบกับข้อมูลตลาดก่อนสรุปทิศทาง",
       "tone": "ต้องจับตา",
-      "time": "4 ชั่วโมงที่แล้ว",
+      "time": "7 ชั่วโมงที่แล้ว",
       "image": "https://images.mktw.net/im-55390155",
       "source": "MarketWatch",
       "sourceUrl": "https://www.marketwatch.com/story/there-might-be-a-silver-lining-my-friends-wife-died-at-60-after-a-high-earning-career-can-he-claim-her-social-security-eb95210a?mod=mw_rss_topstories",
