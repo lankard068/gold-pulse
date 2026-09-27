@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-09-27T17:11:10.292Z",
+  "generatedAt": "2026-09-27T20:19:38.875Z",
   "quote": {
     "symbol": "XAUUSD",
     "price": 4286.200195,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-09-27T17:11:10.292Z",
+    "asOf": "2026-09-27T20:19:38.875Z",
     "stale": false
   },
   "drivers": {
@@ -74,19 +74,19 @@
   },
   "events": [
     {
-      "time": "18:00",
-      "date": "MarketWatch · 6 ชั่วโมงที่แล้ว",
-      "title": "Why the upcoming jobs report could send 10-year and 30-year Treasury yields surging",
+      "time": "02:21",
+      "date": "MarketWatch · 59 นาทีที่แล้ว",
+      "title": "A ‘death cross’ is coming for the dollar. Why Trump will be happy.",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "short": "Another hot jobs report could also pressure the Federal Reserve to raise interest rates again in October.",
+      "short": "Don’t look now, but there are some technical reasons to believe that U.S. Treasury Secretary Scott Bessent was right when he declared to the financia…",
       "shortTh": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
       "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
       "expected": "ข่าวจริง · ไม่มี Forecast",
-      "impact": "high",
+      "impact": "medium",
       "direction": "volatile",
       "directionLabel": "ต้องจับตา",
       "sourceLabel": "MarketWatch",
-      "sourceUrl": "https://www.marketwatch.com/story/why-the-upcoming-jobs-report-could-send-10-year-and-30-year-treasury-yields-surging-67eab4ba?mod=mw_rss_topstories"
+      "sourceUrl": "https://www.marketwatch.com/story/a-death-cross-is-coming-for-the-dollar-why-trump-will-be-happy-0766303d?mod=mw_rss_topstories"
     },
     {
       "time": "18:00",
@@ -168,18 +168,18 @@
     {
       "icon": "↗",
       "label": "MarketWatch",
-      "title": "Why the upcoming jobs report could send 10-year and 30-year Treasury yields surging",
+      "title": "A ‘death cross’ is coming for the dollar. Why Trump will be happy.",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
       "bodyTh": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
       "tone": "ต้องจับตา",
-      "time": "6 ชั่วโมงที่แล้ว",
-      "image": "https://images.mktw.net/im-09389947",
+      "time": "59 นาทีที่แล้ว",
+      "image": "https://images.mktw.net/im-01060620",
       "source": "MarketWatch",
-      "sourceUrl": "https://www.marketwatch.com/story/why-the-upcoming-jobs-report-could-send-10-year-and-30-year-treasury-yields-surging-67eab4ba?mod=mw_rss_topstories",
-      "publishedAt": "2026-09-27T11:00:00.000Z",
+      "sourceUrl": "https://www.marketwatch.com/story/a-death-cross-is-coming-for-the-dollar-why-trump-will-be-happy-0766303d?mod=mw_rss_topstories",
+      "publishedAt": "2026-09-27T19:21:00.000Z",
       "direction": "volatile",
-      "impact": "high"
+      "impact": "medium"
     },
     {
       "icon": "◌",
