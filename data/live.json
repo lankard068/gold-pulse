@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-10-03T19:09:54.728Z",
+  "generatedAt": "2026-10-03T22:21:12.741Z",
   "quote": {
     "symbol": "XAUUSD",
     "price": 4141.799805,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-10-03T19:09:54.728Z",
+    "asOf": "2026-10-03T22:21:12.741Z",
     "stale": false
   },
   "drivers": {
@@ -75,7 +75,7 @@
   "events": [
     {
       "time": "22:30",
-      "date": "MarketWatch · 4 ชั่วโมงที่แล้ว",
+      "date": "MarketWatch · 7 ชั่วโมงที่แล้ว",
       "title": "‘I’m never selling’: I’m 47 and buy bitcoin with every dollar I earn. Am I crazy?",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "“When my paycheck lands, it takes a detour through bitcoin.”",
@@ -90,7 +90,7 @@
     },
     {
       "time": "22:06",
-      "date": "MarketWatch · 4 ชั่วโมงที่แล้ว",
+      "date": "MarketWatch · 7 ชั่วโมงที่แล้ว",
       "title": "The Treasury Department started Trump accounts for 60 million kids — but families still have to take this step if they want one",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "Here’s what parents seeking the $1,000 seed money for their child need to know.",
@@ -105,7 +105,7 @@
     },
     {
       "time": "04:52",
-      "date": "FXStreet · 21 ชั่วโมงที่แล้ว",
+      "date": "FXStreet · 3 ต.ค.",
       "title": "Silver Price Forecast: Bears crowd $60 after six-percent weekly rout",
       "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
       "short": "Silver price retreats on Friday, dropping about 0.76% as US Treasury yields edged higher, capping US Dollar depreciation, while investors punished th…",
@@ -120,7 +120,7 @@
     },
     {
       "time": "03:45",
-      "date": "Federal Reserve · 22 ชั่วโมงที่แล้ว",
+      "date": "Federal Reserve · 3 ต.ค.",
       "title": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
@@ -135,7 +135,7 @@
     },
     {
       "time": "03:00",
-      "date": "Federal Reserve · 23 ชั่วโมงที่แล้ว",
+      "date": "Federal Reserve · 3 ต.ค.",
       "title": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O",
@@ -173,7 +173,7 @@
       "body": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "bodyTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "tone": "ต้องจับตา",
-      "time": "4 ชั่วโมงที่แล้ว",
+      "time": "7 ชั่วโมงที่แล้ว",
       "image": "https://images.mktw.net/im-88944109",
       "source": "MarketWatch",
       "sourceUrl": "https://www.marketwatch.com/story/im-never-selling-im-47-and-buy-bitcoin-with-every-dollar-i-earn-am-i-crazy-364d2a64?mod=mw_rss_topstories",
@@ -189,7 +189,7 @@
       "body": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
       "bodyTh": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
       "tone": "ต้องจับตา",
-      "time": "4 ชั่วโมงที่แล้ว",
+      "time": "7 ชั่วโมงที่แล้ว",
       "image": "https://images.mktw.net/im-23210654",
       "source": "MarketWatch",
       "sourceUrl": "https://www.marketwatch.com/story/the-treasury-department-started-trump-accounts-for-60-million-kids-but-families-still-have-to-take-this-step-if-they-want-one-003d9282?mod=mw_rss_topstories",
@@ -205,7 +205,7 @@
       "body": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
       "bodyTh": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
       "tone": "ต้องจับตา",
-      "time": "21 ชั่วโมงที่แล้ว",
+      "time": "3 ต.ค.",
       "image": "https://editorial.fxsstatic.com/images/i/Commodities_Silver-1.jpg",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/silver-price-forecast-bears-crowd-60-after-six-percent-weekly-rout-202610022152",
@@ -221,7 +221,7 @@
       "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "tone": "ต้องจับตา",
-      "time": "22 ชั่วโมงที่แล้ว",
+      "time": "3 ต.ค.",
       "image": "",
       "source": "Federal Reserve",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261002a.htm",
@@ -237,7 +237,7 @@
       "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "tone": "ต้องจับตา",
-      "time": "23 ชั่วโมงที่แล้ว",
+      "time": "3 ต.ค.",
       "image": "",
       "source": "Federal Reserve",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261002a.htm",
