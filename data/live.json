@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-10-10T17:41:27.598Z",
+  "generatedAt": "2026-10-10T21:19:26.226Z",
   "quote": {
     "symbol": "XAUUSD",
     "price": 4195.600098,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-10-10T17:41:27.598Z",
+    "asOf": "2026-10-10T21:19:26.226Z",
     "stale": false
   },
   "drivers": {
@@ -53,7 +53,7 @@
         "mark": "!",
         "tone": "mixed",
         "title": "ข่าวล่าสุดยังต้องยืนยันด้วยราคา",
-        "source": "FXStreet",
+        "source": "MarketWatch",
         "note": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง"
       }
     ],
@@ -74,8 +74,23 @@
   },
   "events": [
     {
+      "time": "02:44",
+      "date": "MarketWatch · 2 ชั่วโมงที่แล้ว",
+      "title": "Should I put my nest egg in a 30-year Treasury bond?",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "short": "Risk comes in many forms, even with “safe” investments.",
+      "shortTh": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
+      "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
+      "expected": "ข่าวจริง · ไม่มี Forecast",
+      "impact": "medium",
+      "direction": "volatile",
+      "directionLabel": "ต้องจับตา",
+      "sourceLabel": "MarketWatch",
+      "sourceUrl": "https://www.marketwatch.com/story/should-i-put-my-nest-egg-in-a-30-year-treasury-bond-89db6e09?mod=mw_rss_topstories"
+    },
+    {
       "time": "05:18",
-      "date": "FXStreet · 19 ชั่วโมงที่แล้ว",
+      "date": "FXStreet · 23 ชั่วโมงที่แล้ว",
       "title": "Aussie extends weekly gains as Fed pause bets offset hawkish rhetoric",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "The Aussie Dollar ended Friday’s session on a positive note, gaining 0.38% and 0.58% weekly as the US Dollar trimmed some of its weekly gains, while…",
@@ -90,7 +105,7 @@
     },
     {
       "time": "03:31",
-      "date": "FXStreet · 21 ชั่วโมงที่แล้ว",
+      "date": "FXStreet · 10 ต.ค.",
       "title": "Singapore Dollar: Range trading persists against US Dollar – UOB",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann note that USD/SGD remains supported within the Monetary Authority of Singapore’s policy b…",
@@ -105,7 +120,7 @@
     },
     {
       "time": "02:49",
-      "date": "FXStreet · 22 ชั่วโมงที่แล้ว",
+      "date": "FXStreet · 10 ต.ค.",
       "title": "Taiwan Dollar: Trade strength but losses capped against US Dollar – Commerzbank",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "Commerzbank analysts note Taiwan’s September trade surplus hit a record USD23.6bn, with exports surging 60.9% year-on-year on strong AI-related deman…",
@@ -120,7 +135,7 @@
     },
     {
       "time": "02:10",
-      "date": "FXStreet · 23 ชั่วโมงที่แล้ว",
+      "date": "FXStreet · 10 ต.ค.",
       "title": "Dollar Index stalls under its high as the Fed's hawks repeat themselves",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "Four sessions after its highest level since April 2025, the Dollar Index hasn't got back to it. The index trades near 102.25 and has made a lower hig…",
@@ -135,7 +150,7 @@
     },
     {
       "time": "01:40",
-      "date": "FXStreet · 23 ชั่วโมงที่แล้ว",
+      "date": "FXStreet · 10 ต.ค.",
       "title": "Silver Price Forecast: Bullish engulfing pattern puts $64 in sight",
       "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
       "short": "Silver (XAG/USD) price rallies over 2.80% on Friday as buyers buy the dip at $59.17, pushing the white metal above $60.00 to hit a two-day high of $6…",
@@ -147,33 +162,34 @@
       "directionLabel": "ต้องจับตา",
       "sourceLabel": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/silver-price-forecast-bullish-engulfing-pattern-puts-64-in-sight-202610091840"
-    },
-    {
-      "time": "01:27",
-      "date": "FXStreet · 23 ชั่วโมงที่แล้ว",
-      "title": "Singapore Dollar: MAS tightening but gains constrained – OCBC",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "short": "OCBC’s Christopher Wong notes that Singapore Dollar (SGD) has held relatively steady despite a firmer US Dollar (USD) and higher Oil prices, with MAS…",
-      "shortTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
-      "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
-      "expected": "ข่าวจริง · ไม่มี Forecast",
-      "impact": "medium",
-      "direction": "volatile",
-      "directionLabel": "ต้องจับตา",
-      "sourceLabel": "FXStreet",
-      "sourceUrl": "https://www.fxstreet.com/news/singapore-dollar-mas-tightening-but-gains-constrained-ocbc-202610091827"
     }
   ],
   "news": [
     {
       "icon": "↗",
+      "label": "MarketWatch",
+      "title": "Should I put my nest egg in a 30-year Treasury bond?",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "body": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
+      "bodyTh": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
+      "tone": "ต้องจับตา",
+      "time": "2 ชั่วโมงที่แล้ว",
+      "image": "https://images.mktw.net/im-70455240",
+      "source": "MarketWatch",
+      "sourceUrl": "https://www.marketwatch.com/story/should-i-put-my-nest-egg-in-a-30-year-treasury-bond-89db6e09?mod=mw_rss_topstories",
+      "publishedAt": "2026-10-10T19:44:00.000Z",
+      "direction": "volatile",
+      "impact": "medium"
+    },
+    {
+      "icon": "◌",
       "label": "FXStreet",
       "title": "Aussie extends weekly gains as Fed pause bets offset hawkish rhetoric",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "tone": "กดดันทอง",
-      "time": "19 ชั่วโมงที่แล้ว",
+      "time": "23 ชั่วโมงที่แล้ว",
       "image": "https://editorial.fxsstatic.com/images/i/Discover-f-1.jpg",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/aussie-extends-weekly-gains-as-fed-pause-bets-offset-hawkish-rhetoric-202610092218",
@@ -182,14 +198,14 @@
       "impact": "high"
     },
     {
-      "icon": "◌",
+      "icon": "◍",
       "label": "FXStreet",
       "title": "Singapore Dollar: Range trading persists against US Dollar – UOB",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "tone": "หนุนทอง",
-      "time": "21 ชั่วโมงที่แล้ว",
+      "time": "10 ต.ค.",
       "image": "https://editorial.fxsstatic.com/images/i/SGD3-18326.png",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/singapore-dollar-range-trading-persists-against-us-dollar-uob-202610092031",
@@ -198,14 +214,14 @@
       "impact": "high"
     },
     {
-      "icon": "◍",
+      "icon": "≋",
       "label": "FXStreet",
       "title": "Taiwan Dollar: Trade strength but losses capped against US Dollar – Commerzbank",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "tone": "กดดันทอง",
-      "time": "22 ชั่วโมงที่แล้ว",
+      "time": "10 ต.ค.",
       "image": "https://editorial.fxsstatic.com/images/i/taiwan-02.jpg",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/taiwan-dollar-trade-strength-but-losses-capped-against-us-dollar-commerzbank-202610091949",
@@ -214,14 +230,14 @@
       "impact": "high"
     },
     {
-      "icon": "≋",
+      "icon": "↗",
       "label": "FXStreet",
       "title": "Dollar Index stalls under its high as the Fed's hawks repeat themselves",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "tone": "ต้องจับตา",
-      "time": "23 ชั่วโมงที่แล้ว",
+      "time": "10 ต.ค.",
       "image": "https://editorial.fxsstatic.com/images/i/DXY-neutral-object-1.png",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/dollar-index-stalls-under-its-high-as-the-feds-hawks-repeat-themselves-202610091910",
@@ -230,14 +246,14 @@
       "impact": "high"
     },
     {
-      "icon": "↗",
+      "icon": "◌",
       "label": "FXStreet",
       "title": "Silver Price Forecast: Bullish engulfing pattern puts $64 in sight",
       "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
       "body": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "bodyTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "tone": "ต้องจับตา",
-      "time": "23 ชั่วโมงที่แล้ว",
+      "time": "10 ต.ค.",
       "image": "https://editorial.fxsstatic.com/images/i/Silver5.png",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/silver-price-forecast-bullish-engulfing-pattern-puts-64-in-sight-202610091840",
@@ -246,14 +262,14 @@
       "impact": "medium"
     },
     {
-      "icon": "◌",
+      "icon": "◍",
       "label": "FXStreet",
       "title": "Singapore Dollar: MAS tightening but gains constrained – OCBC",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "bodyTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "tone": "ต้องจับตา",
-      "time": "23 ชั่วโมงที่แล้ว",
+      "time": "10 ต.ค.",
       "image": "https://editorial.fxsstatic.com/images/i/SGD2-18326.png",
       "source": "FXStreet",
       "sourceUrl": "https://www.fxstreet.com/news/singapore-dollar-mas-tightening-but-gains-constrained-ocbc-202610091827",
@@ -262,7 +278,7 @@
       "impact": "medium"
     },
     {
-      "icon": "◍",
+      "icon": "≋",
       "label": "The Guardian",
       "title": "Trump establishes committee to investigate Fed governor Lisa Cook",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -274,22 +290,6 @@
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com/business/2026/oct/09/trump-investigate-lisa-cook-fed-governor",
       "publishedAt": "2026-10-09T18:05:12.000Z",
-      "direction": "volatile",
-      "impact": "high"
-    },
-    {
-      "icon": "≋",
-      "label": "FXStreet",
-      "title": "Gold reclaims $4,200 as weak US sentiment revives bullion demand",
-      "titleTh": "ข่าวทองคำและปัจจัยที่อาจทำให้ XAUUSD เคลื่อนไหว",
-      "body": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
-      "bodyTh": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
-      "tone": "ต้องจับตา",
-      "time": "10 ต.ค.",
-      "image": "https://editorial.fxsstatic.com/images/i/gold-02.jpg",
-      "source": "FXStreet",
-      "sourceUrl": "https://www.fxstreet.com/news/gold-reclaims-4-200-as-weak-us-sentiment-revives-bullion-demand-202610091804",
-      "publishedAt": "2026-10-09T18:04:49.000Z",
       "direction": "volatile",
       "impact": "high"
     }
