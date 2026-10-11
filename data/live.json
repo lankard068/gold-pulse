@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-10-11T18:20:02.939Z",
+  "generatedAt": "2026-10-11T22:18:14.841Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 4195.600098,
+    "price": 4187.799805,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-10-11T18:20:02.939Z",
+    "asOf": "2026-10-11T22:18:14.841Z",
     "stale": false
   },
   "drivers": {
@@ -75,7 +75,7 @@
   "events": [
     {
       "time": "02:44",
-      "date": "MarketWatch · 23 ชั่วโมงที่แล้ว",
+      "date": "MarketWatch · 11 ต.ค.",
       "title": "Should I put my nest egg in a 30-year Treasury bond?",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "Risk comes in many forms, even with “safe” investments.",
@@ -173,7 +173,7 @@
       "body": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
       "bodyTh": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
       "tone": "ต้องจับตา",
-      "time": "23 ชั่วโมงที่แล้ว",
+      "time": "11 ต.ค.",
       "image": "https://images.mktw.net/im-70455240",
       "source": "MarketWatch",
       "sourceUrl": "https://www.marketwatch.com/story/should-i-put-my-nest-egg-in-a-30-year-treasury-bond-89db6e09?mod=mw_rss_topstories",
