@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-10-14T23:21:58.631Z",
+  "generatedAt": "2026-10-15T01:41:34.035Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 4104.899902,
+    "price": 4143.399902,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-10-14T23:21:58.631Z",
+    "asOf": "2026-10-15T01:41:34.035Z",
     "stale": false
   },
   "drivers": {
@@ -74,8 +74,23 @@
   },
   "events": [
     {
+      "time": "06:36",
+      "date": "MarketWatch · 2 ชั่วโมงที่แล้ว",
+      "title": "The AI trade is splintering as inflation fears rattle hyped-up tech stocks",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "short": "Investors are wondering if steep inflation and increased borrowing costs could derail the AI buildout.",
+      "shortTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
+      "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
+      "expected": "ข่าวจริง · ไม่มี Forecast",
+      "impact": "high",
+      "direction": "volatile",
+      "directionLabel": "ต้องจับตา",
+      "sourceLabel": "MarketWatch",
+      "sourceUrl": "https://www.marketwatch.com/story/the-ai-trade-is-splintering-as-inflation-fears-rattle-hyped-up-tech-stocks-dbf49369?mod=mw_rss_topstories"
+    },
+    {
       "time": "05:24",
-      "date": "MarketWatch · 58 นาทีที่แล้ว",
+      "date": "MarketWatch · 3 ชั่วโมงที่แล้ว",
       "title": "Your Social Security check will rise an average of $75 a month — will it be able to keep up with inflation?",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "The 3.6% COLA for 2027 is aimed at helping more than 68 million beneficiaries keep pace with the cost of living",
@@ -90,7 +105,7 @@
     },
     {
       "time": "21:29",
-      "date": "The Guardian · 9 ชั่วโมงที่แล้ว",
+      "date": "The Guardian · 11 ชั่วโมงที่แล้ว",
       "title": "US inflation rose to 3.7% in September in blow to Republicans before midterms",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "Final inflation report before voters go to polls comes amid widespread anger over cost of living under Trump Send us your questions on how the US eco…",
@@ -147,33 +162,34 @@
       "directionLabel": "ต้องจับตา",
       "sourceLabel": "Federal Reserve",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261005a.htm"
-    },
-    {
-      "time": "03:45",
-      "date": "Federal Reserve · 3 ต.ค.",
-      "title": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "short": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
-      "shortTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
-      "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
-      "expected": "ข่าวจริง · ไม่มี Forecast",
-      "impact": "high",
-      "direction": "volatile",
-      "directionLabel": "ต้องจับตา",
-      "sourceLabel": "Federal Reserve",
-      "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261002a.htm"
     }
   ],
   "news": [
     {
       "icon": "↗",
       "label": "MarketWatch",
+      "title": "The AI trade is splintering as inflation fears rattle hyped-up tech stocks",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
+      "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
+      "tone": "ต้องจับตา",
+      "time": "2 ชั่วโมงที่แล้ว",
+      "image": "https://images.mktw.net/im-29969311",
+      "source": "MarketWatch",
+      "sourceUrl": "https://www.marketwatch.com/story/the-ai-trade-is-splintering-as-inflation-fears-rattle-hyped-up-tech-stocks-dbf49369?mod=mw_rss_topstories",
+      "publishedAt": "2026-10-14T23:36:00.000Z",
+      "direction": "volatile",
+      "impact": "high"
+    },
+    {
+      "icon": "◌",
+      "label": "MarketWatch",
       "title": "Your Social Security check will rise an average of $75 a month — will it be able to keep up with inflation?",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "tone": "ต้องจับตา",
-      "time": "58 นาทีที่แล้ว",
+      "time": "3 ชั่วโมงที่แล้ว",
       "image": "https://images.mktw.net/im-07536727",
       "source": "MarketWatch",
       "sourceUrl": "https://www.marketwatch.com/story/social-securitys-cola-will-be-3-6-in-2027-as-inflation-persists-f7c9dff2?mod=mw_rss_topstories",
@@ -182,14 +198,14 @@
       "impact": "high"
     },
     {
-      "icon": "◌",
+      "icon": "◍",
       "label": "The Guardian",
       "title": "US inflation rose to 3.7% in September in blow to Republicans before midterms",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "tone": "ต้องจับตา",
-      "time": "9 ชั่วโมงที่แล้ว",
+      "time": "11 ชั่วโมงที่แล้ว",
       "image": "https://i.guim.co.uk/img/media/84db52e3bd4c7e10da78a8eeaa51b4462b587fda/333_0_3334_2667/master/3334.jpg?width=140&quality=85&auto=format&fit=max&s=7ff8effcb194c105f932eff5874c25bf",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com/business/2026/oct/14/inflation-numbers-september",
@@ -198,7 +214,7 @@
       "impact": "high"
     },
     {
-      "icon": "◍",
+      "icon": "≋",
       "label": "Federal Reserve · ทางการ",
       "title": "Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -214,7 +230,7 @@
       "impact": "high"
     },
     {
-      "icon": "≋",
+      "icon": "↗",
       "label": "Federal Reserve · ทางการ",
       "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -230,7 +246,7 @@
       "impact": "high"
     },
     {
-      "icon": "↗",
+      "icon": "◌",
       "label": "Federal Reserve · ทางการ",
       "title": "Federal Reserve Board announces approval of application by Isabella Bank Corporation",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -246,7 +262,7 @@
       "impact": "high"
     },
     {
-      "icon": "◌",
+      "icon": "◍",
       "label": "Federal Reserve · ทางการ",
       "title": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -262,7 +278,7 @@
       "impact": "high"
     },
     {
-      "icon": "◍",
+      "icon": "≋",
       "label": "Federal Reserve · ทางการ",
       "title": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -274,22 +290,6 @@
       "source": "Federal Reserve",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261002a.htm",
       "publishedAt": "2026-10-02T20:00:00.000Z",
-      "direction": "volatile",
-      "impact": "high"
-    },
-    {
-      "icon": "≋",
-      "label": "Federal Reserve · ทางการ",
-      "title": "Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
-      "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
-      "tone": "ต้องจับตา",
-      "time": "2 ต.ค.",
-      "image": "",
-      "source": "Federal Reserve",
-      "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261002a.htm",
-      "publishedAt": "2026-10-02T15:00:00.000Z",
       "direction": "volatile",
       "impact": "high"
     }
