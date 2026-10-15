@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-10-15T01:41:34.035Z",
+  "generatedAt": "2026-10-15T07:07:35.606Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 4143.399902,
+    "price": 4140.399902,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-10-15T01:41:34.035Z",
+    "asOf": "2026-10-15T07:07:35.606Z",
     "stale": false
   },
   "drivers": {
@@ -75,7 +75,7 @@
   "events": [
     {
       "time": "06:36",
-      "date": "MarketWatch · 2 ชั่วโมงที่แล้ว",
+      "date": "MarketWatch · 8 ชั่วโมงที่แล้ว",
       "title": "The AI trade is splintering as inflation fears rattle hyped-up tech stocks",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "Investors are wondering if steep inflation and increased borrowing costs could derail the AI buildout.",
@@ -90,7 +90,7 @@
     },
     {
       "time": "05:24",
-      "date": "MarketWatch · 3 ชั่วโมงที่แล้ว",
+      "date": "MarketWatch · 9 ชั่วโมงที่แล้ว",
       "title": "Your Social Security check will rise an average of $75 a month — will it be able to keep up with inflation?",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "The 3.6% COLA for 2027 is aimed at helping more than 68 million beneficiaries keep pace with the cost of living",
@@ -105,7 +105,7 @@
     },
     {
       "time": "21:29",
-      "date": "The Guardian · 11 ชั่วโมงที่แล้ว",
+      "date": "The Guardian · 17 ชั่วโมงที่แล้ว",
       "title": "US inflation rose to 3.7% in September in blow to Republicans before midterms",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "Final inflation report before voters go to polls comes amid widespread anger over cost of living under Trump Send us your questions on how the US eco…",
@@ -173,7 +173,7 @@
       "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "tone": "ต้องจับตา",
-      "time": "2 ชั่วโมงที่แล้ว",
+      "time": "8 ชั่วโมงที่แล้ว",
       "image": "https://images.mktw.net/im-29969311",
       "source": "MarketWatch",
       "sourceUrl": "https://www.marketwatch.com/story/the-ai-trade-is-splintering-as-inflation-fears-rattle-hyped-up-tech-stocks-dbf49369?mod=mw_rss_topstories",
@@ -189,7 +189,7 @@
       "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "tone": "ต้องจับตา",
-      "time": "3 ชั่วโมงที่แล้ว",
+      "time": "9 ชั่วโมงที่แล้ว",
       "image": "https://images.mktw.net/im-07536727",
       "source": "MarketWatch",
       "sourceUrl": "https://www.marketwatch.com/story/social-securitys-cola-will-be-3-6-in-2027-as-inflation-persists-f7c9dff2?mod=mw_rss_topstories",
@@ -205,7 +205,7 @@
       "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "tone": "ต้องจับตา",
-      "time": "11 ชั่วโมงที่แล้ว",
+      "time": "17 ชั่วโมงที่แล้ว",
       "image": "https://i.guim.co.uk/img/media/84db52e3bd4c7e10da78a8eeaa51b4462b587fda/333_0_3334_2667/master/3334.jpg?width=140&quality=85&auto=format&fit=max&s=7ff8effcb194c105f932eff5874c25bf",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com/business/2026/oct/14/inflation-numbers-september",
