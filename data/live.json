@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-10-17T17:27:07.012Z",
+  "generatedAt": "2026-10-17T19:39:18.834Z",
   "quote": {
     "symbol": "XAUUSD",
     "price": 4166.100098,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-10-17T17:27:07.012Z",
+    "asOf": "2026-10-17T19:39:18.834Z",
     "stale": false
   },
   "drivers": {
@@ -30,7 +30,7 @@
     }
   },
   "analyst": {
-    "score": 47,
+    "score": 50,
     "direction": "volatile",
     "label": "ผันผวน / รอดูข้อมูล",
     "note": "คะแนนคำนวณจากข้อมูลตลาดรายวันและข่าวที่ดึงได้ ไม่ใช่คำแนะนำซื้อขาย",
@@ -75,7 +75,7 @@
   "events": [
     {
       "time": "19:30",
-      "date": "MarketWatch · 5 ชั่วโมงที่แล้ว",
+      "date": "MarketWatch · 7 ชั่วโมงที่แล้ว",
       "title": "Silver’s recent 50% drop from a record high hints that an economic slowdown looms",
       "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
       "short": "There’s a relatively off-the-radar commodity that can provide hints on where the economy is headed — and it’s seen its value drop more than 50% from…",
@@ -87,21 +87,6 @@
       "directionLabel": "ต้องจับตา",
       "sourceLabel": "MarketWatch",
       "sourceUrl": "https://www.marketwatch.com/story/silvers-recent-50-drop-from-a-record-high-hints-that-an-economic-slowdown-looms-e9fdfaf1?mod=mw_rss_topstories"
-    },
-    {
-      "time": "18:00",
-      "date": "MarketWatch · 6 ชั่วโมงที่แล้ว",
-      "title": "Fed interest-rate decision this month is a closer call than markets think",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "short": "Here are some of the arguments against a Fed rate hike — and why some economists disagree with them.",
-      "shortTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
-      "why": "เนื้อหานี้มีปัจจัยที่มักกดดันทอง เช่น ดอลลาร์แข็ง ยีลด์สูง หรือท่าทีเข้มงวด ควรเทียบกับตัวเลขจริงก่อนสรุปทิศทาง",
-      "expected": "ข่าวจริง · ไม่มี Forecast",
-      "impact": "high",
-      "direction": "bearish",
-      "directionLabel": "กดดันทอง",
-      "sourceLabel": "MarketWatch",
-      "sourceUrl": "https://www.marketwatch.com/story/fed-interest-rate-decision-this-month-is-a-closer-call-than-markets-think-f96ccf95?mod=mw_rss_topstories"
     },
     {
       "time": "22:00",
@@ -162,6 +147,21 @@
       "directionLabel": "ต้องจับตา",
       "sourceLabel": "Federal Reserve",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm"
+    },
+    {
+      "time": "03:30",
+      "date": "Federal Reserve · 9 ต.ค.",
+      "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "short": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficientl…",
+      "shortTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
+      "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
+      "expected": "ข่าวจริง · ไม่มี Forecast",
+      "impact": "high",
+      "direction": "volatile",
+      "directionLabel": "ต้องจับตา",
+      "sourceLabel": "Federal Reserve",
+      "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm"
     }
   ],
   "news": [
@@ -173,7 +173,7 @@
       "body": "ข่าวนี้อาจทำให้ตลาดผันผวน ควรอ่านต้นฉบับและเทียบกับข้อมูลตลาดก่อนสรุปทิศทาง",
       "bodyTh": "ข่าวนี้อาจทำให้ตลาดผันผวน ควรอ่านต้นฉบับและเทียบกับข้อมูลตลาดก่อนสรุปทิศทาง",
       "tone": "ต้องจับตา",
-      "time": "5 ชั่วโมงที่แล้ว",
+      "time": "7 ชั่วโมงที่แล้ว",
       "image": "https://images.mktw.net/im-90939892",
       "source": "MarketWatch",
       "sourceUrl": "https://www.marketwatch.com/story/silvers-recent-50-drop-from-a-record-high-hints-that-an-economic-slowdown-looms-e9fdfaf1?mod=mw_rss_topstories",
@@ -183,22 +183,6 @@
     },
     {
       "icon": "◌",
-      "label": "MarketWatch",
-      "title": "Fed interest-rate decision this month is a closer call than markets think",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
-      "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
-      "tone": "กดดันทอง",
-      "time": "6 ชั่วโมงที่แล้ว",
-      "image": "https://images.mktw.net/im-28305964",
-      "source": "MarketWatch",
-      "sourceUrl": "https://www.marketwatch.com/story/fed-interest-rate-decision-this-month-is-a-closer-call-than-markets-think-f96ccf95?mod=mw_rss_topstories",
-      "publishedAt": "2026-10-17T11:00:00.000Z",
-      "direction": "bearish",
-      "impact": "high"
-    },
-    {
-      "icon": "◍",
       "label": "Federal Reserve · ทางการ",
       "title": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -214,7 +198,7 @@
       "impact": "high"
     },
     {
-      "icon": "≋",
+      "icon": "◍",
       "label": "The Guardian",
       "title": "Tech market sell-off deepens amid fears over US inflation and AI debt",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -230,7 +214,7 @@
       "impact": "high"
     },
     {
-      "icon": "↗",
+      "icon": "≋",
       "label": "The Guardian",
       "title": "US inflation rose to 3.7% in September in blow to Republicans before midterms",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -246,7 +230,7 @@
       "impact": "high"
     },
     {
-      "icon": "◌",
+      "icon": "↗",
       "label": "Federal Reserve · ทางการ",
       "title": "Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -262,7 +246,7 @@
       "impact": "high"
     },
     {
-      "icon": "◍",
+      "icon": "◌",
       "label": "Federal Reserve · ทางการ",
       "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -278,7 +262,7 @@
       "impact": "high"
     },
     {
-      "icon": "≋",
+      "icon": "◍",
       "label": "Federal Reserve · ทางการ",
       "title": "Federal Reserve Board announces approval of application by Isabella Bank Corporation",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -290,6 +274,22 @@
       "source": "Federal Reserve",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261005a.htm",
       "publishedAt": "2026-10-05T20:30:00.000Z",
+      "direction": "volatile",
+      "impact": "high"
+    },
+    {
+      "icon": "≋",
+      "label": "Federal Reserve · ทางการ",
+      "title": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
+      "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
+      "tone": "ต้องจับตา",
+      "time": "3 ต.ค.",
+      "image": "",
+      "source": "Federal Reserve",
+      "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261002a.htm",
+      "publishedAt": "2026-10-02T20:45:00.000Z",
       "direction": "volatile",
       "impact": "high"
     }
