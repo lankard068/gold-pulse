@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-10-18T00:10:41.406Z",
+  "generatedAt": "2026-10-18T04:58:30.480Z",
   "quote": {
     "symbol": "XAUUSD",
     "price": 4166.100098,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-10-18T00:10:41.406Z",
+    "asOf": "2026-10-18T04:58:30.480Z",
     "stale": false
   },
   "drivers": {
@@ -75,7 +75,7 @@
   "events": [
     {
       "time": "19:30",
-      "date": "MarketWatch · 12 ชั่วโมงที่แล้ว",
+      "date": "MarketWatch · 16 ชั่วโมงที่แล้ว",
       "title": "Silver’s recent 50% drop from a record high hints that an economic slowdown looms",
       "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
       "short": "There’s a relatively off-the-radar commodity that can provide hints on where the economy is headed — and it’s seen its value drop more than 50% from…",
@@ -173,7 +173,7 @@
       "body": "ข่าวนี้อาจทำให้ตลาดผันผวน ควรอ่านต้นฉบับและเทียบกับข้อมูลตลาดก่อนสรุปทิศทาง",
       "bodyTh": "ข่าวนี้อาจทำให้ตลาดผันผวน ควรอ่านต้นฉบับและเทียบกับข้อมูลตลาดก่อนสรุปทิศทาง",
       "tone": "ต้องจับตา",
-      "time": "12 ชั่วโมงที่แล้ว",
+      "time": "16 ชั่วโมงที่แล้ว",
       "image": "https://images.mktw.net/im-90939892",
       "source": "MarketWatch",
       "sourceUrl": "https://www.marketwatch.com/story/silvers-recent-50-drop-from-a-record-high-hints-that-an-economic-slowdown-looms-e9fdfaf1?mod=mw_rss_topstories",
