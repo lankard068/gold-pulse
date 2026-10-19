@@ -1,53 +1,53 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-10-19T17:05:29.511Z",
+  "generatedAt": "2026-10-19T21:40:33.853Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 4137.92,
+    "price": 4140.92,
     "unit": "USD / troy oz",
     "provider": "GoldPrice.dev",
     "sourceUrl": "https://goldprice.dev/",
-    "asOf": "2026-10-19T16:50:02.424943+00:00",
+    "asOf": "2026-10-19T21:08:02.684811+00:00",
     "stale": false
   },
   "drivers": {
     "dollar": {
-      "value": 121.6023,
-      "previousValue": 121.4469,
-      "change": 0.1554000000000002,
-      "date": "2026-10-09",
+      "value": 121.4048,
+      "previousValue": 121.5693,
+      "change": -0.16450000000000387,
+      "date": "2026-10-16",
       "label": "ดอลลาร์ Broad · FRED",
       "sourceUrl": "https://fred.stlouisfed.org/series/DTWEXBGS"
     },
     "yield10y": {
-      "value": 5.1,
-      "previousValue": 5.19,
-      "change": -0.09000000000000075,
-      "date": "2026-10-15",
+      "value": 5.09,
+      "previousValue": 5.1,
+      "change": -0.009999999999999787,
+      "date": "2026-10-16",
       "label": "US 10Y · FRED",
       "sourceUrl": "https://fred.stlouisfed.org/series/DGS10"
     }
   },
   "analyst": {
-    "score": 50,
-    "direction": "volatile",
-    "label": "ผันผวน / รอดูข้อมูล",
+    "score": 74,
+    "direction": "bullish",
+    "label": "บวกเล็กน้อย",
     "note": "คะแนนคำนวณจากข้อมูลตลาดรายวันและข่าวที่ดึงได้ ไม่ใช่คำแนะนำซื้อขาย",
     "reasons": [
       {
-        "mark": "−",
-        "tone": "negative",
-        "title": "ดอลลาร์แข็งขึ้น",
+        "mark": "+",
+        "tone": "positive",
+        "title": "ดอลลาร์อ่อนลง",
         "source": "FRED",
-        "note": "121.60 · เปลี่ยนแปลง +0.16"
+        "note": "121.40 · เปลี่ยนแปลง -0.16"
       },
       {
         "mark": "+",
         "tone": "positive",
         "title": "ยีลด์ 10Y ลดลง",
         "source": "FRED",
-        "note": "5.10% · เปลี่ยนแปลง -0.09"
+        "note": "5.09% · เปลี่ยนแปลง -0.01"
       },
       {
         "mark": "!",
@@ -87,21 +87,6 @@
       "directionLabel": "ต้องจับตา",
       "sourceLabel": "Federal Reserve",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261016a.htm"
-    },
-    {
-      "time": "21:33",
-      "date": "The Guardian · 15 ต.ค.",
-      "title": "Tech market sell-off deepens amid fears over US inflation and AI debt",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "short": "Chip makers and tech investors such as Samsung and SoftBank plunge as potential interest rate hikes spook markets Business news – live updates Larry…",
-      "shortTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
-      "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
-      "expected": "ข่าวจริง · ไม่มี Forecast",
-      "impact": "high",
-      "direction": "volatile",
-      "directionLabel": "ต้องจับตา",
-      "sourceLabel": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/business/2026/oct/15/tech-market-sell-off-deepens-amid-fears-over-us-inflation-and-ai-debt"
     },
     {
       "time": "21:00",
@@ -162,6 +147,21 @@
       "directionLabel": "ต้องจับตา",
       "sourceLabel": "Federal Reserve",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261002a.htm"
+    },
+    {
+      "time": "03:00",
+      "date": "Federal Reserve · 3 ต.ค.",
+      "title": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "short": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O",
+      "shortTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
+      "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
+      "expected": "ข่าวจริง · ไม่มี Forecast",
+      "impact": "high",
+      "direction": "volatile",
+      "directionLabel": "ต้องจับตา",
+      "sourceLabel": "Federal Reserve",
+      "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261002a.htm"
     }
   ],
   "news": [
@@ -183,22 +183,6 @@
     },
     {
       "icon": "◌",
-      "label": "The Guardian",
-      "title": "Tech market sell-off deepens amid fears over US inflation and AI debt",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
-      "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
-      "tone": "ต้องจับตา",
-      "time": "15 ต.ค.",
-      "image": "https://i.guim.co.uk/img/media/db77d2497ad333f58b03bc024b156cdce2973b96/1166_0_4632_3706/master/4632.jpg?width=140&quality=85&auto=format&fit=max&s=0c106f80a98eb99a06130d501a36d1b9",
-      "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/business/2026/oct/15/tech-market-sell-off-deepens-amid-fears-over-us-inflation-and-ai-debt",
-      "publishedAt": "2026-10-15T14:33:12.000Z",
-      "direction": "volatile",
-      "impact": "high"
-    },
-    {
-      "icon": "◍",
       "label": "Federal Reserve · ทางการ",
       "title": "Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -214,7 +198,7 @@
       "impact": "high"
     },
     {
-      "icon": "≋",
+      "icon": "◍",
       "label": "Federal Reserve · ทางการ",
       "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -230,7 +214,7 @@
       "impact": "high"
     },
     {
-      "icon": "↗",
+      "icon": "≋",
       "label": "Federal Reserve · ทางการ",
       "title": "Federal Reserve Board announces approval of application by Isabella Bank Corporation",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -246,7 +230,7 @@
       "impact": "high"
     },
     {
-      "icon": "◌",
+      "icon": "↗",
       "label": "Federal Reserve · ทางการ",
       "title": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -262,7 +246,7 @@
       "impact": "high"
     },
     {
-      "icon": "◍",
+      "icon": "◌",
       "label": "Federal Reserve · ทางการ",
       "title": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -278,7 +262,7 @@
       "impact": "high"
     },
     {
-      "icon": "≋",
+      "icon": "◍",
       "label": "Federal Reserve · ทางการ",
       "title": "Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -290,6 +274,22 @@
       "source": "Federal Reserve",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261002a.htm",
       "publishedAt": "2026-10-02T15:00:00.000Z",
+      "direction": "volatile",
+      "impact": "high"
+    },
+    {
+      "icon": "≋",
+      "label": "Federal Reserve · ทางการ",
+      "title": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
+      "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
+      "tone": "ต้องจับตา",
+      "time": "30 ก.ย.",
+      "image": "",
+      "source": "Federal Reserve",
+      "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260930a.htm",
+      "publishedAt": "2026-09-30T13:00:00.000Z",
       "direction": "volatile",
       "impact": "high"
     }
