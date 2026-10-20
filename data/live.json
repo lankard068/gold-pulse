@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-10-19T21:40:33.853Z",
+  "generatedAt": "2026-10-20T00:57:05.332Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 4140.92,
+    "price": 4131.5,
     "unit": "USD / troy oz",
-    "provider": "GoldPrice.dev",
-    "sourceUrl": "https://goldprice.dev/",
-    "asOf": "2026-10-19T21:08:02.684811+00:00",
+    "provider": "XAUS",
+    "sourceUrl": "https://xaus.com/api/",
+    "asOf": "2026-10-20T00:57:05.332Z",
     "stale": false
   },
   "drivers": {
