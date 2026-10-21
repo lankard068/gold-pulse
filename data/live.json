@@ -1,36 +1,36 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-10-21T13:04:46.119Z",
+  "generatedAt": "2026-10-21T18:10:13.435Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 4133.700195,
+    "price": 4138.5,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-10-21T13:04:46.119Z",
+    "asOf": "2026-10-21T18:10:13.435Z",
     "stale": false
   },
   "drivers": {
     "dollar": {
-      "value": 121.4048,
-      "previousValue": 121.5693,
-      "change": -0.16450000000000387,
-      "date": "2026-10-16",
+      "value": 400,
+      "previousValue": 400,
+      "change": 0,
+      "date": "    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300",
       "label": "ดอลลาร์ Broad · FRED",
       "sourceUrl": "https://fred.stlouisfed.org/series/DTWEXBGS"
     },
     "yield10y": {
-      "value": 5.15,
-      "previousValue": 5.09,
-      "change": 0.0600000000000005,
-      "date": "2026-10-19",
+      "value": 400,
+      "previousValue": 400,
+      "change": 0,
+      "date": "    <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300",
       "label": "US 10Y · FRED",
       "sourceUrl": "https://fred.stlouisfed.org/series/DGS10"
     }
   },
   "analyst": {
-    "score": 50,
+    "score": 53,
     "direction": "volatile",
     "label": "ผันผวน / รอดูข้อมูล",
     "note": "คะแนนคำนวณจากข้อมูลตลาดรายวันและข่าวที่ดึงได้ ไม่ใช่คำแนะนำซื้อขาย",
@@ -40,21 +40,21 @@
         "tone": "positive",
         "title": "ดอลลาร์อ่อนลง",
         "source": "FRED",
-        "note": "121.40 · เปลี่ยนแปลง -0.16"
+        "note": "400.00 · เปลี่ยนแปลง +0.00"
       },
       {
-        "mark": "−",
-        "tone": "negative",
-        "title": "ยีลด์ 10Y สูงขึ้น",
+        "mark": "+",
+        "tone": "positive",
+        "title": "ยีลด์ 10Y ลดลง",
         "source": "FRED",
-        "note": "5.15% · เปลี่ยนแปลง +0.06"
+        "note": "400.00% · เปลี่ยนแปลง +0.00"
       },
       {
         "mark": "!",
         "tone": "mixed",
         "title": "ข่าวล่าสุดยังต้องยืนยันด้วยราคา",
-        "source": "MarketWatch",
-        "note": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง"
+        "source": "The Guardian",
+        "note": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง"
       }
     ],
     "sources": [
@@ -74,34 +74,19 @@
   },
   "events": [
     {
-      "time": "17:59",
-      "date": "MarketWatch · 2 ชั่วโมงที่แล้ว",
-      "title": "Opposition to data centers will drive up inflation, says BlackRock’s Larry Fink",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "short": "Fight the data centers at your economic peril, says BlackRock CEO Larry Fink.",
-      "shortTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
-      "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
+      "time": "17:00",
+      "date": "The Guardian · 8 ชั่วโมงที่แล้ว",
+      "title": "‘Hunted like animals’: inside Trump’s war on the people who build America",
+      "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
+      "short": "Lorenzo Salgado Araujo was a house framer before he was killed by ICE agents. Countless other Latino builders in Texas live in fear of a similar fate…",
+      "shortTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
+      "why": "เนื้อหานี้มีปัจจัยที่มักช่วยหนุนทอง เช่น ความเสี่ยง ดอลลาร์อ่อน หรือยีลด์ลดลง ควรดูการยืนยันจากราคาและข้อมูลต้นทางประกอบ",
       "expected": "ข่าวจริง · ไม่มี Forecast",
       "impact": "high",
-      "direction": "volatile",
-      "directionLabel": "ต้องจับตา",
-      "sourceLabel": "MarketWatch",
-      "sourceUrl": "https://www.marketwatch.com/story/opposition-to-data-centers-will-drive-up-inflation-says-blackrocks-larry-fink-831c25b9?mod=mw_rss_topstories"
-    },
-    {
-      "time": "16:15",
-      "date": "MarketWatch · 4 ชั่วโมงที่แล้ว",
-      "title": "We have a $300,000 mortgage with a 2.75% interest rate. I want to pay it off. My husband says I’m crazy. Who’s right?",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "short": "“I don’t want to enter retirement owing six figures when we have the cash to clear it.”",
-      "shortTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
-      "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
-      "expected": "ข่าวจริง · ไม่มี Forecast",
-      "impact": "high",
-      "direction": "volatile",
-      "directionLabel": "ต้องจับตา",
-      "sourceLabel": "MarketWatch",
-      "sourceUrl": "https://www.marketwatch.com/story/we-have-a-300-000-mortgage-with-a-2-75-interest-rate-i-want-to-pay-it-off-my-husband-says-im-crazy-whos-right-4ed15226?mod=mw_rss_topstories"
+      "direction": "bullish",
+      "directionLabel": "หนุนทอง",
+      "sourceLabel": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/21/trump-ice-construction-worker-deportation"
     },
     {
       "time": "22:00",
@@ -162,43 +147,42 @@
       "directionLabel": "ต้องจับตา",
       "sourceLabel": "Federal Reserve",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261005a.htm"
+    },
+    {
+      "time": "03:45",
+      "date": "Federal Reserve · 3 ต.ค.",
+      "title": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "short": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
+      "shortTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
+      "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
+      "expected": "ข่าวจริง · ไม่มี Forecast",
+      "impact": "high",
+      "direction": "volatile",
+      "directionLabel": "ต้องจับตา",
+      "sourceLabel": "Federal Reserve",
+      "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261002a.htm"
     }
   ],
   "news": [
     {
       "icon": "↗",
-      "label": "MarketWatch",
-      "title": "Opposition to data centers will drive up inflation, says BlackRock’s Larry Fink",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
-      "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
-      "tone": "ต้องจับตา",
-      "time": "2 ชั่วโมงที่แล้ว",
-      "image": "https://images.mktw.net/im-66460569",
-      "source": "MarketWatch",
-      "sourceUrl": "https://www.marketwatch.com/story/opposition-to-data-centers-will-drive-up-inflation-says-blackrocks-larry-fink-831c25b9?mod=mw_rss_topstories",
-      "publishedAt": "2026-10-21T10:59:00.000Z",
-      "direction": "volatile",
+      "label": "The Guardian",
+      "title": "‘Hunted like animals’: inside Trump’s war on the people who build America",
+      "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
+      "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
+      "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
+      "tone": "หนุนทอง",
+      "time": "8 ชั่วโมงที่แล้ว",
+      "image": "https://i.guim.co.uk/img/media/bc81e4c163cd5d10dbe68578e35851c73cd6b682/675_0_6280_5026/master/6280.jpg?width=140&quality=85&auto=format&fit=max&s=cb35ccfb24a9011e15046353cb43a54e",
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/21/trump-ice-construction-worker-deportation",
+      "publishedAt": "2026-10-21T10:00:02.000Z",
+      "direction": "bullish",
       "impact": "high"
     },
     {
       "icon": "◌",
-      "label": "MarketWatch",
-      "title": "We have a $300,000 mortgage with a 2.75% interest rate. I want to pay it off. My husband says I’m crazy. Who’s right?",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
-      "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
-      "tone": "ต้องจับตา",
-      "time": "4 ชั่วโมงที่แล้ว",
-      "image": "https://images.mktw.net/im-37061158",
-      "source": "MarketWatch",
-      "sourceUrl": "https://www.marketwatch.com/story/we-have-a-300-000-mortgage-with-a-2-75-interest-rate-i-want-to-pay-it-off-my-husband-says-im-crazy-whos-right-4ed15226?mod=mw_rss_topstories",
-      "publishedAt": "2026-10-21T09:15:00.000Z",
-      "direction": "volatile",
-      "impact": "high"
-    },
-    {
-      "icon": "◍",
       "label": "Federal Reserve · ทางการ",
       "title": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -214,7 +198,7 @@
       "impact": "high"
     },
     {
-      "icon": "≋",
+      "icon": "◍",
       "label": "Federal Reserve · ทางการ",
       "title": "Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -230,7 +214,7 @@
       "impact": "high"
     },
     {
-      "icon": "↗",
+      "icon": "≋",
       "label": "Federal Reserve · ทางการ",
       "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -246,7 +230,7 @@
       "impact": "high"
     },
     {
-      "icon": "◌",
+      "icon": "↗",
       "label": "Federal Reserve · ทางการ",
       "title": "Federal Reserve Board announces approval of application by Isabella Bank Corporation",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -262,7 +246,7 @@
       "impact": "high"
     },
     {
-      "icon": "◍",
+      "icon": "◌",
       "label": "Federal Reserve · ทางการ",
       "title": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -278,7 +262,7 @@
       "impact": "high"
     },
     {
-      "icon": "≋",
+      "icon": "◍",
       "label": "Federal Reserve · ทางการ",
       "title": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -290,6 +274,22 @@
       "source": "Federal Reserve",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261002a.htm",
       "publishedAt": "2026-10-02T20:00:00.000Z",
+      "direction": "volatile",
+      "impact": "high"
+    },
+    {
+      "icon": "≋",
+      "label": "Federal Reserve · ทางการ",
+      "title": "Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
+      "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
+      "tone": "ต้องจับตา",
+      "time": "2 ต.ค.",
+      "image": "",
+      "source": "Federal Reserve",
+      "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261002a.htm",
+      "publishedAt": "2026-10-02T15:00:00.000Z",
       "direction": "volatile",
       "impact": "high"
     }
