@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-10-21T21:53:33.228Z",
+  "generatedAt": "2026-10-22T00:28:53.437Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 4142.299805,
+    "price": 4119.600098,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-10-21T21:53:33.228Z",
+    "asOf": "2026-10-22T00:28:53.437Z",
     "stale": false
   },
   "drivers": {
@@ -75,7 +75,7 @@
   "events": [
     {
       "time": "04:14",
-      "date": "MarketWatch · 40 นาทีที่แล้ว",
+      "date": "MarketWatch · 3 ชั่วโมงที่แล้ว",
       "title": "Oil is now flowing out of the Persian Gulf like before the Iran war. Why prices may still not come down anytime soon.",
       "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
       "short": "Oil flows out of the Persian Gulf in October nearly returned to levels seen before the start of the Iran war, but traders remain wary about a fragile…",
@@ -90,7 +90,7 @@
     },
     {
       "time": "03:15",
-      "date": "MarketWatch · 2 ชั่วโมงที่แล้ว",
+      "date": "MarketWatch · 4 ชั่วโมงที่แล้ว",
       "title": "We have a $300,000 mortgage with a 2.75% interest rate. I want to pay it off. My husband says I’m crazy. Who’s right?",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "“I don’t want to enter retirement owing six figures when we have the cash to clear it.”",
@@ -105,7 +105,7 @@
     },
     {
       "time": "17:00",
-      "date": "The Guardian · 12 ชั่วโมงที่แล้ว",
+      "date": "The Guardian · 14 ชั่วโมงที่แล้ว",
       "title": "‘Hunted like animals’: inside Trump’s war on the people who build America",
       "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
       "short": "Lorenzo Salgado Araujo was a house framer before he was killed by ICE agents. Countless other Latino builders in Texas live in fear of a similar fate…",
@@ -173,7 +173,7 @@
       "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "tone": "หนุนทอง",
-      "time": "40 นาทีที่แล้ว",
+      "time": "3 ชั่วโมงที่แล้ว",
       "image": "https://images.mktw.net/im-89005397",
       "source": "MarketWatch",
       "sourceUrl": "https://www.marketwatch.com/story/oil-is-now-flowing-out-of-the-persian-gulf-like-before-the-iran-war-why-prices-may-still-not-come-down-anytime-soon-56df2f48?mod=mw_rss_topstories",
@@ -189,7 +189,7 @@
       "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "tone": "ต้องจับตา",
-      "time": "2 ชั่วโมงที่แล้ว",
+      "time": "4 ชั่วโมงที่แล้ว",
       "image": "https://images.mktw.net/im-37061158",
       "source": "MarketWatch",
       "sourceUrl": "https://www.marketwatch.com/story/we-have-a-300-000-mortgage-with-a-2-75-interest-rate-i-want-to-pay-it-off-my-husband-says-im-crazy-whos-right-4ed15226?mod=mw_rss_topstories",
@@ -205,7 +205,7 @@
       "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "tone": "หนุนทอง",
-      "time": "12 ชั่วโมงที่แล้ว",
+      "time": "14 ชั่วโมงที่แล้ว",
       "image": "https://i.guim.co.uk/img/media/bc81e4c163cd5d10dbe68578e35851c73cd6b682/675_0_6280_5026/master/6280.jpg?width=140&quality=85&auto=format&fit=max&s=cb35ccfb24a9011e15046353cb43a54e",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/21/trump-ice-construction-worker-deportation",
