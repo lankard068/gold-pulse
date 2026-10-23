@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-10-22T23:02:24.753Z",
+  "generatedAt": "2026-10-23T01:46:20.366Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 4027.399902,
+    "price": 4012.800049,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-10-22T23:02:24.753Z",
+    "asOf": "2026-10-23T01:46:20.366Z",
     "stale": false
   },
   "drivers": {
@@ -75,7 +75,7 @@
   "events": [
     {
       "time": "05:07",
-      "date": "MarketWatch · 55 นาทีที่แล้ว",
+      "date": "MarketWatch · 4 ชั่วโมงที่แล้ว",
       "title": "Treasury yields log biggest drop since the 2023 banking crisis. Here’s what’s going on.",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "‘It’s a take-back trade,’ says PGIM’s Tipp. ‘Not an all-out fear of recession type of situation.’",
@@ -90,7 +90,7 @@
     },
     {
       "time": "03:46",
-      "date": "MarketWatch · 2 ชั่วโมงที่แล้ว",
+      "date": "MarketWatch · 5 ชั่วโมงที่แล้ว",
       "title": "Oil prices approach Iran-war highs as soaring tanker rates trigger a second energy squeeze",
       "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
       "short": "Wall Street may be starting to price in the scenario everyone fears: a full-scale regional conflict that could further choke off global energy suppli…",
@@ -173,7 +173,7 @@
       "body": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
       "bodyTh": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
       "tone": "ต้องจับตา",
-      "time": "55 นาทีที่แล้ว",
+      "time": "4 ชั่วโมงที่แล้ว",
       "image": "https://images.mktw.net/im-46225712",
       "source": "MarketWatch",
       "sourceUrl": "https://www.marketwatch.com/story/treasury-yields-see-extreme-plunge-why-investors-are-ducking-for-cover-60044c66?mod=mw_rss_topstories",
@@ -189,7 +189,7 @@
       "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "tone": "หนุนทอง",
-      "time": "2 ชั่วโมงที่แล้ว",
+      "time": "5 ชั่วโมงที่แล้ว",
       "image": "https://images.mktw.net/im-75849474",
       "source": "MarketWatch",
       "sourceUrl": "https://www.marketwatch.com/story/oil-prices-approach-iran-war-highs-as-soaring-tanker-rates-trigger-a-second-energy-squeeze-2d726982?mod=mw_rss_topstories",
