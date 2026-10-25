@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-10-25T00:04:42.978Z",
+  "generatedAt": "2026-10-25T05:07:02.734Z",
   "quote": {
     "symbol": "XAUUSD",
     "price": 3996.899902,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-10-25T00:04:42.978Z",
+    "asOf": "2026-10-25T05:07:02.734Z",
     "stale": false
   },
   "drivers": {
