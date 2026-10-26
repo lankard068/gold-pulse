@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-10-26T07:32:37.696Z",
+  "generatedAt": "2026-10-26T14:56:40.427Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 4010.800049,
+    "price": 4022.899902,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-10-26T07:32:37.696Z",
+    "asOf": "2026-10-26T14:56:40.427Z",
     "stale": false
   },
   "drivers": {
@@ -53,7 +53,7 @@
         "mark": "!",
         "tone": "mixed",
         "title": "ข่าวล่าสุดยังต้องยืนยันด้วยราคา",
-        "source": "MarketWatch",
+        "source": "The Guardian",
         "note": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง"
       }
     ],
@@ -74,19 +74,19 @@
   },
   "events": [
     {
-      "time": "00:00",
-      "date": "MarketWatch · 15 ชั่วโมงที่แล้ว",
-      "title": "We have a $300,000 mortgage with a 2.75% interest rate. I want to pay it off. My husband says I’m crazy. Who’s right?",
+      "time": "18:00",
+      "date": "The Guardian · 4 ชั่วโมงที่แล้ว",
+      "title": "‘We don’t have inflation’? Five charts show the US economic reality of Trump’s second term so far",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "short": "“I don’t want to enter retirement owing six figures when we have the cash to clear it.”",
+      "short": "As the US midterm elections approach, we take a look at data to see a true picture of the US economy under Trump With the midterm elections fast appr…",
       "shortTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
       "expected": "ข่าวจริง · ไม่มี Forecast",
       "impact": "high",
       "direction": "volatile",
       "directionLabel": "ต้องจับตา",
-      "sourceLabel": "MarketWatch",
-      "sourceUrl": "https://www.marketwatch.com/story/we-have-a-300-000-mortgage-with-a-2-75-interest-rate-i-want-to-pay-it-off-my-husband-says-im-crazy-whos-right-4ed15226?mod=mw_rss_topstories"
+      "sourceLabel": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/26/trump-second-term-economy-charts"
     },
     {
       "time": "05:03",
@@ -167,17 +167,17 @@
   "news": [
     {
       "icon": "↗",
-      "label": "MarketWatch",
-      "title": "We have a $300,000 mortgage with a 2.75% interest rate. I want to pay it off. My husband says I’m crazy. Who’s right?",
+      "label": "The Guardian",
+      "title": "‘We don’t have inflation’? Five charts show the US economic reality of Trump’s second term so far",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "tone": "ต้องจับตา",
-      "time": "15 ชั่วโมงที่แล้ว",
-      "image": "https://images.mktw.net/im-37061158",
-      "source": "MarketWatch",
-      "sourceUrl": "https://www.marketwatch.com/story/we-have-a-300-000-mortgage-with-a-2-75-interest-rate-i-want-to-pay-it-off-my-husband-says-im-crazy-whos-right-4ed15226?mod=mw_rss_topstories",
-      "publishedAt": "2026-10-25T17:00:00.000Z",
+      "time": "4 ชั่วโมงที่แล้ว",
+      "image": "https://i.guim.co.uk/img/media/e207112a4f3a725105dff1f7f59275f26fe8ea17/1_0_2999_2400/master/2999.jpg?width=140&quality=85&auto=format&fit=max&s=691c48f4f96f31b99a73b70c40478fde",
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/26/trump-second-term-economy-charts",
+      "publishedAt": "2026-10-26T11:00:42.000Z",
       "direction": "volatile",
       "impact": "high"
     },
