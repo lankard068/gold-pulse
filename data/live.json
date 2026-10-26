@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-10-25T23:04:01.117Z",
+  "generatedAt": "2026-10-26T01:30:46.150Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 4003.600098,
+    "price": 3990.399902,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-10-25T23:04:01.117Z",
+    "asOf": "2026-10-26T01:30:46.150Z",
     "stale": false
   },
   "drivers": {
@@ -75,7 +75,7 @@
   "events": [
     {
       "time": "00:00",
-      "date": "MarketWatch · 6 ชั่วโมงที่แล้ว",
+      "date": "MarketWatch · 9 ชั่วโมงที่แล้ว",
       "title": "We have a $300,000 mortgage with a 2.75% interest rate. I want to pay it off. My husband says I’m crazy. Who’s right?",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "“I don’t want to enter retirement owing six figures when we have the cash to clear it.”",
@@ -173,7 +173,7 @@
       "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "tone": "ต้องจับตา",
-      "time": "6 ชั่วโมงที่แล้ว",
+      "time": "9 ชั่วโมงที่แล้ว",
       "image": "https://images.mktw.net/im-37061158",
       "source": "MarketWatch",
       "sourceUrl": "https://www.marketwatch.com/story/we-have-a-300-000-mortgage-with-a-2-75-interest-rate-i-want-to-pay-it-off-my-husband-says-im-crazy-whos-right-4ed15226?mod=mw_rss_topstories",
