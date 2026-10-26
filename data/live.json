@@ -1,38 +1,38 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-10-26T14:56:40.427Z",
+  "generatedAt": "2026-10-26T20:23:31.992Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 4022.899902,
+    "price": 4014.600098,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-10-26T14:56:40.427Z",
+    "asOf": "2026-10-26T20:23:31.992Z",
     "stale": false
   },
   "drivers": {
     "dollar": {
-      "value": 121.4048,
-      "previousValue": 121.5693,
-      "change": -0.16450000000000387,
-      "date": "2026-10-16",
+      "value": 121.3202,
+      "previousValue": 121.3531,
+      "change": -0.03289999999999793,
+      "date": "2026-10-23",
       "label": "ดอลลาร์ Broad · FRED",
       "sourceUrl": "https://fred.stlouisfed.org/series/DTWEXBGS"
     },
     "yield10y": {
-      "value": 4.96,
-      "previousValue": 5.13,
-      "change": -0.16999999999999993,
-      "date": "2026-10-22",
+      "value": 5,
+      "previousValue": 4.96,
+      "change": 0.040000000000000036,
+      "date": "2026-10-23",
       "label": "US 10Y · FRED",
       "sourceUrl": "https://fred.stlouisfed.org/series/DGS10"
     }
   },
   "analyst": {
-    "score": 80,
-    "direction": "bullish",
-    "label": "บวกเล็กน้อย",
+    "score": 56,
+    "direction": "volatile",
+    "label": "ผันผวน / รอดูข้อมูล",
     "note": "คะแนนคำนวณจากข้อมูลตลาดรายวันและข่าวที่ดึงได้ ไม่ใช่คำแนะนำซื้อขาย",
     "reasons": [
       {
@@ -40,14 +40,14 @@
         "tone": "positive",
         "title": "ดอลลาร์อ่อนลง",
         "source": "FRED",
-        "note": "121.40 · เปลี่ยนแปลง -0.16"
+        "note": "121.32 · เปลี่ยนแปลง -0.03"
       },
       {
-        "mark": "+",
-        "tone": "positive",
-        "title": "ยีลด์ 10Y ลดลง",
+        "mark": "−",
+        "tone": "negative",
+        "title": "ยีลด์ 10Y สูงขึ้น",
         "source": "FRED",
-        "note": "4.96% · เปลี่ยนแปลง -0.17"
+        "note": "5.00% · เปลี่ยนแปลง +0.04"
       },
       {
         "mark": "!",
@@ -75,7 +75,7 @@
   "events": [
     {
       "time": "18:00",
-      "date": "The Guardian · 4 ชั่วโมงที่แล้ว",
+      "date": "The Guardian · 9 ชั่วโมงที่แล้ว",
       "title": "‘We don’t have inflation’? Five charts show the US economic reality of Trump’s second term so far",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "As the US midterm elections approach, we take a look at data to see a true picture of the US economy under Trump With the midterm elections fast appr…",
@@ -173,7 +173,7 @@
       "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "tone": "ต้องจับตา",
-      "time": "4 ชั่วโมงที่แล้ว",
+      "time": "9 ชั่วโมงที่แล้ว",
       "image": "https://i.guim.co.uk/img/media/e207112a4f3a725105dff1f7f59275f26fe8ea17/1_0_2999_2400/master/2999.jpg?width=140&quality=85&auto=format&fit=max&s=691c48f4f96f31b99a73b70c40478fde",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/26/trump-second-term-economy-charts",
