@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-10-27T16:15:29.126Z",
+  "generatedAt": "2026-10-27T20:50:44.341Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 4061.199951,
+    "price": 4061.699951,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-10-27T16:15:29.126Z",
+    "asOf": "2026-10-27T20:50:44.341Z",
     "stale": false
   },
   "drivers": {
@@ -22,17 +22,17 @@
     },
     "yield10y": {
       "value": 5,
-      "previousValue": 4.96,
-      "change": 0.040000000000000036,
-      "date": "2026-10-23",
+      "previousValue": 5,
+      "change": 0,
+      "date": "2026-10-26",
       "label": "US 10Y · FRED",
       "sourceUrl": "https://fred.stlouisfed.org/series/DGS10"
     }
   },
   "analyst": {
-    "score": 56,
-    "direction": "volatile",
-    "label": "ผันผวน / รอดูข้อมูล",
+    "score": 68,
+    "direction": "bullish",
+    "label": "บวกเล็กน้อย",
     "note": "คะแนนคำนวณจากข้อมูลตลาดรายวันและข่าวที่ดึงได้ ไม่ใช่คำแนะนำซื้อขาย",
     "reasons": [
       {
@@ -43,18 +43,18 @@
         "note": "121.32 · เปลี่ยนแปลง -0.03"
       },
       {
-        "mark": "−",
-        "tone": "negative",
-        "title": "ยีลด์ 10Y สูงขึ้น",
+        "mark": "+",
+        "tone": "positive",
+        "title": "ยีลด์ 10Y ลดลง",
         "source": "FRED",
-        "note": "5.00% · เปลี่ยนแปลง +0.04"
+        "note": "5.00% · เปลี่ยนแปลง +0.00"
       },
       {
         "mark": "!",
         "tone": "mixed",
         "title": "ข่าวล่าสุดยังต้องยืนยันด้วยราคา",
         "source": "MarketWatch",
-        "note": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง"
+        "note": "ข่าวทองคำและปัจจัยที่อาจทำให้ XAUUSD เคลื่อนไหว"
       }
     ],
     "sources": [
@@ -74,19 +74,19 @@
   },
   "events": [
     {
-      "time": "22:25",
-      "date": "MarketWatch · 50 นาทีที่แล้ว",
-      "title": "How to use I-bonds to create guaranteed, inflation-proof income in retirement",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "short": "The new I-bond interest rate could be 5.5% or 5.4%, but that shouldn’t change your strategy.",
-      "shortTh": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
+      "time": "03:30",
+      "date": "MarketWatch · 21 นาทีที่แล้ว",
+      "title": "What gold and platinum are telling us about the stock market’s direction",
+      "titleTh": "ข่าวทองคำและปัจจัยที่อาจทำให้ XAUUSD เคลื่อนไหว",
+      "short": "The gold-platinum ratio has one of the best historical records predicting the stock market’s subsequent 12-month return",
+      "shortTh": "ข่าวนี้อาจทำให้ตลาดผันผวน ควรอ่านต้นฉบับและเทียบกับข้อมูลตลาดก่อนสรุปทิศทาง",
       "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
       "expected": "ข่าวจริง · ไม่มี Forecast",
-      "impact": "high",
+      "impact": "medium",
       "direction": "volatile",
       "directionLabel": "ต้องจับตา",
       "sourceLabel": "MarketWatch",
-      "sourceUrl": "https://www.marketwatch.com/story/how-to-use-i-bonds-to-create-guaranteed-inflation-proof-income-in-retirement-50753fea?mod=mw_rss_topstories"
+      "sourceUrl": "https://www.marketwatch.com/story/what-gold-and-platinum-are-telling-us-about-the-stock-markets-direction-81405633?mod=mw_rss_topstories"
     },
     {
       "time": "18:00",
@@ -168,18 +168,18 @@
     {
       "icon": "↗",
       "label": "MarketWatch",
-      "title": "How to use I-bonds to create guaranteed, inflation-proof income in retirement",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "body": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
-      "bodyTh": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
+      "title": "What gold and platinum are telling us about the stock market’s direction",
+      "titleTh": "ข่าวทองคำและปัจจัยที่อาจทำให้ XAUUSD เคลื่อนไหว",
+      "body": "ข่าวนี้อาจทำให้ตลาดผันผวน ควรอ่านต้นฉบับและเทียบกับข้อมูลตลาดก่อนสรุปทิศทาง",
+      "bodyTh": "ข่าวนี้อาจทำให้ตลาดผันผวน ควรอ่านต้นฉบับและเทียบกับข้อมูลตลาดก่อนสรุปทิศทาง",
       "tone": "ต้องจับตา",
-      "time": "50 นาทีที่แล้ว",
-      "image": "https://images.mktw.net/im-39326019",
+      "time": "21 นาทีที่แล้ว",
+      "image": "https://images.mktw.net/im-29501506",
       "source": "MarketWatch",
-      "sourceUrl": "https://www.marketwatch.com/story/how-to-use-i-bonds-to-create-guaranteed-inflation-proof-income-in-retirement-50753fea?mod=mw_rss_topstories",
-      "publishedAt": "2026-10-27T15:25:00.000Z",
+      "sourceUrl": "https://www.marketwatch.com/story/what-gold-and-platinum-are-telling-us-about-the-stock-markets-direction-81405633?mod=mw_rss_topstories",
+      "publishedAt": "2026-10-27T20:30:00.000Z",
       "direction": "volatile",
-      "impact": "high"
+      "impact": "medium"
     },
     {
       "icon": "◌",
