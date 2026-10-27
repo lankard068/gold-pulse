@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-10-26T20:23:31.992Z",
+  "generatedAt": "2026-10-27T00:00:18.737Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 4014.600098,
+    "price": 4007.600098,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-10-26T20:23:31.992Z",
+    "asOf": "2026-10-27T00:00:18.737Z",
     "stale": false
   },
   "drivers": {
@@ -75,7 +75,7 @@
   "events": [
     {
       "time": "18:00",
-      "date": "The Guardian · 9 ชั่วโมงที่แล้ว",
+      "date": "The Guardian · 13 ชั่วโมงที่แล้ว",
       "title": "‘We don’t have inflation’? Five charts show the US economic reality of Trump’s second term so far",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "As the US midterm elections approach, we take a look at data to see a true picture of the US economy under Trump With the midterm elections fast appr…",
@@ -173,7 +173,7 @@
       "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "tone": "ต้องจับตา",
-      "time": "9 ชั่วโมงที่แล้ว",
+      "time": "13 ชั่วโมงที่แล้ว",
       "image": "https://i.guim.co.uk/img/media/e207112a4f3a725105dff1f7f59275f26fe8ea17/1_0_2999_2400/master/2999.jpg?width=140&quality=85&auto=format&fit=max&s=691c48f4f96f31b99a73b70c40478fde",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com/us-news/2026/oct/26/trump-second-term-economy-charts",
