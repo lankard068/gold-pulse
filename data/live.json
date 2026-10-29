@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-10-29T02:41:15.443Z",
+  "generatedAt": "2026-10-29T09:35:02.073Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 4044.100098,
+    "price": 4026.800049,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-10-29T02:41:15.443Z",
+    "asOf": "2026-10-29T09:35:02.073Z",
     "stale": false
   },
   "drivers": {
@@ -75,7 +75,7 @@
   "events": [
     {
       "time": "02:26",
-      "date": "The Guardian · 7 ชั่วโมงที่แล้ว",
+      "date": "The Guardian · 14 ชั่วโมงที่แล้ว",
       "title": "Fed holds interest rates steady in last decision before midterms",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "Fed chair Kevin Warsh said politics played no role in pause of interest rate hikes, despite inflation remaining above 3% The US Federal Reserve left…",
@@ -90,7 +90,7 @@
     },
     {
       "time": "01:00",
-      "date": "Federal Reserve · 9 ชั่วโมงที่แล้ว",
+      "date": "Federal Reserve · 16 ชั่วโมงที่แล้ว",
       "title": "Federal Reserve issues FOMC statement",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "Federal Reserve issues FOMC statement",
@@ -173,7 +173,7 @@
       "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "tone": "ต้องจับตา",
-      "time": "7 ชั่วโมงที่แล้ว",
+      "time": "14 ชั่วโมงที่แล้ว",
       "image": "https://i.guim.co.uk/img/media/7880dcf74afd8e1464e25cee2da4b52881ed5e8e/1146_740_2868_2294/master/2868.jpg?width=140&quality=85&auto=format&fit=max&s=a275695d23d6cd43252182d5bfeaad61",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com/business/2026/oct/28/fed-interest-rates-midterms",
@@ -189,7 +189,7 @@
       "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "tone": "ต้องจับตา",
-      "time": "9 ชั่วโมงที่แล้ว",
+      "time": "16 ชั่วโมงที่แล้ว",
       "image": "",
       "source": "Federal Reserve",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
