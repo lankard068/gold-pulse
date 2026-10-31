@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-10-31T04:41:19.819Z",
+  "generatedAt": "2026-10-31T10:46:04.206Z",
   "quote": {
     "symbol": "XAUUSD",
     "price": 3876.399902,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-10-31T04:41:19.819Z",
+    "asOf": "2026-10-31T10:46:04.206Z",
     "stale": false
   },
   "drivers": {
@@ -75,7 +75,7 @@
   "events": [
     {
       "time": "04:30",
-      "date": "MarketWatch · 7 ชั่วโมงที่แล้ว",
+      "date": "MarketWatch · 13 ชั่วโมงที่แล้ว",
       "title": "Why gold plunged to its lowest price in a year despite renewed Iran jitters",
       "titleTh": "ข่าวทองคำและปัจจัยที่อาจทำให้ XAUUSD เคลื่อนไหว",
       "short": "Safe-haven gold fell to its lowest price in a year, despite jitters around the potential for fresh Middle East attacks following the U.S. midterm ele…",
@@ -90,7 +90,7 @@
     },
     {
       "time": "04:23",
-      "date": "MarketWatch · 7 ชั่วโมงที่แล้ว",
+      "date": "MarketWatch · 13 ชั่วโมงที่แล้ว",
       "title": "Warsh wants the Fed to say less. Two officials are pushing for more transparency.",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "More interest-rate hikes are needed to fight inflation, Fed officials say.",
@@ -173,7 +173,7 @@
       "body": "ข่าวนี้อาจทำให้ตลาดผันผวน ควรอ่านต้นฉบับและเทียบกับข้อมูลตลาดก่อนสรุปทิศทาง",
       "bodyTh": "ข่าวนี้อาจทำให้ตลาดผันผวน ควรอ่านต้นฉบับและเทียบกับข้อมูลตลาดก่อนสรุปทิศทาง",
       "tone": "ต้องจับตา",
-      "time": "7 ชั่วโมงที่แล้ว",
+      "time": "13 ชั่วโมงที่แล้ว",
       "image": "https://images.mktw.net/im-86036110",
       "source": "MarketWatch",
       "sourceUrl": "https://www.marketwatch.com/story/why-gold-plunged-to-its-lowest-price-in-a-year-despite-renewed-iran-jitters-365be0e2?mod=mw_rss_topstories",
@@ -189,7 +189,7 @@
       "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "tone": "ต้องจับตา",
-      "time": "7 ชั่วโมงที่แล้ว",
+      "time": "13 ชั่วโมงที่แล้ว",
       "image": "https://images.mktw.net/im-812380",
       "source": "MarketWatch",
       "sourceUrl": "https://www.marketwatch.com/story/the-fed-held-interest-rates-steady-but-these-officials-see-more-hikes-coming-soon-2098bbd8?mod=mw_rss_topstories",
