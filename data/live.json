@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-10-31T15:58:10.820Z",
+  "generatedAt": "2026-10-31T19:52:28.066Z",
   "quote": {
     "symbol": "XAUUSD",
     "price": 3876.399902,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-10-31T15:58:10.820Z",
+    "asOf": "2026-10-31T19:52:28.066Z",
     "stale": false
   },
   "drivers": {
@@ -54,7 +54,7 @@
         "tone": "mixed",
         "title": "ข่าวล่าสุดยังต้องยืนยันด้วยราคา",
         "source": "MarketWatch",
-        "note": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง"
+        "note": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง"
       }
     ],
     "sources": [
@@ -74,19 +74,19 @@
   },
   "events": [
     {
-      "time": "21:03",
-      "date": "MarketWatch · 2 ชั่วโมงที่แล้ว",
-      "title": "Your stock portfolio increasingly hinges on the bond market — and the midterm elections",
-      "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
-      "short": "Tech stocks in late October caught the cold that for months has been a drag on the corporate bond market.",
+      "time": "02:00",
+      "date": "MarketWatch · 52 นาทีที่แล้ว",
+      "title": "We’re in our 70s. Should we pay off our 2.5% mortgage — or put the money in a high-yield savings account?",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "short": "“Let’s say 10 years from now, when I’m 84, we need a substantial amount of cash.”",
       "shortTh": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
       "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
       "expected": "ข่าวจริง · ไม่มี Forecast",
-      "impact": "medium",
+      "impact": "high",
       "direction": "volatile",
       "directionLabel": "ต้องจับตา",
       "sourceLabel": "MarketWatch",
-      "sourceUrl": "https://www.marketwatch.com/story/your-stock-portfolio-increasingly-hinges-on-the-bond-market-and-the-midterm-elections-dc1abadb?mod=mw_rss_topstories"
+      "sourceUrl": "https://www.marketwatch.com/story/we-are-in-our-70s-should-we-pay-off-our-2-5-mortgage-or-build-up-our-savings-5a35e9c1?mod=mw_rss_topstories"
     },
     {
       "time": "03:30",
@@ -168,18 +168,18 @@
     {
       "icon": "↗",
       "label": "MarketWatch",
-      "title": "Your stock portfolio increasingly hinges on the bond market — and the midterm elections",
-      "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
+      "title": "We’re in our 70s. Should we pay off our 2.5% mortgage — or put the money in a high-yield savings account?",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
       "bodyTh": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
       "tone": "ต้องจับตา",
-      "time": "2 ชั่วโมงที่แล้ว",
-      "image": "https://images.mktw.net/im-67183862",
+      "time": "52 นาทีที่แล้ว",
+      "image": "https://images.mktw.net/im-65126339",
       "source": "MarketWatch",
-      "sourceUrl": "https://www.marketwatch.com/story/your-stock-portfolio-increasingly-hinges-on-the-bond-market-and-the-midterm-elections-dc1abadb?mod=mw_rss_topstories",
-      "publishedAt": "2026-10-31T14:03:00.000Z",
+      "sourceUrl": "https://www.marketwatch.com/story/we-are-in-our-70s-should-we-pay-off-our-2-5-mortgage-or-build-up-our-savings-5a35e9c1?mod=mw_rss_topstories",
+      "publishedAt": "2026-10-31T19:00:00.000Z",
       "direction": "volatile",
-      "impact": "medium"
+      "impact": "high"
     },
     {
       "icon": "◌",
