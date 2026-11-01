@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-10-31T23:09:48.775Z",
+  "generatedAt": "2026-11-01T02:28:15.022Z",
   "quote": {
     "symbol": "XAUUSD",
     "price": 3876.399902,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-10-31T23:09:48.775Z",
+    "asOf": "2026-11-01T02:28:15.022Z",
     "stale": false
   },
   "drivers": {
@@ -75,7 +75,7 @@
   "events": [
     {
       "time": "02:00",
-      "date": "MarketWatch · 4 ชั่วโมงที่แล้ว",
+      "date": "MarketWatch · 7 ชั่วโมงที่แล้ว",
       "title": "We’re in our 70s. Should we pay off our 2.5% mortgage — or put the money in a high-yield savings account?",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "“Let’s say 10 years from now, when I’m 84, we need a substantial amount of cash.”",
@@ -173,7 +173,7 @@
       "body": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
       "bodyTh": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
       "tone": "ต้องจับตา",
-      "time": "4 ชั่วโมงที่แล้ว",
+      "time": "7 ชั่วโมงที่แล้ว",
       "image": "https://images.mktw.net/im-65126339",
       "source": "MarketWatch",
       "sourceUrl": "https://www.marketwatch.com/story/we-are-in-our-70s-should-we-pay-off-our-2-5-mortgage-or-build-up-our-savings-5a35e9c1?mod=mw_rss_topstories",
