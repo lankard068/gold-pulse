@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-11-02T07:27:23.926Z",
+  "generatedAt": "2026-11-02T17:23:09.709Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 3906.899902,
+    "price": 3965.399902,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-11-02T07:27:23.926Z",
+    "asOf": "2026-11-02T17:23:09.709Z",
     "stale": false
   },
   "drivers": {
@@ -30,7 +30,7 @@
     }
   },
   "analyst": {
-    "score": 77,
+    "score": 80,
     "direction": "bullish",
     "label": "บวกเล็กน้อย",
     "note": "คะแนนคำนวณจากข้อมูลตลาดรายวันและข่าวที่ดึงได้ ไม่ใช่คำแนะนำซื้อขาย",
@@ -53,8 +53,8 @@
         "mark": "!",
         "tone": "mixed",
         "title": "ข่าวล่าสุดยังต้องยืนยันด้วยราคา",
-        "source": "The Guardian",
-        "note": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง"
+        "source": "MarketWatch",
+        "note": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง"
       }
     ],
     "sources": [
@@ -74,8 +74,38 @@
   },
   "events": [
     {
+      "time": "22:59",
+      "date": "MarketWatch · 1 ชั่วโมงที่แล้ว",
+      "title": "Booming U.S. manufacturers can’t keep up with demand — and high inflation isn’t helping",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "short": "U.S. manufacturers in October pumped out the most goods — plastics, computers, electrical equipment and so forth — in five years as a growing economy…",
+      "shortTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
+      "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
+      "expected": "ข่าวจริง · ไม่มี Forecast",
+      "impact": "high",
+      "direction": "volatile",
+      "directionLabel": "ต้องจับตา",
+      "sourceLabel": "MarketWatch",
+      "sourceUrl": "https://www.marketwatch.com/story/booming-u-s-manufacturers-cant-keep-up-with-demand-and-high-inflation-isnt-helping-128a3902?mod=mw_rss_topstories"
+    },
+    {
+      "time": "22:07",
+      "date": "The Guardian · 2 ชั่วโมงที่แล้ว",
+      "title": "Binance releases proof of reserves data for ten cryptocurrencies; oil tumbles amid hopes of Iran war breakthrough – as it happened",
+      "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
+      "short": "Rolling coverage of the latest economic and financial news Yi He, co-founder of Binance, has said that its top priority is to “ensure the environment…",
+      "shortTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
+      "why": "เนื้อหานี้มีปัจจัยที่มักช่วยหนุนทอง เช่น ความเสี่ยง ดอลลาร์อ่อน หรือยีลด์ลดลง ควรดูการยืนยันจากราคาและข้อมูลต้นทางประกอบ",
+      "expected": "ข่าวจริง · ไม่มี Forecast",
+      "impact": "high",
+      "direction": "bullish",
+      "directionLabel": "หนุนทอง",
+      "sourceLabel": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/business/live/2026/nov/02/crypto-scam-binance-billion-hack-business-live-latest-updates-news"
+    },
+    {
       "time": "19:00",
-      "date": "The Guardian · 19 ชั่วโมงที่แล้ว",
+      "date": "The Guardian · 1 พ.ย.",
       "title": "The US-China trade war seems to have subsided – but the sense of calm is misleading",
       "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
       "short": "A truce has cooled the trade conflict, but neither country has done anything to limit the outbreak of new hostilities Donald Trump ’s trade wars have…",
@@ -132,48 +162,50 @@
       "directionLabel": "ต้องจับตา",
       "sourceLabel": "Federal Reserve",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
-    },
-    {
-      "time": "09:17",
-      "date": "The Guardian · 28 ต.ค.",
-      "title": "Australia’s inflation rate rises to 4.3%, fuelling fears of fifth interest rate hike this year",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "short": "CPI release comes ahead of Reserve Bank decision next week as the Middle East conflict intensifies the cost-of-living crisis Follow our Australian po…",
-      "shortTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
-      "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
-      "expected": "ข่าวจริง · ไม่มี Forecast",
-      "impact": "high",
-      "direction": "volatile",
-      "directionLabel": "ต้องจับตา",
-      "sourceLabel": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/australia-news/2026/oct/28/inflation-rate-australia-2026-number-data-consumer-price-index-cpi-release"
-    },
-    {
-      "time": "22:00",
-      "date": "Federal Reserve · 16 ต.ค.",
-      "title": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "short": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
-      "shortTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
-      "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
-      "expected": "ข่าวจริง · ไม่มี Forecast",
-      "impact": "high",
-      "direction": "volatile",
-      "directionLabel": "ต้องจับตา",
-      "sourceLabel": "Federal Reserve",
-      "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261016a.htm"
     }
   ],
   "news": [
     {
       "icon": "↗",
+      "label": "MarketWatch",
+      "title": "Booming U.S. manufacturers can’t keep up with demand — and high inflation isn’t helping",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
+      "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
+      "tone": "ต้องจับตา",
+      "time": "1 ชั่วโมงที่แล้ว",
+      "image": "https://images.mktw.net/im-22007094",
+      "source": "MarketWatch",
+      "sourceUrl": "https://www.marketwatch.com/story/booming-u-s-manufacturers-cant-keep-up-with-demand-and-high-inflation-isnt-helping-128a3902?mod=mw_rss_topstories",
+      "publishedAt": "2026-11-02T15:59:00.000Z",
+      "direction": "volatile",
+      "impact": "high"
+    },
+    {
+      "icon": "◌",
+      "label": "The Guardian",
+      "title": "Binance releases proof of reserves data for ten cryptocurrencies; oil tumbles amid hopes of Iran war breakthrough – as it happened",
+      "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
+      "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
+      "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
+      "tone": "หนุนทอง",
+      "time": "2 ชั่วโมงที่แล้ว",
+      "image": "https://i.guim.co.uk/img/media/5fccfadfbf1abdc153a87f2912cc39f4233a9b70/758_0_4039_3231/master/4039.jpg?width=140&quality=85&auto=format&fit=max&s=e0a18b0b41b5d343c29972fe59377f2b",
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/business/live/2026/nov/02/crypto-scam-binance-billion-hack-business-live-latest-updates-news",
+      "publishedAt": "2026-11-02T15:07:29.000Z",
+      "direction": "bullish",
+      "impact": "high"
+    },
+    {
+      "icon": "◍",
       "label": "The Guardian",
       "title": "The US-China trade war seems to have subsided – but the sense of calm is misleading",
       "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
       "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "tone": "หนุนทอง",
-      "time": "19 ชั่วโมงที่แล้ว",
+      "time": "1 พ.ย.",
       "image": "https://i.guim.co.uk/img/media/2f8a0af67afa9f857d560117b8e1eced18fbc3ad/1801_315_3487_2790/master/3487.jpg?width=140&quality=85&auto=format&fit=max&s=0fed03aee66d9bdc808c3e0e1b05a1ed",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com/world/2026/nov/01/us-china-trade-war-trump-xi",
@@ -182,7 +214,7 @@
       "impact": "high"
     },
     {
-      "icon": "◌",
+      "icon": "≋",
       "label": "Federal Reserve · ทางการ",
       "title": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -198,7 +230,7 @@
       "impact": "high"
     },
     {
-      "icon": "◍",
+      "icon": "↗",
       "label": "The Guardian",
       "title": "US economy grows faster than expected but inflation rises to 3.7%",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -214,7 +246,7 @@
       "impact": "high"
     },
     {
-      "icon": "≋",
+      "icon": "◌",
       "label": "Federal Reserve · ทางการ",
       "title": "Federal Reserve issues FOMC statement",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -230,7 +262,7 @@
       "impact": "high"
     },
     {
-      "icon": "↗",
+      "icon": "◍",
       "label": "The Guardian",
       "title": "Australia’s inflation rate rises to 4.3%, fuelling fears of fifth interest rate hike this year",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -246,7 +278,7 @@
       "impact": "high"
     },
     {
-      "icon": "◌",
+      "icon": "≋",
       "label": "Federal Reserve · ทางการ",
       "title": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -258,38 +290,6 @@
       "source": "Federal Reserve",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261016a.htm",
       "publishedAt": "2026-10-16T15:00:00.000Z",
-      "direction": "volatile",
-      "impact": "high"
-    },
-    {
-      "icon": "◍",
-      "label": "Federal Reserve · ทางการ",
-      "title": "Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
-      "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
-      "tone": "ต้องจับตา",
-      "time": "9 ต.ค.",
-      "image": "",
-      "source": "Federal Reserve",
-      "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm",
-      "publishedAt": "2026-10-09T14:00:00.000Z",
-      "direction": "volatile",
-      "impact": "high"
-    },
-    {
-      "icon": "≋",
-      "label": "Federal Reserve · ทางการ",
-      "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
-      "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
-      "tone": "ต้องจับตา",
-      "time": "9 ต.ค.",
-      "image": "",
-      "source": "Federal Reserve",
-      "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm",
-      "publishedAt": "2026-10-08T20:30:00.000Z",
       "direction": "volatile",
       "impact": "high"
     }
