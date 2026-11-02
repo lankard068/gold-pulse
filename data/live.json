@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-11-02T00:34:10.710Z",
+  "generatedAt": "2026-11-02T07:27:23.926Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 3897.600098,
+    "price": 3906.899902,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-11-02T00:34:10.710Z",
+    "asOf": "2026-11-02T07:27:23.926Z",
     "stale": false
   },
   "drivers": {
@@ -75,7 +75,7 @@
   "events": [
     {
       "time": "19:00",
-      "date": "The Guardian · 13 ชั่วโมงที่แล้ว",
+      "date": "The Guardian · 19 ชั่วโมงที่แล้ว",
       "title": "The US-China trade war seems to have subsided – but the sense of calm is misleading",
       "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
       "short": "A truce has cooled the trade conflict, but neither country has done anything to limit the outbreak of new hostilities Donald Trump ’s trade wars have…",
@@ -173,7 +173,7 @@
       "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "tone": "หนุนทอง",
-      "time": "13 ชั่วโมงที่แล้ว",
+      "time": "19 ชั่วโมงที่แล้ว",
       "image": "https://i.guim.co.uk/img/media/2f8a0af67afa9f857d560117b8e1eced18fbc3ad/1801_315_3487_2790/master/3487.jpg?width=140&quality=85&auto=format&fit=max&s=0fed03aee66d9bdc808c3e0e1b05a1ed",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com/world/2026/nov/01/us-china-trade-war-trump-xi",
