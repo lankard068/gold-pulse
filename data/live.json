@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-11-03T14:54:10.718Z",
+  "generatedAt": "2026-11-03T20:49:34.690Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 3947.899902,
+    "price": 3923,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-11-03T14:54:10.718Z",
+    "asOf": "2026-11-03T20:49:34.690Z",
     "stale": false
   },
   "drivers": {
@@ -75,7 +75,7 @@
   "events": [
     {
       "time": "00:14",
-      "date": "The Guardian · 22 ชั่วโมงที่แล้ว",
+      "date": "The Guardian · 3 พ.ย.",
       "title": "Oil price falls amid hope of a breakthrough to end Iran war",
       "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
       "short": "Brent crude drops by more than 6% to $105.55 a barrel, the lowest level in more than two weeks The oil price has fallen to its lowest level in more t…",
@@ -173,7 +173,7 @@
       "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "tone": "หนุนทอง",
-      "time": "22 ชั่วโมงที่แล้ว",
+      "time": "3 พ.ย.",
       "image": "https://i.guim.co.uk/img/media/5aa655482ec1b18379bdd2373abb83196044c4d5/1261_325_3461_2770/master/3461.jpg?width=140&quality=85&auto=format&fit=max&s=e23edc26d2d93062098ab5141262aae8",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com/business/2026/nov/02/oil-price-falls-amid-hope-of-a-breakthrough-to-end-iran-war",
