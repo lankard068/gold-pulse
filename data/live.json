@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-11-04T16:01:30.280Z",
+  "generatedAt": "2026-11-04T22:04:05.170Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 4050.100098,
+    "price": 4061.199951,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-11-04T16:01:30.280Z",
+    "asOf": "2026-11-04T22:04:05.170Z",
     "stale": false
   },
   "drivers": {
@@ -21,16 +21,16 @@
       "sourceUrl": "https://fred.stlouisfed.org/series/DTWEXBGS"
     },
     "yield10y": {
-      "value": 4.91,
-      "previousValue": 4.94,
-      "change": -0.03000000000000025,
-      "date": "2026-11-02",
+      "value": 4.95,
+      "previousValue": 4.91,
+      "change": 0.040000000000000036,
+      "date": "2026-11-03",
       "label": "US 10Y · FRED",
       "sourceUrl": "https://fred.stlouisfed.org/series/DGS10"
     }
   },
   "analyst": {
-    "score": 80,
+    "score": 59,
     "direction": "bullish",
     "label": "บวกเล็กน้อย",
     "note": "คะแนนคำนวณจากข้อมูลตลาดรายวันและข่าวที่ดึงได้ ไม่ใช่คำแนะนำซื้อขาย",
@@ -43,11 +43,11 @@
         "note": "121.67 · เปลี่ยนแปลง -0.07"
       },
       {
-        "mark": "+",
-        "tone": "positive",
-        "title": "ยีลด์ 10Y ลดลง",
+        "mark": "−",
+        "tone": "negative",
+        "title": "ยีลด์ 10Y สูงขึ้น",
         "source": "FRED",
-        "note": "4.91% · เปลี่ยนแปลง -0.03"
+        "note": "4.95% · เปลี่ยนแปลง +0.04"
       },
       {
         "mark": "!",
@@ -74,19 +74,19 @@
   },
   "events": [
     {
-      "time": "22:47",
-      "date": "The Guardian · 14 นาทีที่แล้ว",
-      "title": "US stock markets and government bonds rally while dollar falls after Democrats secure Congress – business live",
+      "time": "23:38",
+      "date": "The Guardian · 5 ชั่วโมงที่แล้ว",
+      "title": "US stocks rise, dollar slides as investors digest Democrats’ midterm victories",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "short": "European shares also power ahead as markets react to blue wave in US midterm elections And Chris Turner , global head of markets at ING, says: Invest…",
+      "short": "Government bond yields fall while initial fears ease over impact of election results on world’s biggest economy Business live – latest updates US mid…",
       "shortTh": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
       "why": "เนื้อหานี้มีปัจจัยที่มักช่วยหนุนทอง เช่น ความเสี่ยง ดอลลาร์อ่อน หรือยีลด์ลดลง ควรดูการยืนยันจากราคาและข้อมูลต้นทางประกอบ",
       "expected": "ข่าวจริง · ไม่มี Forecast",
-      "impact": "medium",
+      "impact": "high",
       "direction": "bullish",
       "directionLabel": "หนุนทอง",
       "sourceLabel": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/business/live/2026/nov/04/dollar-falls-while-gold-us-treasury-bonds-rally-markets-react-democrats-midterm-election-victory-marks-spencer-latest-live-updates"
+      "sourceUrl": "https://www.theguardian.com/business/2026/nov/04/us-dollar-slides-democrats-midterm-election-win-growth-fears"
     },
     {
       "time": "00:14",
@@ -168,18 +168,18 @@
     {
       "icon": "↗",
       "label": "The Guardian",
-      "title": "US stock markets and government bonds rally while dollar falls after Democrats secure Congress – business live",
+      "title": "US stocks rise, dollar slides as investors digest Democrats’ midterm victories",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
       "bodyTh": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
       "tone": "หนุนทอง",
-      "time": "14 นาทีที่แล้ว",
-      "image": "https://i.guim.co.uk/img/media/9da1f4f617eee33787a748e1b93a9e532dbb6759/500_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=12ea7d69bc0025dbcd7f2df2bb19965d",
+      "time": "5 ชั่วโมงที่แล้ว",
+      "image": "https://i.guim.co.uk/img/media/6b1f011569afbc3d0e2cd5fc5417582f27adbe6a/714_28_3264_2612/master/3264.jpg?width=140&quality=85&auto=format&fit=max&s=893b0115f42782d7afa7bc67f68cf280",
       "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/business/live/2026/nov/04/dollar-falls-while-gold-us-treasury-bonds-rally-markets-react-democrats-midterm-election-victory-marks-spencer-latest-live-updates",
-      "publishedAt": "2026-11-04T15:47:07.000Z",
+      "sourceUrl": "https://www.theguardian.com/business/2026/nov/04/us-dollar-slides-democrats-midterm-election-win-growth-fears",
+      "publishedAt": "2026-11-04T16:38:28.000Z",
       "direction": "bullish",
-      "impact": "medium"
+      "impact": "high"
     },
     {
       "icon": "◌",
