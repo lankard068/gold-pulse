@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-11-04T01:05:57.649Z",
+  "generatedAt": "2026-11-04T07:51:57.230Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 3931.300049,
+    "price": 4027.100098,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-11-04T01:05:57.649Z",
+    "asOf": "2026-11-04T07:51:57.230Z",
     "stale": false
   },
   "drivers": {
@@ -75,7 +75,7 @@
   "events": [
     {
       "time": "05:06",
-      "date": "MarketWatch · 3 ชั่วโมงที่แล้ว",
+      "date": "MarketWatch · 10 ชั่วโมงที่แล้ว",
       "title": "AI’s control over the bond market is growing — even rivaling war and elections",
       "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
       "short": "“Hyperscalers” burned through their cash. Now their bond deals are helping fuel the economy.",
@@ -173,7 +173,7 @@
       "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "tone": "หนุนทอง",
-      "time": "3 ชั่วโมงที่แล้ว",
+      "time": "10 ชั่วโมงที่แล้ว",
       "image": "https://images.mktw.net/im-33615711",
       "source": "MarketWatch",
       "sourceUrl": "https://www.marketwatch.com/story/ais-control-over-the-bond-market-is-growing-even-rivaling-war-and-elections-5d727b35?mod=mw_rss_topstories",
