@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-11-04T07:51:57.230Z",
+  "generatedAt": "2026-11-04T16:01:30.280Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 4027.100098,
+    "price": 4050.100098,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-11-04T07:51:57.230Z",
+    "asOf": "2026-11-04T16:01:30.280Z",
     "stale": false
   },
   "drivers": {
@@ -53,8 +53,8 @@
         "mark": "!",
         "tone": "mixed",
         "title": "ข่าวล่าสุดยังต้องยืนยันด้วยราคา",
-        "source": "MarketWatch",
-        "note": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง"
+        "source": "The Guardian",
+        "note": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง"
       }
     ],
     "sources": [
@@ -74,19 +74,19 @@
   },
   "events": [
     {
-      "time": "05:06",
-      "date": "MarketWatch · 10 ชั่วโมงที่แล้ว",
-      "title": "AI’s control over the bond market is growing — even rivaling war and elections",
-      "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
-      "short": "“Hyperscalers” burned through their cash. Now their bond deals are helping fuel the economy.",
-      "shortTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
+      "time": "22:47",
+      "date": "The Guardian · 14 นาทีที่แล้ว",
+      "title": "US stock markets and government bonds rally while dollar falls after Democrats secure Congress – business live",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "short": "European shares also power ahead as markets react to blue wave in US midterm elections And Chris Turner , global head of markets at ING, says: Invest…",
+      "shortTh": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
       "why": "เนื้อหานี้มีปัจจัยที่มักช่วยหนุนทอง เช่น ความเสี่ยง ดอลลาร์อ่อน หรือยีลด์ลดลง ควรดูการยืนยันจากราคาและข้อมูลต้นทางประกอบ",
       "expected": "ข่าวจริง · ไม่มี Forecast",
-      "impact": "high",
+      "impact": "medium",
       "direction": "bullish",
       "directionLabel": "หนุนทอง",
-      "sourceLabel": "MarketWatch",
-      "sourceUrl": "https://www.marketwatch.com/story/ais-control-over-the-bond-market-is-growing-even-rivaling-war-and-elections-5d727b35?mod=mw_rss_topstories"
+      "sourceLabel": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/business/live/2026/nov/04/dollar-falls-while-gold-us-treasury-bonds-rally-markets-react-democrats-midterm-election-victory-marks-spencer-latest-live-updates"
     },
     {
       "time": "00:14",
@@ -167,19 +167,19 @@
   "news": [
     {
       "icon": "↗",
-      "label": "MarketWatch",
-      "title": "AI’s control over the bond market is growing — even rivaling war and elections",
-      "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
-      "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
-      "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
+      "label": "The Guardian",
+      "title": "US stock markets and government bonds rally while dollar falls after Democrats secure Congress – business live",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "body": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
+      "bodyTh": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
       "tone": "หนุนทอง",
-      "time": "10 ชั่วโมงที่แล้ว",
-      "image": "https://images.mktw.net/im-33615711",
-      "source": "MarketWatch",
-      "sourceUrl": "https://www.marketwatch.com/story/ais-control-over-the-bond-market-is-growing-even-rivaling-war-and-elections-5d727b35?mod=mw_rss_topstories",
-      "publishedAt": "2026-11-03T22:06:00.000Z",
+      "time": "14 นาทีที่แล้ว",
+      "image": "https://i.guim.co.uk/img/media/9da1f4f617eee33787a748e1b93a9e532dbb6759/500_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=12ea7d69bc0025dbcd7f2df2bb19965d",
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/business/live/2026/nov/04/dollar-falls-while-gold-us-treasury-bonds-rally-markets-react-democrats-midterm-election-victory-marks-spencer-latest-live-updates",
+      "publishedAt": "2026-11-04T15:47:07.000Z",
       "direction": "bullish",
-      "impact": "high"
+      "impact": "medium"
     },
     {
       "icon": "◌",
