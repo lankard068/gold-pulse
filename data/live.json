@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-11-05T18:14:29.294Z",
+  "generatedAt": "2026-11-05T23:46:53.605Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 4104.899902,
+    "price": 4097.799805,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-11-05T18:14:29.294Z",
+    "asOf": "2026-11-05T23:46:53.605Z",
     "stale": false
   },
   "drivers": {
@@ -21,18 +21,18 @@
       "sourceUrl": "https://fred.stlouisfed.org/series/DTWEXBGS"
     },
     "yield10y": {
-      "value": 4.95,
-      "previousValue": 4.91,
-      "change": 0.040000000000000036,
-      "date": "2026-11-03",
+      "value": 4.9,
+      "previousValue": 4.95,
+      "change": -0.04999999999999982,
+      "date": "2026-11-04",
       "label": "US 10Y · FRED",
       "sourceUrl": "https://fred.stlouisfed.org/series/DGS10"
     }
   },
   "analyst": {
-    "score": 56,
-    "direction": "volatile",
-    "label": "ผันผวน / รอดูข้อมูล",
+    "score": 80,
+    "direction": "bullish",
+    "label": "บวกเล็กน้อย",
     "note": "คะแนนคำนวณจากข้อมูลตลาดรายวันและข่าวที่ดึงได้ ไม่ใช่คำแนะนำซื้อขาย",
     "reasons": [
       {
@@ -43,11 +43,11 @@
         "note": "121.67 · เปลี่ยนแปลง -0.07"
       },
       {
-        "mark": "−",
-        "tone": "negative",
-        "title": "ยีลด์ 10Y สูงขึ้น",
+        "mark": "+",
+        "tone": "positive",
+        "title": "ยีลด์ 10Y ลดลง",
         "source": "FRED",
-        "note": "4.95% · เปลี่ยนแปลง +0.04"
+        "note": "4.90% · เปลี่ยนแปลง -0.05"
       },
       {
         "mark": "!",
@@ -75,7 +75,7 @@
   "events": [
     {
       "time": "23:00",
-      "date": "Federal Reserve · 2 ชั่วโมงที่แล้ว",
+      "date": "Federal Reserve · 8 ชั่วโมงที่แล้ว",
       "title": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
@@ -173,7 +173,7 @@
       "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "tone": "ต้องจับตา",
-      "time": "2 ชั่วโมงที่แล้ว",
+      "time": "8 ชั่วโมงที่แล้ว",
       "image": "",
       "source": "Federal Reserve",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm",
