@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-11-04T22:04:05.170Z",
+  "generatedAt": "2026-11-05T02:40:56.499Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 4061.199951,
+    "price": 4127.600098,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-11-04T22:04:05.170Z",
+    "asOf": "2026-11-05T02:40:56.499Z",
     "stale": false
   },
   "drivers": {
@@ -75,10 +75,10 @@
   "events": [
     {
       "time": "23:38",
-      "date": "The Guardian · 5 ชั่วโมงที่แล้ว",
+      "date": "The Guardian · 10 ชั่วโมงที่แล้ว",
       "title": "US stocks rise, dollar slides as investors digest Democrats’ midterm victories",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "short": "Government bond yields fall while initial fears ease over impact of election results on world’s biggest economy Business live – latest updates US mid…",
+      "short": "Government bond yields fall while initial fears ease over impact of election results on world’s biggest economy US midterm elections – live updates A…",
       "shortTh": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
       "why": "เนื้อหานี้มีปัจจัยที่มักช่วยหนุนทอง เช่น ความเสี่ยง ดอลลาร์อ่อน หรือยีลด์ลดลง ควรดูการยืนยันจากราคาและข้อมูลต้นทางประกอบ",
       "expected": "ข่าวจริง · ไม่มี Forecast",
@@ -173,7 +173,7 @@
       "body": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
       "bodyTh": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
       "tone": "หนุนทอง",
-      "time": "5 ชั่วโมงที่แล้ว",
+      "time": "10 ชั่วโมงที่แล้ว",
       "image": "https://i.guim.co.uk/img/media/6b1f011569afbc3d0e2cd5fc5417582f27adbe6a/714_28_3264_2612/master/3264.jpg?width=140&quality=85&auto=format&fit=max&s=893b0115f42782d7afa7bc67f68cf280",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com/business/2026/nov/04/us-dollar-slides-democrats-midterm-election-win-growth-fears",
