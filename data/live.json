@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-11-06T20:17:13.982Z",
+  "generatedAt": "2026-11-07T00:13:17.121Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 4064.399902,
+    "price": 4072.100098,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-11-06T20:17:13.982Z",
+    "asOf": "2026-11-07T00:13:17.121Z",
     "stale": false
   },
   "drivers": {
@@ -21,10 +21,10 @@
       "sourceUrl": "https://fred.stlouisfed.org/series/DTWEXBGS"
     },
     "yield10y": {
-      "value": 4.9,
-      "previousValue": 4.95,
-      "change": -0.04999999999999982,
-      "date": "2026-11-04",
+      "value": 4.84,
+      "previousValue": 4.9,
+      "change": -0.0600000000000005,
+      "date": "2026-11-05",
       "label": "US 10Y · FRED",
       "sourceUrl": "https://fred.stlouisfed.org/series/DGS10"
     }
@@ -47,7 +47,7 @@
         "tone": "positive",
         "title": "ยีลด์ 10Y ลดลง",
         "source": "FRED",
-        "note": "4.90% · เปลี่ยนแปลง -0.05"
+        "note": "4.84% · เปลี่ยนแปลง -0.06"
       },
       {
         "mark": "!",
