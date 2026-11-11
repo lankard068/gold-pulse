@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-11-11T08:07:55.752Z",
+  "generatedAt": "2026-11-11T16:28:58.236Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 4060.300049,
+    "price": 4005.100098,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-11-11T08:07:55.752Z",
+    "asOf": "2026-11-11T16:28:58.236Z",
     "stale": false
   },
   "drivers": {
@@ -74,23 +74,23 @@
   },
   "events": [
     {
-      "time": "04:42",
-      "date": "MarketWatch · 10 ชั่วโมงที่แล้ว",
-      "title": "Stocks fall as the 10-year Treasury yield nears 5% mark",
+      "time": "20:52",
+      "date": "MarketWatch · 3 ชั่วโมงที่แล้ว",
+      "title": "Corporate America is making a trillion-dollar mistake about retirement",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "short": "“I don’t think they should be raising another 25 basis points,” one portfolio manager said about the Federal Reserve’s benchmark interest rate.",
-      "shortTh": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
+      "short": "The market is dramatically underpricing the economic impact of Americans age 50 and older.",
+      "shortTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
       "expected": "ข่าวจริง · ไม่มี Forecast",
-      "impact": "high",
+      "impact": "medium",
       "direction": "volatile",
       "directionLabel": "ต้องจับตา",
       "sourceLabel": "MarketWatch",
-      "sourceUrl": "https://www.marketwatch.com/story/why-stocks-are-falling-and-10-year-yields-are-climbing-back-near-5-after-tuesdays-inflation-report-389b8392?mod=mw_rss_topstories"
+      "sourceUrl": "https://www.marketwatch.com/story/corporate-america-is-making-a-trillion-dollar-mistake-about-retirement-234c8996?mod=mw_rss_topstories"
     },
     {
       "time": "22:38",
-      "date": "The Guardian · 16 ชั่วโมงที่แล้ว",
+      "date": "The Guardian · 10 พ.ย.",
       "title": "US inflation rose 0.4% in October as price increases cooled and gas costs dipped",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "New data comes after Republicans’ midterms losses – which were largely seen as a rebuke of the party over high prices US inflation rose 0.4% from Sep…",
@@ -105,7 +105,7 @@
     },
     {
       "time": "17:28",
-      "date": "The Guardian · 22 ชั่วโมงที่แล้ว",
+      "date": "The Guardian · 10 พ.ย.",
       "title": "Oil prices fall to lowest since August as Trump says Iran war is ‘effectively over’",
       "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
       "short": "Brent crude drops below $90 and markets climb after president downplays prospect of further strikes Oil prices have fallen to the lowest level since…",
@@ -168,18 +168,18 @@
     {
       "icon": "↗",
       "label": "MarketWatch",
-      "title": "Stocks fall as the 10-year Treasury yield nears 5% mark",
+      "title": "Corporate America is making a trillion-dollar mistake about retirement",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "body": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
-      "bodyTh": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
+      "body": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
+      "bodyTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "tone": "ต้องจับตา",
-      "time": "10 ชั่วโมงที่แล้ว",
-      "image": "https://images.mktw.net/im-19226741",
+      "time": "3 ชั่วโมงที่แล้ว",
+      "image": "https://images.mktw.net/im-43763907",
       "source": "MarketWatch",
-      "sourceUrl": "https://www.marketwatch.com/story/why-stocks-are-falling-and-10-year-yields-are-climbing-back-near-5-after-tuesdays-inflation-report-389b8392?mod=mw_rss_topstories",
-      "publishedAt": "2026-11-10T21:42:00.000Z",
+      "sourceUrl": "https://www.marketwatch.com/story/corporate-america-is-making-a-trillion-dollar-mistake-about-retirement-234c8996?mod=mw_rss_topstories",
+      "publishedAt": "2026-11-11T13:52:00.000Z",
       "direction": "volatile",
-      "impact": "high"
+      "impact": "medium"
     },
     {
       "icon": "◌",
@@ -189,7 +189,7 @@
       "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "tone": "ต้องจับตา",
-      "time": "16 ชั่วโมงที่แล้ว",
+      "time": "10 พ.ย.",
       "image": "https://i.guim.co.uk/img/media/edd11372dd6a075792b3425571de06722515ec38/886_0_6138_4911/master/6138.jpg?width=140&quality=85&auto=format&fit=max&s=cac89d31c265c953fdbc67d1636f3e40",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com/business/2026/nov/10/october-inflation-report",
@@ -205,7 +205,7 @@
       "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "tone": "หนุนทอง",
-      "time": "22 ชั่วโมงที่แล้ว",
+      "time": "10 พ.ย.",
       "image": "https://i.guim.co.uk/img/media/16ccda76da166c6543538e5a98c8b9b5f2481d15/0_0_5039_4031/master/5039.jpg?width=140&quality=85&auto=format&fit=max&s=904510b7206ac0ce08a6e9328e358b69",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com/business/2026/nov/10/oil-prices-fall-donald-trump-iran-war-ftse-100-markets",
