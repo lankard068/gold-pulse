@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-11-13T01:22:02.624Z",
+  "generatedAt": "2026-11-13T08:35:14.358Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 3906.199951,
+    "price": 3896.100098,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-11-13T01:22:02.624Z",
+    "asOf": "2026-11-13T08:35:14.358Z",
     "stale": false
   },
   "drivers": {
@@ -75,7 +75,7 @@
   "events": [
     {
       "time": "05:16",
-      "date": "MarketWatch · 3 ชั่วโมงที่แล้ว",
+      "date": "MarketWatch · 10 ชั่วโมงที่แล้ว",
       "title": "Bond yields just saw their biggest surge since 2022 as expectations grow for more Fed rate hikes",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "Fed Chair Warsh’s quiet style of communicating interest-rate policy has led to more volatile markets.",
@@ -90,7 +90,7 @@
     },
     {
       "time": "03:44",
-      "date": "MarketWatch · 5 ชั่วโมงที่แล้ว",
+      "date": "MarketWatch · 12 ชั่วโมงที่แล้ว",
       "title": "The bond market now has an even bigger fear than AI fallout",
       "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
       "short": "Carnage in tech stocks made Treasurys look more attractive in recent weeks, but fears of more Fed rate hikes are now driving yields higher",
@@ -105,7 +105,7 @@
     },
     {
       "time": "01:30",
-      "date": "Federal Reserve · 7 ชั่วโมงที่แล้ว",
+      "date": "Federal Reserve · 14 ชั่วโมงที่แล้ว",
       "title": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions…",
@@ -120,7 +120,7 @@
     },
     {
       "time": "00:45",
-      "date": "Federal Reserve · 8 ชั่วโมงที่แล้ว",
+      "date": "Federal Reserve · 15 ชั่วโมงที่แล้ว",
       "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
@@ -135,7 +135,7 @@
     },
     {
       "time": "23:00",
-      "date": "Federal Reserve · 9 ชั่วโมงที่แล้ว",
+      "date": "Federal Reserve · 17 ชั่วโมงที่แล้ว",
       "title": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
@@ -173,7 +173,7 @@
       "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "tone": "ต้องจับตา",
-      "time": "3 ชั่วโมงที่แล้ว",
+      "time": "10 ชั่วโมงที่แล้ว",
       "image": "https://images.mktw.net/im-73097292",
       "source": "MarketWatch",
       "sourceUrl": "https://www.marketwatch.com/story/bond-yields-just-saw-their-biggest-surge-since-2022-as-expectations-grow-for-more-fed-rate-hikes-d0a4f195?mod=mw_rss_topstories",
@@ -189,7 +189,7 @@
       "body": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
       "bodyTh": "ข่าวเกี่ยวกับพันธบัตรและหนี้สหรัฐฯ อาจทำให้ยีลด์กับดอลลาร์แกว่ง ซึ่งเป็นตัวแปรสำคัญต่อ XAUUSD",
       "tone": "กดดันทอง",
-      "time": "5 ชั่วโมงที่แล้ว",
+      "time": "12 ชั่วโมงที่แล้ว",
       "image": "https://images.mktw.net/im-76319039",
       "source": "MarketWatch",
       "sourceUrl": "https://www.marketwatch.com/story/the-bond-market-now-has-an-even-bigger-fear-than-the-ai-fallout-b6401b54?mod=mw_rss_topstories",
@@ -205,7 +205,7 @@
       "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "tone": "ต้องจับตา",
-      "time": "7 ชั่วโมงที่แล้ว",
+      "time": "14 ชั่วโมงที่แล้ว",
       "image": "",
       "source": "Federal Reserve",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm",
@@ -221,7 +221,7 @@
       "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "tone": "ต้องจับตา",
-      "time": "8 ชั่วโมงที่แล้ว",
+      "time": "15 ชั่วโมงที่แล้ว",
       "image": "",
       "source": "Federal Reserve",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
@@ -237,7 +237,7 @@
       "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "tone": "ต้องจับตา",
-      "time": "9 ชั่วโมงที่แล้ว",
+      "time": "17 ชั่วโมงที่แล้ว",
       "image": "",
       "source": "Federal Reserve",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
