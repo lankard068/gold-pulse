@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-11-14T16:40:21.738Z",
+  "generatedAt": "2026-11-14T21:09:53.497Z",
   "quote": {
     "symbol": "XAUUSD",
     "price": 3887.600098,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-11-14T16:40:21.738Z",
+    "asOf": "2026-11-14T21:09:53.497Z",
     "stale": false
   },
   "drivers": {
@@ -54,7 +54,7 @@
         "tone": "mixed",
         "title": "ข่าวล่าสุดยังต้องยืนยันด้วยราคา",
         "source": "MarketWatch",
-        "note": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง"
+        "note": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง"
       }
     ],
     "sources": [
@@ -74,19 +74,19 @@
   },
   "events": [
     {
-      "time": "20:30",
+      "time": "00:50",
       "date": "MarketWatch · 3 ชั่วโมงที่แล้ว",
-      "title": "Washington can start delivering on affordability by rejecting Trump’s tariffs",
-      "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
-      "short": "Americans voted against policies that drove up their costs. Will policymakers ignore them?",
-      "shortTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
+      "title": "The trillion-dollar mistake corporate America is making about retirement",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "short": "The market is dramatically underpricing the economic impact of Americans age 50 and older.",
+      "shortTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
       "expected": "ข่าวจริง · ไม่มี Forecast",
-      "impact": "high",
+      "impact": "medium",
       "direction": "volatile",
       "directionLabel": "ต้องจับตา",
       "sourceLabel": "MarketWatch",
-      "sourceUrl": "https://www.marketwatch.com/story/washington-can-start-delivering-on-affordability-by-rejecting-trumps-tariffs-8f2c76fd?mod=mw_rss_topstories"
+      "sourceUrl": "https://www.marketwatch.com/story/corporate-america-is-making-a-trillion-dollar-mistake-about-retirement-234c8996?mod=mw_rss_topstories"
     },
     {
       "time": "20:35",
@@ -168,18 +168,18 @@
     {
       "icon": "↗",
       "label": "MarketWatch",
-      "title": "Washington can start delivering on affordability by rejecting Trump’s tariffs",
-      "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
-      "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
-      "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
+      "title": "The trillion-dollar mistake corporate America is making about retirement",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "body": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
+      "bodyTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "tone": "ต้องจับตา",
       "time": "3 ชั่วโมงที่แล้ว",
-      "image": "https://images.mktw.net/im-11629236",
+      "image": "https://images.mktw.net/im-43763907",
       "source": "MarketWatch",
-      "sourceUrl": "https://www.marketwatch.com/story/washington-can-start-delivering-on-affordability-by-rejecting-trumps-tariffs-8f2c76fd?mod=mw_rss_topstories",
-      "publishedAt": "2026-11-14T13:30:00.000Z",
+      "sourceUrl": "https://www.marketwatch.com/story/corporate-america-is-making-a-trillion-dollar-mistake-about-retirement-234c8996?mod=mw_rss_topstories",
+      "publishedAt": "2026-11-14T17:50:00.000Z",
       "direction": "volatile",
-      "impact": "high"
+      "impact": "medium"
     },
     {
       "icon": "◌",
