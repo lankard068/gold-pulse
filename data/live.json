@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-11-13T22:46:03.995Z",
+  "generatedAt": "2026-11-14T02:56:36.265Z",
   "quote": {
     "symbol": "XAUUSD",
     "price": 3887.600098,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-11-13T22:46:03.995Z",
+    "asOf": "2026-11-14T02:56:36.265Z",
     "stale": false
   },
   "drivers": {
@@ -53,8 +53,8 @@
         "mark": "!",
         "tone": "mixed",
         "title": "ข่าวล่าสุดยังต้องยืนยันด้วยราคา",
-        "source": "MarketWatch",
-        "note": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง"
+        "source": "The Guardian",
+        "note": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง"
       }
     ],
     "sources": [
@@ -74,23 +74,8 @@
   },
   "events": [
     {
-      "time": "04:09",
-      "date": "MarketWatch · 2 ชั่วโมงที่แล้ว",
-      "title": "The trillion-dollar mistake corporate America is making about retirement",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "short": "The market is dramatically underpricing the economic impact of Americans age 50 and older.",
-      "shortTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
-      "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
-      "expected": "ข่าวจริง · ไม่มี Forecast",
-      "impact": "medium",
-      "direction": "volatile",
-      "directionLabel": "ต้องจับตา",
-      "sourceLabel": "MarketWatch",
-      "sourceUrl": "https://www.marketwatch.com/story/corporate-america-is-making-a-trillion-dollar-mistake-about-retirement-234c8996?mod=mw_rss_topstories"
-    },
-    {
       "time": "20:35",
-      "date": "The Guardian · 9 ชั่วโมงที่แล้ว",
+      "date": "The Guardian · 13 ชั่วโมงที่แล้ว",
       "title": "Global oil supply returns to surplus for first time since start of Iran war, says IEA",
       "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
       "short": "Supplies outstripped demand by almost 2m barrels a day in October as market shows ‘tentative signs of rebalancing’ The world’s oil supply is swinging…",
@@ -162,34 +147,33 @@
       "directionLabel": "ต้องจับตา",
       "sourceLabel": "The Guardian",
       "sourceUrl": "https://www.theguardian.com/business/2026/nov/10/october-inflation-report"
+    },
+    {
+      "time": "04:00",
+      "date": "Federal Reserve · 10 พ.ย.",
+      "title": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "short": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
+      "shortTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
+      "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
+      "expected": "ข่าวจริง · ไม่มี Forecast",
+      "impact": "high",
+      "direction": "volatile",
+      "directionLabel": "ต้องจับตา",
+      "sourceLabel": "Federal Reserve",
+      "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm"
     }
   ],
   "news": [
     {
       "icon": "↗",
-      "label": "MarketWatch",
-      "title": "The trillion-dollar mistake corporate America is making about retirement",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "body": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
-      "bodyTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
-      "tone": "ต้องจับตา",
-      "time": "2 ชั่วโมงที่แล้ว",
-      "image": "https://images.mktw.net/im-43763907",
-      "source": "MarketWatch",
-      "sourceUrl": "https://www.marketwatch.com/story/corporate-america-is-making-a-trillion-dollar-mistake-about-retirement-234c8996?mod=mw_rss_topstories",
-      "publishedAt": "2026-11-13T21:09:00.000Z",
-      "direction": "volatile",
-      "impact": "medium"
-    },
-    {
-      "icon": "◌",
       "label": "The Guardian",
       "title": "Global oil supply returns to surplus for first time since start of Iran war, says IEA",
       "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
       "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "tone": "หนุนทอง",
-      "time": "9 ชั่วโมงที่แล้ว",
+      "time": "13 ชั่วโมงที่แล้ว",
       "image": "https://i.guim.co.uk/img/media/5b2b569f416b13096426488b7fd081de3679354e/759_0_4585_3669/master/4585.jpg?width=140&quality=85&auto=format&fit=max&s=36a563ead8599d4104ca2e8aee341c08",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com/business/2026/nov/13/global-oil-supply-returns-to-surplus-for-first-time-since-start-of-iran-war-says-iea",
@@ -198,7 +182,7 @@
       "impact": "high"
     },
     {
-      "icon": "◍",
+      "icon": "◌",
       "label": "Federal Reserve · ทางการ",
       "title": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -214,7 +198,7 @@
       "impact": "high"
     },
     {
-      "icon": "≋",
+      "icon": "◍",
       "label": "Federal Reserve · ทางการ",
       "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -230,7 +214,7 @@
       "impact": "high"
     },
     {
-      "icon": "↗",
+      "icon": "≋",
       "label": "Federal Reserve · ทางการ",
       "title": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -246,7 +230,7 @@
       "impact": "high"
     },
     {
-      "icon": "◌",
+      "icon": "↗",
       "label": "The Guardian",
       "title": "US inflation rose 0.4% in October as price increases cooled and gas costs dipped",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -262,7 +246,7 @@
       "impact": "high"
     },
     {
-      "icon": "◍",
+      "icon": "◌",
       "label": "Federal Reserve · ทางการ",
       "title": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -278,7 +262,7 @@
       "impact": "high"
     },
     {
-      "icon": "≋",
+      "icon": "◍",
       "label": "Federal Reserve · ทางการ",
       "title": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -290,6 +274,22 @@
       "source": "Federal Reserve",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm",
       "publishedAt": "2026-11-05T16:00:00.000Z",
+      "direction": "volatile",
+      "impact": "high"
+    },
+    {
+      "icon": "≋",
+      "label": "Federal Reserve · ทางการ",
+      "title": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
+      "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
+      "tone": "ต้องจับตา",
+      "time": "30 ต.ค.",
+      "image": "",
+      "source": "Federal Reserve",
+      "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
+      "publishedAt": "2026-10-29T20:30:00.000Z",
       "direction": "volatile",
       "impact": "high"
     }
