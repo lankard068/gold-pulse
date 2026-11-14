@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-11-14T02:56:36.265Z",
+  "generatedAt": "2026-11-14T10:00:21.099Z",
   "quote": {
     "symbol": "XAUUSD",
     "price": 3887.600098,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-11-14T02:56:36.265Z",
+    "asOf": "2026-11-14T10:00:21.099Z",
     "stale": false
   },
   "drivers": {
@@ -75,7 +75,7 @@
   "events": [
     {
       "time": "20:35",
-      "date": "The Guardian · 13 ชั่วโมงที่แล้ว",
+      "date": "The Guardian · 20 ชั่วโมงที่แล้ว",
       "title": "Global oil supply returns to surplus for first time since start of Iran war, says IEA",
       "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
       "short": "Supplies outstripped demand by almost 2m barrels a day in October as market shows ‘tentative signs of rebalancing’ The world’s oil supply is swinging…",
@@ -173,7 +173,7 @@
       "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "tone": "หนุนทอง",
-      "time": "13 ชั่วโมงที่แล้ว",
+      "time": "20 ชั่วโมงที่แล้ว",
       "image": "https://i.guim.co.uk/img/media/5b2b569f416b13096426488b7fd081de3679354e/759_0_4585_3669/master/4585.jpg?width=140&quality=85&auto=format&fit=max&s=36a563ead8599d4104ca2e8aee341c08",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com/business/2026/nov/13/global-oil-supply-returns-to-surplus-for-first-time-since-start-of-iran-war-says-iea",
