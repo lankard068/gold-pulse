@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-11-14T21:09:53.497Z",
+  "generatedAt": "2026-11-15T01:12:34.404Z",
   "quote": {
     "symbol": "XAUUSD",
     "price": 3887.600098,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-11-14T21:09:53.497Z",
+    "asOf": "2026-11-15T01:12:34.404Z",
     "stale": false
   },
   "drivers": {
@@ -75,7 +75,7 @@
   "events": [
     {
       "time": "00:50",
-      "date": "MarketWatch · 3 ชั่วโมงที่แล้ว",
+      "date": "MarketWatch · 7 ชั่วโมงที่แล้ว",
       "title": "The trillion-dollar mistake corporate America is making about retirement",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "The market is dramatically underpricing the economic impact of Americans age 50 and older.",
@@ -173,7 +173,7 @@
       "body": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "bodyTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "tone": "ต้องจับตา",
-      "time": "3 ชั่วโมงที่แล้ว",
+      "time": "7 ชั่วโมงที่แล้ว",
       "image": "https://images.mktw.net/im-43763907",
       "source": "MarketWatch",
       "sourceUrl": "https://www.marketwatch.com/story/corporate-america-is-making-a-trillion-dollar-mistake-about-retirement-234c8996?mod=mw_rss_topstories",
