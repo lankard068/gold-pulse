@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-11-16T07:44:23.617Z",
+  "generatedAt": "2026-11-16T18:05:42.957Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 3859.199951,
+    "price": 3855.199951,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-11-16T07:44:23.617Z",
+    "asOf": "2026-11-16T18:05:42.957Z",
     "stale": false
   },
   "drivers": {
@@ -30,7 +30,7 @@
     }
   },
   "analyst": {
-    "score": 29,
+    "score": 32,
     "direction": "bearish",
     "label": "ลบเล็กน้อย",
     "note": "คะแนนคำนวณจากข้อมูลตลาดรายวันและข่าวที่ดึงได้ ไม่ใช่คำแนะนำซื้อขาย",
@@ -53,8 +53,8 @@
         "mark": "!",
         "tone": "mixed",
         "title": "ข่าวล่าสุดยังต้องยืนยันด้วยราคา",
-        "source": "The Guardian",
-        "note": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง"
+        "source": "MarketWatch",
+        "note": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง"
       }
     ],
     "sources": [
@@ -73,6 +73,21 @@
     ]
   },
   "events": [
+    {
+      "time": "00:53",
+      "date": "MarketWatch · 13 นาทีที่แล้ว",
+      "title": "How will AI shake up the economy? Warsh says the Fed is starting to figure that out.",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "short": "The Federal Reserve staff is in the early days of developing various scenarios of how artificial intelligence’s growing role in business and daily li…",
+      "shortTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
+      "why": "เนื้อหานี้มีปัจจัยที่มักช่วยหนุนทอง เช่น ความเสี่ยง ดอลลาร์อ่อน หรือยีลด์ลดลง ควรดูการยืนยันจากราคาและข้อมูลต้นทางประกอบ",
+      "expected": "ข่าวจริง · ไม่มี Forecast",
+      "impact": "high",
+      "direction": "bullish",
+      "directionLabel": "หนุนทอง",
+      "sourceLabel": "MarketWatch",
+      "sourceUrl": "https://www.marketwatch.com/story/how-will-ai-shake-up-the-economy-warsh-says-the-fed-is-starting-to-figure-that-out-a72f80c4?mod=mw_rss_topstories"
+    },
     {
       "time": "20:35",
       "date": "The Guardian · 13 พ.ย.",
@@ -134,21 +149,6 @@
       "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm"
     },
     {
-      "time": "22:38",
-      "date": "The Guardian · 10 พ.ย.",
-      "title": "US inflation rose 0.4% in October as price increases cooled and gas costs dipped",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "short": "New data comes after Republicans’ midterms losses – which were largely seen as a rebuke of the party over high prices US inflation rose 0.4% from Sep…",
-      "shortTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
-      "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
-      "expected": "ข่าวจริง · ไม่มี Forecast",
-      "impact": "high",
-      "direction": "volatile",
-      "directionLabel": "ต้องจับตา",
-      "sourceLabel": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/business/2026/nov/10/october-inflation-report"
-    },
-    {
       "time": "04:00",
       "date": "Federal Reserve · 10 พ.ย.",
       "title": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
@@ -167,6 +167,22 @@
   "news": [
     {
       "icon": "↗",
+      "label": "MarketWatch",
+      "title": "How will AI shake up the economy? Warsh says the Fed is starting to figure that out.",
+      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
+      "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
+      "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
+      "tone": "หนุนทอง",
+      "time": "13 นาทีที่แล้ว",
+      "image": "https://images.mktw.net/im-09646512",
+      "source": "MarketWatch",
+      "sourceUrl": "https://www.marketwatch.com/story/how-will-ai-shake-up-the-economy-warsh-says-the-fed-is-starting-to-figure-that-out-a72f80c4?mod=mw_rss_topstories",
+      "publishedAt": "2026-11-16T17:53:00.000Z",
+      "direction": "bullish",
+      "impact": "high"
+    },
+    {
+      "icon": "◌",
       "label": "The Guardian",
       "title": "Global oil supply returns to surplus for first time since start of Iran war, says IEA",
       "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
@@ -182,7 +198,7 @@
       "impact": "high"
     },
     {
-      "icon": "◌",
+      "icon": "◍",
       "label": "Federal Reserve · ทางการ",
       "title": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -198,7 +214,7 @@
       "impact": "high"
     },
     {
-      "icon": "◍",
+      "icon": "≋",
       "label": "Federal Reserve · ทางการ",
       "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -214,7 +230,7 @@
       "impact": "high"
     },
     {
-      "icon": "≋",
+      "icon": "↗",
       "label": "Federal Reserve · ทางการ",
       "title": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -226,22 +242,6 @@
       "source": "Federal Reserve",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
       "publishedAt": "2026-11-12T16:00:00.000Z",
-      "direction": "volatile",
-      "impact": "high"
-    },
-    {
-      "icon": "↗",
-      "label": "The Guardian",
-      "title": "US inflation rose 0.4% in October as price increases cooled and gas costs dipped",
-      "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
-      "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
-      "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
-      "tone": "ต้องจับตา",
-      "time": "10 พ.ย.",
-      "image": "https://i.guim.co.uk/img/media/edd11372dd6a075792b3425571de06722515ec38/886_0_6138_4911/master/6138.jpg?width=140&quality=85&auto=format&fit=max&s=cac89d31c265c953fdbc67d1636f3e40",
-      "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/business/2026/nov/10/october-inflation-report",
-      "publishedAt": "2026-11-10T15:38:48.000Z",
       "direction": "volatile",
       "impact": "high"
     },
