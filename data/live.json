@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-11-17T10:30:31.965Z",
+  "generatedAt": "2026-11-17T19:39:43.131Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 3856.800049,
+    "price": 3855.649902,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-11-17T10:30:31.965Z",
+    "asOf": "2026-11-17T19:39:43.131Z",
     "stale": false
   },
   "drivers": {
@@ -75,7 +75,7 @@
   "events": [
     {
       "time": "00:52",
-      "date": "The Guardian · 17 ชั่วโมงที่แล้ว",
+      "date": "The Guardian · 17 พ.ย.",
       "title": "Several companies are using Trump tariff refunds for corporate bonuses",
       "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
       "short": "Some firms are directing refunds to corporate leadership instead of reimbursing consumers, ProPublica finds Several companies that received refunds f…",
@@ -173,7 +173,7 @@
       "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "tone": "หนุนทอง",
-      "time": "17 ชั่วโมงที่แล้ว",
+      "time": "17 พ.ย.",
       "image": "https://i.guim.co.uk/img/media/976a600cf5e5d4314c2ee38b26b60463569d5dbc/665_0_4653_3722/master/4653.jpg?width=140&quality=85&auto=format&fit=max&s=0a9deff8c98976654963a86fb1198129",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/16/companies-trump-tariff-refunds-corporate-bonuses",
