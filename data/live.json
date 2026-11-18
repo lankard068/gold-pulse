@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-11-17T19:39:43.131Z",
+  "generatedAt": "2026-11-18T02:12:15.587Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 3855.649902,
+    "price": 3800.25,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-11-17T19:39:43.131Z",
+    "asOf": "2026-11-18T02:12:15.587Z",
     "stale": false
   },
   "drivers": {
@@ -21,18 +21,18 @@
       "sourceUrl": "https://fred.stlouisfed.org/series/DTWEXBGS"
     },
     "yield10y": {
-      "value": 5.15,
-      "previousValue": 5.1,
-      "change": 0.05000000000000071,
-      "date": "2026-11-13",
+      "value": 5.12,
+      "previousValue": 5.15,
+      "change": -0.03000000000000025,
+      "date": "2026-11-16",
       "label": "US 10Y · FRED",
       "sourceUrl": "https://fred.stlouisfed.org/series/DGS10"
     }
   },
   "analyst": {
-    "score": 32,
-    "direction": "bearish",
-    "label": "ลบเล็กน้อย",
+    "score": 56,
+    "direction": "volatile",
+    "label": "ผันผวน / รอดูข้อมูล",
     "note": "คะแนนคำนวณจากข้อมูลตลาดรายวันและข่าวที่ดึงได้ ไม่ใช่คำแนะนำซื้อขาย",
     "reasons": [
       {
@@ -43,11 +43,11 @@
         "note": "122.65 · เปลี่ยนแปลง +0.11"
       },
       {
-        "mark": "−",
-        "tone": "negative",
-        "title": "ยีลด์ 10Y สูงขึ้น",
+        "mark": "+",
+        "tone": "positive",
+        "title": "ยีลด์ 10Y ลดลง",
         "source": "FRED",
-        "note": "5.15% · เปลี่ยนแปลง +0.05"
+        "note": "5.12% · เปลี่ยนแปลง -0.03"
       },
       {
         "mark": "!",
