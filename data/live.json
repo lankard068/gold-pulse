@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-11-26T05:18:52.882Z",
+  "generatedAt": "2026-11-26T15:37:04.093Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 3590.699951,
+    "price": 3573.300049,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-11-26T05:18:52.882Z",
+    "asOf": "2026-11-26T15:37:04.093Z",
     "stale": false
   },
   "drivers": {
@@ -75,7 +75,7 @@
   "events": [
     {
       "time": "03:00",
-      "date": "Federal Reserve · 9 ชั่วโมงที่แล้ว",
+      "date": "Federal Reserve · 20 ชั่วโมงที่แล้ว",
       "title": "Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions",
@@ -90,7 +90,7 @@
     },
     {
       "time": "03:00",
-      "date": "Federal Reserve · 9 ชั่วโมงที่แล้ว",
+      "date": "Federal Reserve · 20 ชั่วโมงที่แล้ว",
       "title": "Agencies announce dollar thresholds for smaller loan exemption from appraisal requirements for higher-priced mortgage loans",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "Agencies announce dollar thresholds for smaller loan exemption from appraisal requirements for higher-priced mortgage loans",
@@ -105,7 +105,7 @@
     },
     {
       "time": "02:25",
-      "date": "The Guardian · 10 ชั่วโมงที่แล้ว",
+      "date": "The Guardian · 20 ชั่วโมงที่แล้ว",
       "title": "UK food inflation could hit 5% next year, Bank of England says",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "Sharp rise expected as cost pressures mount, with experts factoring in energy price cap hike and potential impact of El Niño Food price inflation in…",
@@ -120,7 +120,7 @@
     },
     {
       "time": "22:46",
-      "date": "The Guardian · 14 ชั่วโมงที่แล้ว",
+      "date": "The Guardian · 25 พ.ย.",
       "title": "US inflation hits highest since May after prices climb 3.8% over the last year",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "Rise occurs amid soaring energy prices, according to last inflation reading before a crucial Fed board meeting The sell-off in US tech stocks continu…",
@@ -135,7 +135,7 @@
     },
     {
       "time": "21:59",
-      "date": "The Guardian · 14 ชั่วโมงที่แล้ว",
+      "date": "The Guardian · 25 พ.ย.",
       "title": "Trump proposing new tariffs on 14 partners including China and EU",
       "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
       "short": "Administration is suggesting an added 20% tax on Chinese imports, which would bring the total to about 40% US politics live – latest updates Donald T…",
@@ -173,7 +173,7 @@
       "body": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "bodyTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "tone": "ต้องจับตา",
-      "time": "9 ชั่วโมงที่แล้ว",
+      "time": "20 ชั่วโมงที่แล้ว",
       "image": "",
       "source": "Federal Reserve",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125b.htm",
@@ -189,7 +189,7 @@
       "body": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "bodyTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "tone": "ต้องจับตา",
-      "time": "9 ชั่วโมงที่แล้ว",
+      "time": "20 ชั่วโมงที่แล้ว",
       "image": "",
       "source": "Federal Reserve",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125a.htm",
@@ -205,7 +205,7 @@
       "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "tone": "หนุนทอง",
-      "time": "10 ชั่วโมงที่แล้ว",
+      "time": "20 ชั่วโมงที่แล้ว",
       "image": "https://i.guim.co.uk/img/media/6dc206e833865c9dd5429c7d1b0d08abb0b3bfde/79_0_3491_2793/master/3491.jpg?width=140&quality=85&auto=format&fit=max&s=d5c47df5247e5d854261cf1b7851501b",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com/business/2026/nov/25/uk-food-inflation-sharp-rise-next-year-mounting-cost-pressures-bank-of-england",
@@ -221,7 +221,7 @@
       "body": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "bodyTh": "ตลาดกำลังจับตาข้อมูลเศรษฐกิจและท่าที Fed เพราะมีผลต่อคาดการณ์ดอกเบี้ย ดอลลาร์ และต้นทุนค่าเสียโอกาสของการถือทอง",
       "tone": "ต้องจับตา",
-      "time": "14 ชั่วโมงที่แล้ว",
+      "time": "25 พ.ย.",
       "image": "https://i.guim.co.uk/img/media/4e5a7cc9ec40010fd1b1fd13ff4e575e0ee71cca/309_0_3091_2473/master/3091.jpg?width=140&quality=85&auto=format&fit=max&s=191e9917cb67ed891b36f02f0071850b",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com/business/2026/nov/25/consumer-prices-september-october-energy-inflation",
@@ -237,7 +237,7 @@
       "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "tone": "ต้องจับตา",
-      "time": "14 ชั่วโมงที่แล้ว",
+      "time": "25 พ.ย.",
       "image": "https://i.guim.co.uk/img/media/1e62345f75c4b03ed8949417f520577e19e7e89d/914_0_5738_4593/master/5738.jpg?width=140&quality=85&auto=format&fit=max&s=3091977c5a46f024323dfe5f0a48d5b1",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/25/trump-new-china-tariffs-europe",
