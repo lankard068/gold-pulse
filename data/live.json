@@ -1,14 +1,14 @@
 {
   "version": 2,
   "mode": "live",
-  "generatedAt": "2026-11-26T15:37:04.093Z",
+  "generatedAt": "2026-11-27T00:23:11.494Z",
   "quote": {
     "symbol": "XAUUSD",
-    "price": 3573.300049,
+    "price": 3568.699951,
     "unit": "USD / troy oz",
     "provider": "XAUS",
     "sourceUrl": "https://xaus.com/api/",
-    "asOf": "2026-11-26T15:37:04.093Z",
+    "asOf": "2026-11-27T00:23:11.494Z",
     "stale": false
   },
   "drivers": {
@@ -53,8 +53,8 @@
         "mark": "!",
         "tone": "mixed",
         "title": "ข่าวล่าสุดยังต้องยืนยันด้วยราคา",
-        "source": "Federal Reserve",
-        "note": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง"
+        "source": "The Guardian",
+        "note": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง"
       }
     ],
     "sources": [
@@ -74,8 +74,23 @@
   },
   "events": [
     {
+      "time": "19:00",
+      "date": "The Guardian · 12 ชั่วโมงที่แล้ว",
+      "title": "China reserves right to take ‘necessary measures’ after Trump’s new tariff proposals",
+      "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
+      "short": "Beijing says new levies amount to ‘political manipulation’, while Brazil ‘will not yield to this type of threat’ Trump proposing new tariffs on 14 pa…",
+      "shortTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
+      "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
+      "expected": "ข่าวจริง · ไม่มี Forecast",
+      "impact": "high",
+      "direction": "volatile",
+      "directionLabel": "ต้องจับตา",
+      "sourceLabel": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat"
+    },
+    {
       "time": "03:00",
-      "date": "Federal Reserve · 20 ชั่วโมงที่แล้ว",
+      "date": "Federal Reserve · 26 พ.ย.",
       "title": "Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions",
@@ -90,7 +105,7 @@
     },
     {
       "time": "03:00",
-      "date": "Federal Reserve · 20 ชั่วโมงที่แล้ว",
+      "date": "Federal Reserve · 26 พ.ย.",
       "title": "Agencies announce dollar thresholds for smaller loan exemption from appraisal requirements for higher-priced mortgage loans",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "Agencies announce dollar thresholds for smaller loan exemption from appraisal requirements for higher-priced mortgage loans",
@@ -105,7 +120,7 @@
     },
     {
       "time": "02:25",
-      "date": "The Guardian · 20 ชั่วโมงที่แล้ว",
+      "date": "The Guardian · 26 พ.ย.",
       "title": "UK food inflation could hit 5% next year, Bank of England says",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "short": "Sharp rise expected as cost pressures mount, with experts factoring in energy price cap hike and potential impact of El Niño Food price inflation in…",
@@ -134,21 +149,6 @@
       "sourceUrl": "https://www.theguardian.com/business/2026/nov/25/consumer-prices-september-october-energy-inflation"
     },
     {
-      "time": "21:59",
-      "date": "The Guardian · 25 พ.ย.",
-      "title": "Trump proposing new tariffs on 14 partners including China and EU",
-      "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
-      "short": "Administration is suggesting an added 20% tax on Chinese imports, which would bring the total to about 40% US politics live – latest updates Donald T…",
-      "shortTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
-      "why": "ข่าวนี้อาจทำให้ตลาดผันผวน แต่ยังสรุปทิศทางเดียวไม่ได้ ต้องดู Actual เทียบคาดการณ์และปฏิกิริยาของดอลลาร์กับยีลด์",
-      "expected": "ข่าวจริง · ไม่มี Forecast",
-      "impact": "high",
-      "direction": "volatile",
-      "directionLabel": "ต้องจับตา",
-      "sourceLabel": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/25/trump-new-china-tariffs-europe"
-    },
-    {
       "time": "04:15",
       "date": "Federal Reserve · 21 พ.ย.",
       "title": "Federal Reserve announces College Fed Challenge winners",
@@ -167,13 +167,29 @@
   "news": [
     {
       "icon": "↗",
+      "label": "The Guardian",
+      "title": "China reserves right to take ‘necessary measures’ after Trump’s new tariff proposals",
+      "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
+      "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
+      "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
+      "tone": "ต้องจับตา",
+      "time": "12 ชั่วโมงที่แล้ว",
+      "image": "https://i.guim.co.uk/img/media/2368ea981f5660064edcacf6ff595f03bb38028d/139_0_1390_1112/master/1390.jpg?width=140&quality=85&auto=format&fit=max&s=c5009ff0d9a4d9543a2d563cd741a6ad",
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat",
+      "publishedAt": "2026-11-26T12:00:22.000Z",
+      "direction": "volatile",
+      "impact": "high"
+    },
+    {
+      "icon": "◌",
       "label": "Federal Reserve · ทางการ",
       "title": "Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "bodyTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "tone": "ต้องจับตา",
-      "time": "20 ชั่วโมงที่แล้ว",
+      "time": "26 พ.ย.",
       "image": "",
       "source": "Federal Reserve",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125b.htm",
@@ -182,14 +198,14 @@
       "impact": "medium"
     },
     {
-      "icon": "◌",
+      "icon": "◍",
       "label": "Federal Reserve · ทางการ",
       "title": "Agencies announce dollar thresholds for smaller loan exemption from appraisal requirements for higher-priced mortgage loans",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "bodyTh": "การเคลื่อนไหวของดอลลาร์เป็นปัจจัยหลักของทอง โดยดอลลาร์อ่อนมักช่วยพยุงราคาทอง แต่ต้องยืนยันกับกราฟจริง",
       "tone": "ต้องจับตา",
-      "time": "20 ชั่วโมงที่แล้ว",
+      "time": "26 พ.ย.",
       "image": "",
       "source": "Federal Reserve",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125a.htm",
@@ -198,14 +214,14 @@
       "impact": "medium"
     },
     {
-      "icon": "◍",
+      "icon": "≋",
       "label": "The Guardian",
       "title": "UK food inflation could hit 5% next year, Bank of England says",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
       "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
       "tone": "หนุนทอง",
-      "time": "20 ชั่วโมงที่แล้ว",
+      "time": "26 พ.ย.",
       "image": "https://i.guim.co.uk/img/media/6dc206e833865c9dd5429c7d1b0d08abb0b3bfde/79_0_3491_2793/master/3491.jpg?width=140&quality=85&auto=format&fit=max&s=d5c47df5247e5d854261cf1b7851501b",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com/business/2026/nov/25/uk-food-inflation-sharp-rise-next-year-mounting-cost-pressures-bank-of-england",
@@ -214,7 +230,7 @@
       "impact": "high"
     },
     {
-      "icon": "≋",
+      "icon": "↗",
       "label": "The Guardian",
       "title": "US inflation hits highest since May after prices climb 3.8% over the last year",
       "titleTh": "ข่าวเศรษฐกิจสหรัฐฯ ที่อาจกระทบดอลลาร์ ยีลด์ และราคาทอง",
@@ -226,22 +242,6 @@
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com/business/2026/nov/25/consumer-prices-september-october-energy-inflation",
       "publishedAt": "2026-11-25T15:46:15.000Z",
-      "direction": "volatile",
-      "impact": "high"
-    },
-    {
-      "icon": "↗",
-      "label": "The Guardian",
-      "title": "Trump proposing new tariffs on 14 partners including China and EU",
-      "titleTh": "ข่าวตลาดล่าสุดที่ควรติดตามประกอบการดูราคาทอง",
-      "body": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
-      "bodyTh": "ความตึงเครียดด้านการค้าและภูมิรัฐศาสตร์เพิ่มขึ้น ซึ่งอาจหนุนแรงซื้อสินทรัพย์ปลอดภัยอย่างทอง แต่ควรดูทิศทางดอลลาร์ร่วมด้วย",
-      "tone": "ต้องจับตา",
-      "time": "25 พ.ย.",
-      "image": "https://i.guim.co.uk/img/media/1e62345f75c4b03ed8949417f520577e19e7e89d/914_0_5738_4593/master/5738.jpg?width=140&quality=85&auto=format&fit=max&s=3091977c5a46f024323dfe5f0a48d5b1",
-      "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/nov/25/trump-new-china-tariffs-europe",
-      "publishedAt": "2026-11-25T14:59:44.000Z",
       "direction": "volatile",
       "impact": "high"
     },
